@@ -1,0 +1,10 @@
+.container {
+    font-size: 0;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.container img {
+    max-width: 30%;
+    margin: 3.3%;
+}
