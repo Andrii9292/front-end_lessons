@@ -4,8 +4,50 @@
     font-size: 16px;
     color: black;
 }
+.header {
+    background-color: #FBFBFB;
+    margin-bottom: 120px;
+}
 .container {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.container__wraper {
+    font-size: 0;
+    margin-right: -75px;
+}
+.container__wraper img {
+    display: inline-block;
+    margin-right: 45px;
+    vertical-align: bottom;
+}
+.container__wraper button {
+    height: 40px;
+    width: 123px;
+    padding: 10px 18px 10px 18px;
+    background-color: #2CB708;
+    border-radius: 5px;
+
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+
+    color: #fff;
+
+    margin-right: 45px;
+}
+.container__wraper form {
+    display: inline-block;
+}
+.container__wraper form input {
+    border: 1px solid #2CB708;
+    background-color: #fff;
+
+    height: 40px;
+    width: 419px;
+    border-radius: 10px;
+    margin-right: 45px;
 }
