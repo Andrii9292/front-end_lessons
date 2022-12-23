@@ -1,3 +1,4 @@
+/*-----------------------header---------------------*/
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -50,4 +51,41 @@
     width: 419px;
     border-radius: 10px;
     margin-right: 45px;
+}
+
+
+
+/*-----------------------main---------------------*/
+.advertising {
+    margin-bottom: 100px;
+}
+
+
+
+
+.wrapper__card {
+    font-size: 0;
+    margin-right: -2.5%;
+}
+.card {
+    display: inline-block;
+    max-width: 20%;
+    margin: 0 2.5% 19px;
+
+    background-color: #FCFFFC;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    padding: 33px 20px 32px;
+}
+.card img {
+    width: 100%;
+}
+.card a {
+    display: block;
+    text-align: center;
+    line-height: 19px;
+
+    color: #333232;
+    text-decoration: none;
 }
