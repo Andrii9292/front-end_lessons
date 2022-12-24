@@ -1,12 +1,14 @@
-/*-----------------------header---------------------*/
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: black;
+    background-color: #fbfbfb;
 }
+/*-----------------------header---------------------*/
+
+
 .header {
-    background-color: #FBFBFB;
     margin-bottom: 120px;
 }
 .container {
@@ -65,7 +67,8 @@
 
 .wrapper__card {
     font-size: 0;
-    margin-right: -2.5%;
+    margin: -2.5%;
+    margin-bottom: 80px;
 }
 .card {
     display: inline-block;
@@ -88,4 +91,62 @@
 
     color: #333232;
     text-decoration: none;
+}
+
+
+
+.popular-technique__card {
+    display: inline-block;
+}
+.popular-technique h1 {
+font-size: 30px;
+font-weight: 500;
+line-height: 35px;
+text-align: left;
+color: #333232;
+}
+
+.wrapper {
+    font-size: 0;
+    margin: 0 -0.5%;
+}
+.popular-technique__card {
+    max-width: 19%;
+    margin: 50px 0.5%;
+}
+.display {
+    display: block;
+}
+.price {
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+text-align: left;
+
+}
+.card__img img {
+    width: 100%;
+}
+.title {
+line-height: 19px;
+text-align: left;
+}
+.card__title {
+    margin-bottom: 39px;
+}
+.card__title a {
+    text-decoration: none;
+}
+.popular-technique__btn {
+    width: 145px;
+    height: 40px;
+    background: #2CB708;
+    border-radius: 10px;
+    
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
 }
