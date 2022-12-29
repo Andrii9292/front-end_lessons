@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+/*---------------COL:1-12---------------*/
+.col-1 {
+    width: 8.333333%;
+}
+.col-1 {
+    width: 16.66666%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33333%;
+}
+.col-5 {
+    width: 41.66666%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33333%;
+}
+.col-8 {
+    width: 66.66666%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33333%;
+}
+.col-11 {
+    width: 91.66666%;
+}
+.col1-12 {
+    width: 100%;
+}
+/*----------------------------------------------*/
+
+/*TEXT-TRANSFORM:Uppercase*/
+.ttu {
+    text-transform: uppercase;
+}
+/*----------------------------------------------*/
+
+/*Flout*/
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.clear-both {
+    clear: both;
+}
+/*----------------------------------------------*/
+
+/*Clearfix*/
+.clearfix::after {
+    content:'';
+    clear: both;
+    display: table;
+}
+
+/*Container*/
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*----------text-align----------*/
+.text-align {
+    text-align: center;
+}
