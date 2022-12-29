@@ -3,8 +3,8 @@
     font-weight: 700;
     margin: 0;
 }
-body {
-    background-color: #E5E5E5;
+.container_wrapper {
+padding: 50px;
 }
 .b-c_gray {
     background-color: #C4C4C4;
@@ -12,32 +12,16 @@ body {
 .b-c_pink {
     background-color: #FC8F8F;
 }
-.block-2_wrapper {
-    margin-right: -15px;
-}
-.block {
-    padding: 50px;
+.b-c_light-gray {
     background-color: #E6E6E6;
-}
-.block-2 {
-    padding: 0 50px 50px 50px;
-    background-color: #E6E6E6;
-}
-.block-3 {
-    padding: 0 50px 50px 50px;
-    background-color: #E6E6E6;
-}
-.margin-right {
-    margin-right: 15px;
-}
-.square {
-    width: 200px;
-    height: 200px;
 }
 .square-little {
     width: 100px;
     height: 100px;
-    margin-right: 15px;
+}
+.square {
+    width: 200px;
+    height: 200px;
 }
 .text {
     font-size: 64px;

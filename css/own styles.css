@@ -39,15 +39,13 @@
 .col1-12 {
     width: 100%;
 }
-/*----------------------------------------------*/
 
 /*TEXT-TRANSFORM:Uppercase*/
 .ttu {
     text-transform: uppercase;
 }
-/*----------------------------------------------*/
 
-/*Flout*/
+/*----------Float----------*/
 .f-left {
     float: left;
 }
@@ -57,16 +55,15 @@
 .clear-both {
     clear: both;
 }
-/*----------------------------------------------*/
 
-/*Clearfix*/
+/*------------Clearfix-----------*/
 .clearfix::after {
     content:'';
     clear: both;
     display: table;
 }
 
-/*Container*/
+/*----------Container----------*/
 .container {
     max-width: 1120px;
     margin: 0 auto;
@@ -76,4 +73,12 @@
 /*----------text-align----------*/
 .text-align {
     text-align: center;
+}
+
+/*----------margin----------*/
+.margin-right {
+    margin-right: 15px;
+}
+.margin-bottom {
+    margin-bottom: 50px;
 }
