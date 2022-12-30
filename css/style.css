@@ -298,3 +298,49 @@
     border: 2px solid #FFFFFF;
     border-radius: 30px;
 }
+
+/*store-map*/
+.store-map {
+    background-color: #FFFFFF;
+}
+.store-map a {
+    display: block;
+    border-bottom: 1px solid #EFEFEF;
+    border-right:1px solid #EFEFEF;
+}
+.group1>a:nth-of-type(1) {
+    padding: 33px 0 30px 60px
+}
+.group1>a:nth-of-type(2) {
+    padding: 33px 0 30px 60px
+}
+.group1>a:nth-of-type(3) {
+    padding: 33px 0 30px 60px;
+}
+.group2>a:nth-of-type(1) {
+    padding: 33px 0 30px 62px;
+}
+.group2>a:nth-of-type(2) {
+    padding: 33px 0 30px 62px;
+}
+.group2>a:nth-of-type(3) {
+    padding: 33px 0 30px 62px;
+}
+.group3>a:nth-of-type(1) {
+    padding: 33px 0 30px 64px;
+}
+.group3>a:nth-of-type(2) {
+    padding: 33px 0 30px 64px;
+}
+.group3>a:nth-of-type(3) {
+    padding: 33px 0 30px 64px;
+}
+.group4>a:nth-of-type(1) {
+    padding: 33px 0 30px 66px;
+}
+.group4>a:nth-of-type(2) {
+    padding: 33px 0 30px 66px;
+}
+.group4>a:nth-of-type(3) {
+    padding: 33px 0 30px 66px;
+}
