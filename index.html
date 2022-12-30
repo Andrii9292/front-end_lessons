@@ -20,44 +20,90 @@
 <body>
     <header class="header">
         <div class="container">
-            <ul class="header_list">
-                <li><a href="#">Delivery</a></li>
-                <li><a href="#">Payment</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
+            <div class="header__wrapper">
+                <ul class="header__list">
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <main>
         <div class="container">
             <section class="info">
-                <div class="info_wrapper">
-                    <div class="logo">
-                        <div class="logo_img">
-                            <img src="image/logo.png" alt="">
-                        </div>
-                        <p class="logo_text">BEAUTY</p>
+                <div class="info__wrapper clearfix">
+                    <div class="logo__wrapper f-left">
+                        <a href="#" class="logo clearfix">
+                            <img class="f-left" src="image/logo.png" alt="logo">
+                            <h1 class="f-right"> BEAUTY</h1>
+                        </a>
                     </div>
-                    <div class="tel-btn">
+                    <div class="tel-btn f-right">
                         <a href="tel:1213123567">1 (213) 123-45-67</a>
-                        <button class="tel-btn_btn" type="button"></button>
+                        <button class="tel-btn__btn" type="button">Call back</button>
                     </div>
-
-                    <div class="menu">
-                        <ul class="menu_list">
-                            <li class="menu_item"><a href="#">Salon</a></li>
-                            <li class="menu_item"><a href="#">Barbershop</a></li>
-                            <li class="menu_item"><a href="#">Manicure</a></li>
-                            <li class="menu_item"><a href="#">Pedicure</a></li>
-                            <li class="menu_item"><a href="#">Massage</a></li>
-                            <li class="menu_item"><a href="#">Furniture</a></li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#">Salon</a></li>
+                        <li class="menu__item"><a href="#">Barbershop</a></li>
+                        <li class="menu__item"><a href="#">Manicure</a></li>
+                        <li class="menu__item"><a href="#">Pedicure</a></li>
+                        <li class="menu__item"><a href="#">Massage</a></li>
+                        <li class="menu__item"><a href="#">Furniture</a></li>
+                    </ul>
                 </div>
             </section>
         </div>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__wrapper">
+                    <h1>Super chair</h1>
+                    <p>The text of the action always reflects the essence, and not just<br>
+                        chatter, so be careful</p>
+                    <a href="#">More</a>
+                </div>
+            </div>
+        </section>
+        <section class="home">
+            <div class="container">
+                <div class="home__wrapper">
+                    <h2>Special offers</h2>
+                    <div class="card__wrapper">
+                        <div class="card">
+                            <img src="image/card_img.png" alt="chair">
+                            <div>
+                                <p>Hairdressing chair "Norm" hydraulic</p>
+                                <p>$300</p>
+                            </div>
+                            <a href="#">Buy</a>
+                        </div>
+                        <div class="card">
+                            <img src="image/card_img.png" alt="chair">
+                            <p>Hairdressing chair "Norm" hydraulic</p>
+                            <p>$300</p>
+                            <a href="#">Buy</a>
+                        </div>
+                        <div class="card">
+                            <img src="image/card_img.png" alt="chair">
+                            <p>Hairdressing chair "Norm" hydraulic</p>
+                            <p>$300</p>
+                            <a href="#">Buy</a>
+                        </div>
+                        <div class="card">
+                            <img src="image/card_img.png" alt="chair">
+                            <p>Hairdressing chair "Norm" hydraulic</p>
+                            <p>$300</p>
+                            <a href="#">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>
