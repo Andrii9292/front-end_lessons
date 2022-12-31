@@ -246,6 +246,9 @@
     border-radius: 30px;
     padding: 8px 34px 8px 23px;
 }
+.subscribe__img img {
+    padding-top: 20px;
+}
 .subscribe__info>::-webkit-input-placeholder {
     font-family: Roboto;
     font-size: 14px;
@@ -297,6 +300,9 @@
 
     border: 2px solid #FFFFFF;
     border-radius: 30px;
+}
+.our-shops__img img {
+    padding-top: 20px;
 }
 
 /*store-map*/
@@ -392,6 +398,9 @@
 
     color: #828282;
 }
+.social-network__wrapper{
+    padding-bottom: 40px;
+}
 .social-network a {
     border: 2px solid #F13C6E;
     border-radius: 50%;
@@ -409,4 +418,22 @@
 }
 .social-network img {
     padding-top: 26px;
+}
+
+
+
+
+/*footer*/
+.footer {
+    background-color: #EFEFEF;
+}
+.footer__wrapper {
+    padding: 25px 0;
+}
+.footer a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #828282;
 }
