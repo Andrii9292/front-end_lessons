@@ -184,7 +184,7 @@
     padding: 100px 0;
 }
 .subscribe {
-    padding: 35px 41px;
+    padding: 36px 42px;
 }
 .subscribe__info {
     margin-right: 90px;
@@ -205,6 +205,8 @@
     padding-bottom: 25px;
 }
 .subscribe__info>input {
+    border: none;
+    outline: none;
     border-radius: 30px;
     padding: 8px 34px 8px 23px;
 }
@@ -216,7 +218,7 @@
     color: #C4C4C4;
 }
 .our-shops {
-    padding: 35px 41px 45px 41px;
+    padding: 35px 42px 45px 41px;
     width: 48.64%;
 }
 .our-shops__info {
