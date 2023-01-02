@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-/*header*/
+
 .header__wrapper {
     margin-right: 10px;
 }
@@ -22,14 +22,14 @@
 
     margin-right: 30px;
 
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }
 .header__list>li>a:hover {
     -webkit-text-decoration: 2px underline rgb(50, 93, 235);
             text-decoration: 2px underline rgb(50, 93, 235);
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }

@@ -7,18 +7,17 @@
 .footer a, p {
     font-size: 12px;
     line-height: 14px;
-    
     color: #828282;
 
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }
 .footer a:hover {
     -webkit-text-decoration: 2px underline rgb(50, 93, 235);
             text-decoration: 2px underline rgb(50, 93, 235);
             
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }

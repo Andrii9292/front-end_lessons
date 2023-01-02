@@ -7,10 +7,9 @@
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.1em;
-
-    margin: 21px 0 40px 0;
-
     color: #F13C6E;
+    
+    margin: 21px 0 40px 0;
 }
 .logo>img {
     margin-right: 20px;
@@ -33,7 +32,6 @@
 .tel-btn__btn:hover {
     border: 2px solid #FFFFFF;
     background: #F13C6E;
-
     color: #FFFFFF;
 
     -webkit-transition: all linear 0.5s;
@@ -43,10 +41,9 @@
 .tel-btn a {
     font-size: 16px;
     line-height: 19px;
+    color: #000000;
 
     margin-right: 40px;
-
-    color: #000000;
 }
 .menu__list {
     list-style: none;
@@ -63,17 +60,17 @@
     line-height: 19px;
     color: #000000;
 
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 
 }
 .menu__list>li>a:hover {
     -webkit-text-decoration: 2px underline rgb(50, 93, 235);
             text-decoration: 2px underline rgb(50, 93, 235);
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }
 /*banner*/
 .banner {
@@ -103,7 +100,6 @@
     letter-spacing: 0.05em;
 
     border-radius: 40px;
-
     padding: 10px 65px;
 }
 /*Home*/
@@ -124,8 +120,8 @@
     font-size: 16px;
 
     margin-right: 2.5%;
+    margin-bottom: 2.5%;
     background-color: #fff;
-
     padding: 0 1px 10px 0;
 }
 .card__img {
@@ -137,7 +133,6 @@
     font-weight: 400;
     line-height: 20px;
     text-align: center;
-
     color: #333333;
 
     padding: 6px 0 0 34px;
@@ -148,7 +143,6 @@
     line-height: 25px;
     letter-spacing: 0.05em;
     text-align: center;
-
     color: #000000;
 
     padding-top: 15px;
@@ -161,11 +155,9 @@
     line-height: 16px;
     letter-spacing: 0.05em;
     text-align: center;
-
     color: #fff;
 
     padding: 11px 55px 8px;
-
     background-color: #F13C6E;
     border-radius: 30px;
 
@@ -181,7 +173,7 @@
 }
 /*home__info*/
 .home__info {
-    padding: 100px 0;
+    padding: 73px 0 100px;
 }
 .subscribe {
     padding: 36px 42px;
@@ -243,7 +235,6 @@
     line-height: 16px;
 
     padding: 7px 50px 7px 50px;
-
     border-radius: 30px;
 }
 /*store-map*/
@@ -257,17 +248,15 @@
     padding: 84px 0 36px;
 }
 .viewed>.card__wrapper {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 /*Popular-categories*/
 .popular h3 {
     font-size: 16px;
     font-weight: 500;
     line-height: 23px;
-
     color: #000000;
     padding: 62px 0 22px;
-
     border-bottom: 1px solid #EFEFEF;
 }
 .popular-categories__wrapper {
@@ -289,16 +278,16 @@
     line-height: 28px;
     color: #828282;
 
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }
 .popular-categories__list a:hover {
     -webkit-text-decoration: 2px underline rgb(50, 93, 235);
             text-decoration: 2px underline rgb(50, 93, 235);
-    -webkit-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
+    -webkit-transition: all linear;
+    -o-transition: all linear;
+    transition: all linear;
 }
 .social-network__wrapper{
     padding-bottom: 40px;
