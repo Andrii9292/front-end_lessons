@@ -275,6 +275,7 @@
     padding: 62px 0 22px;
 }
 .h3__wrapper::after {
+    content:'';
     border-bottom: 1px solid #EFEFEF;
     width: 100%;
 }
@@ -283,6 +284,7 @@
     padding-bottom: 40px;
 }
 .popular-categories__wrapper::after {
+    content:'';
     border-bottom: 1px solid #EFEFEF;
     width: 100%;
 }
