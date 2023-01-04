@@ -2,16 +2,13 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-
-.header__wrapper {
-    margin-right: 10px;
-}
 .header__list {
     list-style: none;
+    padding: 0;
 }
 .header__list>li {
     display: inline-block;
-    padding: 17px 0 16px 0;
+    padding: 17px 17px 16px 14px;
 }
 .header__list>li>a {
     text-decoration: none;
@@ -19,8 +16,6 @@
     font-weight: 400;
     line-height: 16px;
     color: #333333;
-
-    margin-right: 30px;
 
     -webkit-transition: all linear;
     -o-transition: all linear;
