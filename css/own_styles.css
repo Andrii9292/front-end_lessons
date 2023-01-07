@@ -78,7 +78,7 @@
 }
 /*background-color*/
 .b-c {
-    background-color: #e5e5e5;
+    background-color: #dfad85;
 }
 .b-c-white {
     background-color: #fff;
@@ -114,6 +114,6 @@
 .bb-light-gray {
     border-bottom: 1px solid #EFEFEF;
 }
-.width {
-    width: 22px;
+.position{
+    position: relative;
 }

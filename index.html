@@ -4,373 +4,40 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>DZ-12_Beauty Site</title>
+    <title>DZ-13.Menu</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/a27d6df1b3.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/own_styles.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-    <header class="header b-c">
-        <div class="container">
-            <div class="header__wrapper font-s-0 t-align-c">
-                <ul class="header__list clearfix">
-                    <li><a class="f-left"  href="#">Delivery</a></li>
-                    <li><a class="f-left"  href="#">Payment</a></li>
-                    <li><a class="f-left"  href="#">Reviews</a></li>
-                    <li><a class="f-left"  href="#">FAQ</a></li>
-                    <li><a class="f-left"  href="#">Contacts</a></li>
+    <div class="container">
+        <header class="header b-c">
+            <nav class="header__nav">
+                <ul class="list clearfix">
+                    <li><a href="#">Аромамасла</a></li>
+                    <li class="position plus"><a href="#">Косметика</a>
+                        <ul class="nested-list b-c">
+                            <li><a href="#">Для тела</a></li>
+                            <li class="plus"><a href="#">Для лица</a>
+                                <ul class="nested-list2 b-c">
+                                    <li><a href="#">Крем для лица</a></li>
+                                    <li><a href="#">Бальзам для губ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Ароматехника</a></li>
+                    <li><a href="#">Сопутствующие товары</a></li>
                 </ul>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <div class="container">
-            <section class="info">
-                <div class="info__wrapper clearfix">
-                    <div class="logo__wrapper col-4 f-left">
-                        <a href="#" class="logo clearfix">
-                            <img class="f-left" src="image/logo.png" alt="logo">
-                            <h1 class="f-left"> BEAUTY</h1>
-                        </a>
-                    </div>
-                    <div class="tel-btn col-4 f-right">
-                        <div class="tel-btn__wrapper clearfix">
-                            <a class="td f-left" href="tel:1213123567">1 (213) 123-45-67</a>
-                            <div class="tel-btn__btn_wrapper clearfix">
-                                <button class="tel-btn__btn b-c-white f-left t-align-c" type="button">Call back</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu">
-                    <ul class="menu__list font-s-0 t-align-c">
-                        <li class="menu__item clearfix"><a class="f-left" href="#">Salon</a></li>
-                        <li class="menu__item clearfix"><a class="f-left" href="#">Barbershop</a></li>
-                        <li class="menu__item clearfix"><a class="f-left" href="#">Manicure</a></li>
-                        <li class="menu__item clearfix"><a class="f-left" href="#">Pedicure</a></li>
-                        <li class="menu__item clearfix"><a class="f-left" href="#">Massage</a></li>
-                        <li class="menu__item clearfix"><a class="f-left" href="#">Furniture</a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <section class="banner">
-            <div class="container">
-                <div class="banner__wrapper col-3">
-                    <h1 class="color-white">Super chair</h1>
-                    <p class="color-white">The text of the action always reflects the essence, and not just<br> chatter, so be careful</p>
-                    <a class="t-align-c td border-white color-white b-c-pink" href="#">More</a>
-                </div>
-            </div>
-        </section>
-        <section class="home b-c">
-            <div class="container">
-                <h2>Special offers</h2>
-                <div class="row clearfix">
-                    <div class="card__wrapper f-left col-3">
-                        <div class="card b-c-white">
-                            <div class="card__img">
-                                <img src="image/card_img.png" alt="chair">
-                            </div>
-                            <div class="card__text">
-                                <p>Hairdressing chair "Norm" hydraulic</p>
-                            </div>
-                            <div class="card__price">
-                                <p>$300</p>
-                            </div>
-                            <div class="card__link">
-                                <a href="#">Buy</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__wrapper f-left col-3">
-                        <div class="card b-c-white">
-                            <div class="card__img">
-                                <img src="image/card_img.png" alt="chair">
-                            </div>
-                            <div class="card__text">
-                                <p>Hairdressing chair "Norm" hydraulic</p>
-                            </div>
-                            <div class="card__price">
-                                <p>$300</p>
-                            </div>
-                            <div class="card__link">
-                                <a href="#">Buy</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__wrapper f-left col-3">
-                        <div class="card b-c-white">
-                            <div class="card__img">
-                                <img src="image/card_img.png" alt="chair">
-                            </div>
-                            <div class="card__text">
-                                <p>Hairdressing chair "Norm" hydraulic</p>
-                            </div>
-                            <div class="card__price">
-                                <p>$300</p>
-                            </div>
-                            <div class="card__link">
-                                <a href="#">Buy</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card__wrapper f-left col-3">
-                        <div class="card b-c-white">
-                            <div class="card__img">
-                                <img src="image/card_img.png" alt="chair">
-                            </div>
-                            <div class="card__text">
-                                <p>Hairdressing chair "Norm" hydraulic</p>
-                            </div>
-                            <div class="card__price">
-                                <p>$300</p>
-                            </div>
-                            <div class="card__link">
-                                <a href="#">Buy</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="home__info clearfix">
-                    <div class="subscribe__wrapper col-6 f-left">
-                        <div class="subscribe  b-c-pink clearfix">
-                            <div class="subscribe__info col-6 f-left">
-                                <h3 class="color-white">Get bonuses and gifts</h3>
-                                <p class="color-white col-7">Every month we play
-                                    $1000 for our clients</p>
-                                <input type="email" placeholder="Enter your e-mail">
-                            </div>
-                            <div class="subscribe__img col-4 f-right">
-                                <img src="image/Group1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="our-shop__wrapper col-6 f-left">
-                        <div class="our-shops clearfix b-c-pink">
-                            <div class="our-shops__info col-6 f-left">
-                                <h3 class="color-white mb">Visit us</h3>
-                                <p class="color-white col-8">Over 300 stores
-                                    throughout the USA</p>
-                                <a class="t-align-c td color-white border-white" href="#">Store map</a>
-                            </div>
-                            <div class="our-shops__img col-5 f-right">
-                                <img src="image/Group2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="store-map b-c-white clearfix">
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                    <div class="group f-left col-3">
-                        <a href="#"><img src="image/implus.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="viewed">
-                    <h2>Have you recently viewed</h2>
-                    <div class="row clearfix">
-                        <div class="card__wrapper f-left col-3">
-                            <div class="card b-c-white">
-                                <div class="card__img">
-                                    <img src="image/card_img.png" alt="chair">
-                                </div>
-                                <div class="card__text">
-                                    <p>Hairdressing chair "Norm" hydraulic</p>
-                                </div>
-                                <div class="card__price">
-                                    <p>$300</p>
-                                </div>
-                                <div class="card__link">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__wrapper f-left col-3">
-                            <div class="card b-c-white">
-                                <div class="card__img">
-                                    <img src="image/card_img.png" alt="chair">
-                                </div>
-                                <div class="card__text">
-                                    <p>Hairdressing chair "Norm" hydraulic</p>
-                                </div>
-                                <div class="card__price">
-                                    <p>$300</p>
-                                </div>
-                                <div class="card__link">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__wrapper f-left col-3">
-                            <div class="card b-c-white">
-                                <div class="card__img">
-                                    <img src="image/card_img.png" alt="chair">
-                                </div>
-                                <div class="card__text">
-                                    <p>Hairdressing chair "Norm" hydraulic</p>
-                                </div>
-                                <div class="card__price">
-                                    <p>$300</p>
-                                </div>
-                                <div class="card__link">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__wrapper f-left col-3">
-                            <div class="card b-c-white">
-                                <div class="card__img">
-                                    <img src="image/card_img.png" alt="chair">
-                                </div>
-                                <div class="card__text">
-                                    <p>Hairdressing chair "Norm" hydraulic</p>
-                                </div>
-                                <div class="card__price">
-                                    <p>$300</p>
-                                </div>
-                                <div class="card__link">
-                                    <a href="#">Buy</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="popular">
-            <div class="container">
-                <div class="popular-categories__wrapper clearfix">
-                    <div class="popular-categories f-left col-3">
-                        <div class="h3__wrapper clearfix">
-                            <h3 class="col-4">Popular categories</h3>
-                        </div>
-                        <div class="wrapper clearfix">
-                            <ul class="popular-categories__list f-left col-4">
-                                <li><a href="#">Нozzles</a></li>
-                                <li><a href="#">Tools</a></li>
-                                <li><a href="#">Gel polishes</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Building</a></li>
-                                <li><a href="#">Equipment</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="popular-categories f-left col-3">
-                        <div class="h3__wrapper clearfix">
-                            <h3 class="col-4">Popular categories</h3>
-                        </div>
-                        <div class="wrapper clearfix">
-                            <ul class="popular-categories__list f-left col-4">
-                                <li><a href="#">Нozzles</a></li>
-                                <li><a href="#">Tools</a></li>
-                                <li><a href="#">Gel polishes</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Building</a></li>
-                                <li><a href="#">Equipment</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="popular-categories f-left col-3">
-                        <div class="h3__wrapper clearfix">
-                            <h3 class="col-4">Popular categories</h3>
-                        </div>
-                        <div class="wrapper clearfix">
-                            <ul class="popular-categories__list f-left col-4">
-                                <li><a href="#">Нozzles</a></li>
-                                <li><a href="#">Tools</a></li>
-                                <li><a href="#">Gel polishes</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Building</a></li>
-                                <li><a href="#">Equipment</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="popular-categories f-left col-3">
-                        <div class="h3__wrapper clearfix">
-                            <h3 class="col-4">Popular categories</h3>
-                        </div>
-                        <div class="wrapper clearfix">
-                            <ul class="popular-categories__list f-left col-4">
-                                <li><a href="#">Нozzles</a></li>
-                                <li><a href="#">Tools</a></li>
-                                <li><a href="#">Gel polishes</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Building</a></li>
-                                <li><a href="#">Equipment</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="social-network__wrapper clearfix">
-                    <div class="social-network col-3 f-left">
-                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube t-align-c" style="color: #F13C6E; font-size: 21px;"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100069038085664" target="_blank"><i class="fa-brands fa-facebook-f t-align-c width" style="color: #F13C6E; font-size: 21px;"></i></a>
-                        <a href="https://www.instagram.com/_byrik/" target="_blank"><i class="fa-brands fa-instagram t-align-c" style="color: #F13C6E; font-size: 21px;"></i></a>
-                    </div>
-
-                    <div class="tel-btn__wrapper col-4 f-right">
-                        <div class="tel-btn-2">
-                            <a class="td" href="tel:1213123567">1 (213) 123-45-67</a>
-                            <button class="tel-btn__btn b-c-white" type="button">Call back</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper clearfix">
-                <p class="f-left">Best Store (c) 2019 All rights reserved. Online store of equipment for beauty salons</p>
-                <a class="f-right td" href="#">Privacy Policy</a>
-            </div>
-        </div>
-    </footer>
-
+            </nav>
+        </header>
+    </div>
 </body>
 
 </html>
