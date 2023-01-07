@@ -1,4 +1,4 @@
-.modal {
+#modal {
     position: fixed;
     left: 0;
     top: 10px;
@@ -10,12 +10,39 @@
     padding: 5px 10px;
     color: #b11e1e;
 }
-.modal-window {
-    background-color: rgb(211 202 202);
+#modal_window {
     width: 60%;
-    height: 500px;
-    display: none;
-    position: absolute;
+    position: fixed;
     top: 25%;
     left: 20%;
+    display: none;
+}
+#modal_window.active {
+    display: block;
+}
+#close {
+    position: absolute;
+    top: -15px;
+    left: 100%;
+}
+.modal__wrapper i:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.modal__wrapper i:last-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(100deg);
+}
+.modal__text {
+    position: absolute;
+    top: 40px;
+    left: 17%;
+    z-index: 2;
+    font-size: 40px;
+    color: #ceab21;
+    text-shadow: 5px 2px 2px #a22e2e;
+    transform: rotate(352deg);
 }
