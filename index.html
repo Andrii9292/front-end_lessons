@@ -18,11 +18,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/modal.css">
-    <script
-        src="https://code.jquery.com/jquery-3.6.3.js"
-        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
-        crossorigin="anonymous">
-    </script>
+
 </head>
 
 <body>
@@ -391,12 +387,17 @@
 </body>
 
 </html>
+<script
+src="https://code.jquery.com/jquery-3.6.3.js"
+integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+crossorigin="anonymous">
+</script>
 <script>
     $(document).ready(function (){
         $('#modal').on('click',function(){
             $('#modal_window').addClass('active');
         });
-        
+
         $('#close').on('click',function(){
             $('#modal_window').removeClass('active');
         });
