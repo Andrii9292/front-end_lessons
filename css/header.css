@@ -28,3 +28,12 @@
     -o-transition: all linear;
     transition: all linear;
 }
+
+.animation {
+    position: absolute;
+    top: 1%;
+    left: 90%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b11e1e;
+}
