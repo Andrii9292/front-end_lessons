@@ -1,5 +1,7 @@
 body {
     background-color: rgb(96 96 96);
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -21,13 +23,15 @@ a {
     height: 127px;
     width: 143px;
 
-    -webkit-animation: play 0.4s steps(16) infinite, step 4s linear infinite;
+    -webkit-animation: play 0.4s steps(16) infinite, step 3s linear infinite;
 
-            animation: play 0.4s steps(16) infinite, step 4s linear infinite;
+            animation: play 0.4s steps(16) infinite, step 3s linear infinite;
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
+
+    transform: scale(1.6);
 }
 
 @-webkit-keyframes play {
