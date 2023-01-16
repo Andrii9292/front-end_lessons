@@ -10,7 +10,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 24px 51px 22px;
+    padding: 24px 0 22px;
 
     border-bottom: 1px solid #CCCCCC;
 }
@@ -36,6 +36,8 @@
     -webkit-column-gap: 51px;
        -moz-column-gap: 51px;
             column-gap: 51px;
+            position: relative;
+            left: -2%;
 }
 .list__header_item a {
     text-decoration: none;
@@ -43,6 +45,10 @@
     font-weight: 400;
     line-height: 20px;
     color: #000000;
+}
+.list__header_item a:hover {
+    text-decoration: underline;
+    color: rgba(20, 29, 210, 0.542);
 }
 .buttons__header {
     display: -webkit-box;
@@ -65,9 +71,29 @@
     background-color: #FFFFFF;
     color: #000000;
     padding: 0 35px;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.buttons__header a:first-child:hover {
+    background-color: #e0d8d8;
+    color: #000000;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
 .buttons__header a:last-child {
     color: #FFFFFF;
     background-color: #FF6336;
     padding: 0 22px;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.buttons__header a:last-child:hover {
+    color: #FFFFFF;
+    background-color:#d43407 ;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
 }
