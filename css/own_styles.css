@@ -1,8 +1,9 @@
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-            font-family: Graphik LCG;
             font-family: 'Roboto', sans-serif;
+            padding: 0;
+            margin: 0;
 }
 /*---------------COL:1-12---------------*/
 .col-1 {
@@ -97,7 +98,7 @@
     font-size: 0;
 }
 /*padding*/
-.padding {
-    padding: 0 76px;
+.p-top {
+    padding-top: 448px;
 }
 /*border*/

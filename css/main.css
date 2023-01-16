@@ -1,0 +1,198 @@
+/*----------------------------opportunities----------------------------------------*/
+.wrapper__background {
+    background-image: url('../image/main/opportunities/opportunities.jpg');
+    position: relative;
+}
+
+.opportunities__wrapper {
+    padding: 158px 10px 187px 87px;
+}
+.opportunities h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 62px;
+
+    margin-bottom: 17px;
+
+    color: #1B365D;
+}
+.opportunities p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+
+    padding-bottom: 39px;
+
+    color: #434140;
+}
+.opportunities__butoons {
+    display: flex;
+    align-items: center;
+    column-gap: 31px;
+}
+.opportunities a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+
+    text-decoration: none;
+
+    color: #1B365D;
+}
+.opportunities a:first-of-type {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 13px 36px 13px 44px;
+}
+.opportunities__banner {
+    background-color: #F1C0C7;
+    max-width: 499px;
+    position: absolute;
+    bottom: -3.2%;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 43px 15px 0px;
+}
+.opportunities__banner img {
+    padding: 15px 16px 0 87px;
+}
+.opportunities__banner_wrapper p:first-of-type {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #1B365D;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+.opportunities__banner_wrapper p:last-of-type {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    padding: 0;
+
+    color: #1B365D;
+}
+/*----------------------------electronics----------------------------------------*/
+.electronics {
+    padding: 113px 88px 0;
+}
+.electronics__card__wrapper {
+    display: flex;
+    column-gap: 16px;
+}
+.electronics__card {
+    background-image: url('../image/main/electronics/card-1.png');
+}
+.electronics__card-2 {
+    background-image: url('../image/main/electronics/card-2.png');
+}
+.electronics__card-3 {
+    background-image: url('../image/main/electronics/card-3.png');
+}
+.electronics__card-4 {
+    background-image: url('../image/main/electronics/card-4.png');
+}
+.electronics__card__title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.electronics__card__description {
+    max-height: 45px;
+    overflow: hidden;
+    padding: 2px 51px;
+    margin-bottom: 14px;
+}
+.electronics__card-2 .electronics__card__description{
+    padding: 2px 60px;
+    margin-bottom: 14px;
+}
+.electronics__card-3 .electronics__card__description {
+    padding: 2px 60px;
+    margin-bottom: 14px;
+}
+.electronics__card-4 .electronics__card__description {
+    padding: 2px 60px;
+    margin-bottom: 14px;
+}
+.electronics__card__description p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.electronics__card__link {
+    max-width: 75px;
+    max-height: 25px;
+    overflow: hidden;
+    margin: 0 auto 30px auto;
+}
+.electronics__card__link a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+.electronics h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+
+    margin: 29px 0 35px 0;
+
+    color: #1B365D;
+}
+.modern-electronics {
+    display: flex;
+}
+.modern-electronics h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    
+    color: #1B365D;
+}
+.modern-electronics p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+
+    color: #434141;
+}
+.modern-electronics a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    text-decoration: none;
+    color: #1B365D;
+}
+
+
+
+
+
+
+
+
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/
+/*----------------------------opportunities----------------------------------------*/

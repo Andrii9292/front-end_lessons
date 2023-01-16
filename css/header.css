@@ -1,1 +1,38 @@
+.header {
+    display: flex;
+    align-items: flex-start;
+    padding: 21px 100px 0px 66px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 105px;
+    padding: 9px 0 0 146px;
+}
+.menu ul {
+    display: flex;
+    column-gap: 53px;
 
+    list-style: none;
+}
+.menu li>a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+
+    text-decoration: none;
+    color: #1B365D;
+}
+.header__button a {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+
+    padding: 6px 24px 5px;
+
+    text-decoration: none;
+    color: #1B365D;
+    border: 1px solid #A7BBC9;
+    border-radius: 4px;
+}
