@@ -1,6 +1,9 @@
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+            font-family: Graphik LCG;
+            margin: 0;
+            padding: 0;
 }
 /*---------------COL:1-12---------------*/
 .col-1 {
@@ -61,7 +64,7 @@
 }
 /*----------Container----------*/
 .container {
-    max-width: 1130px;
+    max-width: 1460px;
     margin: 0 auto;
     padding: 0 10px;
 }
