@@ -77,11 +77,11 @@
 }
 /*----------margin----------*/
 .mb {
-    margin-bottom: 20px;
+    margin-bottom: 150px;
 }
 /*background-color*/
 .b-c {
-    background-color: #e5e5e5;
+    background-color: #FF9C7D;
 }
 .b-c-white {
     background-color: #fff;
@@ -99,24 +99,6 @@
 }
 /*padding*/
 .padding {
-    padding: 33px 0 30px 60px;
-}
-.padding-2 {
-    padding: 33px 0 30px 62px;
-}
-.padding-3 {
-    padding: 33px 0 30px 64px;
-}
-.padding-4 {
-    padding: 33px 0 30px 66px;
+    padding: 0 76px;
 }
 /*border*/
-.border-white {
-    border: 2px solid #FFFFFF;
-}
-.bb-light-gray {
-    border-bottom: 1px solid #EFEFEF;
-}
-.width {
-    width: 22px;
-}
