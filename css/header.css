@@ -1,13 +1,10 @@
 .header {
     display: flex;
-    align-items: flex-start;
-    padding: 21px 100px 0px 66px;
 }
 .menu {
     display: flex;
-    align-items: center;
-    column-gap: 105px;
-    padding: 9px 0 0 146px;
+    column-gap: 104px;
+    padding: 10px 0 0 149px;
 }
 .menu ul {
     display: flex;

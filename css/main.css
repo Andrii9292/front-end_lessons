@@ -1,13 +1,14 @@
 /*----------------------------opportunities----------------------------------------*/
 .wrapper__background {
     background-image: url('../image/main/opportunities/opportunities.jpg');
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 .opportunities__wrapper {
-    padding: 158px 10px 187px 87px;
+    padding: 158px 0px 102px 0px;
 }
 .opportunities h1 {
+    max-width: 404px;
     font-size: 56px;
     font-weight: 700;
     line-height: 62px;
@@ -47,11 +48,11 @@
     padding: 13px 36px 13px 44px;
 }
 .opportunities__banner {
-    background-color: #F1C0C7;
+    background-color: rgb(241, 192, 199);
     max-width: 499px;
-    position: absolute;
-    bottom: -3.2%;
-    left: 0;
+    position: relative;
+    right: 86px;
+    bottom: -24px;
     display: flex;
     flex-wrap: wrap;
     padding: 0px 43px 15px 0px;
@@ -78,7 +79,10 @@
 }
 /*----------------------------electronics----------------------------------------*/
 .electronics {
-    padding: 113px 88px 0;
+    padding-top: 113px;
+}
+.electronics__wrapper {
+    position: relative;
 }
 .electronics__card__wrapper {
     display: flex;
@@ -157,19 +161,30 @@
 }
 .modern-electronics {
     display: flex;
+    column-gap: 159px;
+    padding: 28px 84px 0 91px;
+}
+.modern-electronics__background {
+    display: flex;
+    padding: 245px 0;
+    background-color: #D0E8EA;
+    z-index: -1;
+    position: absolute;
+    top: 73.7%;
+    width: 100%;
 }
 .modern-electronics h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-    
+    margin-bottom: 9px;
     color: #1B365D;
 }
 .modern-electronics p {
     font-size: 17px;
     font-weight: 400;
     line-height: 23px;
-
+    margin-bottom: 15px;
     color: #434141;
 }
 .modern-electronics a {
@@ -180,6 +195,261 @@
     text-decoration: none;
     color: #1B365D;
 }
+/*----------------------------video-calls----------------------------------------*/
+.video-calls {
+    padding-top: 46px;
+    display: flex;
+}
+.video-calls__wrapper-right {
+    padding: 18px 0 0px 57px;
+}
+.video-calls__wrapper-right h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    max-width: 459px;
+    margin: 17px 0 20px 0px;
+    
+    color: #1B365D;
+}
+.video-calls__wrapper-right p:first-of-type {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    max-width: 485px;
+    margin-bottom: 16px;
+
+    color: #615E5C;
+}
+.video-calls__wrapper-right p:last-of-type {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 505px;
+
+    color: #AEABA8;
+}
+.video-calls__wrapper-right_icons {
+    display: flex;
+    column-gap: 16px;
+}
+.facebook {
+    width: 60px;
+    height: 60px;
+    background-color: #1990FF;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp {
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------story----------------------------------------*/
+.story__wrapper {
+    background-image: url('../image/main/story.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.border-before {
+    padding-top: 326px;
+}
+.border-before::before {
+    content: '';
+    border-left: 4px solid #ADD4E0;
+    position: absolute;
+    height: 28.8%;
+    left: -7%;
+}
+.story__wrapper h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0;
+    padding-bottom: 20px;
+
+    color: #FFFFFF;
+}
+.story__wrapper_content {
+    margin: 111px 0 90px;
+    position: relative;
+}
+.story__wrapper .description p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+    padding-bottom: 56px;
+
+    color: #FFFFFF;
+}
+.story__wrapper .description p::before {
+    content: '';
+    border-left: 4px solid #615E5C;
+    border-radius: 4px;
+    position: absolute;
+    left: -7%;
+    height: 3%;
+}
+.story__wrapper p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    
+    padding-bottom: 23px;
+    color: #FFFFFF;
+}
+.story__wrapper a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    display: block;
+}
+.story__wrapper a:first-of-type {
+    padding-bottom: 16px;
+}
+.story__wrapper a:first-of-type::before {
+    content: '';
+    border-left: 4px solid #615E5C;
+    border-radius: 4px;
+    position: absolute;
+    left: -7%;
+    height: 3%;
+}
+.story__wrapper a:last-of-type {
+    padding-bottom: 58px;
+}
+.story__wrapper a:last-of-type::before {
+    content: '';
+    border-left: 4px solid #615E5C;
+    border-radius: 4px;
+    position: absolute;
+    left: -7%;
+    height: 3%;
+}
+/*----------------------------alexa----------------------------------------*/
+.alexa {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 364px;
+    position: relative;
+}
+.alexa__wrapper-left h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #1B365D;
+    margin: 7px 0 20px 0;
+}
+.alexa__wrapper-left p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-bottom: 60px;
+
+    color: #615E5C;
+}
+.alexa__wrapper-left .alexa__link a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #1B365D;
+    background-color: #ADD4E0;
+    border: 1px solid #ADD4E0;
+    border-radius: 24px;
+    padding: 13px 30px;
+}
+.alexa__wrapper-right p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    max-width: 465px;
+    margin: 0 auto;
+    
+}
+.alexa__wrapper {
+    display: flex;
+    column-gap: 20px;
+    position: absolute;
+    top: 109%;
+    z-index: 1;
+}
+.private-design {
+    background-image: url('../image/main/alexa/Private-by-design.png');
+    padding: 32px 0 0 32px;
+}
+.private-design h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    padding-bottom: 9px;
+    
+    color: #1B365D;
+}
+.private-design p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 480px;
+    padding-bottom: 37px;
+
+    color: #434140;
+}
+.private-design__link {
+    padding-bottom: 446px;
+}
+.private-design a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    
+    color: #1B365D;
+}
+.work-smarter {
+    background-image: url('../image/main/alexa/Work-smarter.png');
+    padding: 32px 0 0 32px;
+}
+.work-smarter h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    padding-bottom: 9px;
+    
+    color: #FFFFFF;
+}
+.work-smarter p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-right: 140px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+.work-smarter a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+}
+/*----------------------------portal----------------------------------------*/
+.portal {
+    background-color: #D0E7EA;
+    padding-top: 368px;
+}
 
 
 
@@ -188,10 +458,23 @@
 
 
 
-/*----------------------------opportunities----------------------------------------*/
-/*----------------------------opportunities----------------------------------------*/
-/*----------------------------opportunities----------------------------------------*/
-/*----------------------------opportunities----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----------------------------opportunities----------------------------------------*/
 /*----------------------------opportunities----------------------------------------*/
 /*----------------------------opportunities----------------------------------------*/
