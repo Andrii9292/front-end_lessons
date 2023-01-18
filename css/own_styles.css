@@ -93,6 +93,15 @@
 .color-white {
     color: #FFFFFF;
 }
+.c-grey {
+    color: #9CA5B0;
+}
+.c-durk-blue {
+    color: #1B365D;
+}
+.c-durk-gray {
+    color: #434140;
+}
 /*font-size-0*/
 .font-s-0 {
     font-size: 0;
