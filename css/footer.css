@@ -2,7 +2,7 @@
     background-color: #272E38;
 }
 .footer__wrapper {
-    padding: 65px 0 61px 0;
+    padding: 64px 0 61px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13,16 +13,16 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding-left: 18px;
+        row-gap: 19px;
 }
 .footer__wrapper-right__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-column-gap: 89px;
-       -moz-column-gap: 89px;
-            column-gap: 89px;
-    padding-bottom: 48px;
+        -webkit-column-gap: 94px;
+            -moz-column-gap: 94px;
+                column-gap: 94px;
+        padding: 3px 0 48px 17px;
 }
 .list-left {
     list-style: none;
@@ -59,14 +59,14 @@ list-style: none;
     text-decoration: underline;
 }
 .get-emails {
-    margin-left: 135px;
+    margin: 3px 0 0 146px;
     max-width: 264px;
 }
 .footer__wrapper-right .get-emails p {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    padding-bottom: 27px;
+    padding-bottom: 25px;
 }
 .button {
     padding-bottom: 59px;
@@ -100,15 +100,13 @@ list-style: none;
     font-size: 11px;
     font-weight: 400;
     line-height: 17px;
+    padding-right: 3px;
 }
 .button__usa a:first-of-type:hover {
     text-decoration: underline;
 }
 .button__usa a:last-of-type:hover {
     text-decoration: underline;
-}
-.footer__wrapper-right {
-    row-gap: 21px;
 }
 .footer__wrapper-right p {
     font-size: 11px;
@@ -117,12 +115,25 @@ list-style: none;
     
     color: #9CA5B0;
 }
-.footer__wrapper-right p:nth-child(3) {
+.get-emails__wrapper p:nth-child(1) {
     max-width: 782px;
+    padding-bottom: 21px;
 }
-.footer__wrapper-right p:nth-child(4) {
+.get-emails__wrapper p:nth-child(2) {
     max-width: 815px;
+    padding-bottom: 21px;
 }
-.footer__wrapper-right p:nth-child(5) {
+.get-emails__wrapper p:nth-child(3) {
     max-width: 805px;
+    padding-bottom: 21px;
+}
+.get-emails__wrapper p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    
+    color: #9CA5B0;
+}
+.get-emails__wrapper {
+    padding-left: 9px;
 }

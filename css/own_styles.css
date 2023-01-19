@@ -108,6 +108,15 @@
 }
 /*padding*/
 .p-top {
-    padding-top: 448px;
+    padding-top: 451px;
 }
-/*border*/
+
+.flex {
+    flex: 1 0 23%;
+}
+.m-height {
+    max-height: 587px;
+}
+.pos-r {
+    position: relative;
+}
