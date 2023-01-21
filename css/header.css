@@ -40,7 +40,7 @@
     text-decoration: underline;
 }
 .header__button a {
-    font-size: 11px;
+font-size: 0.55rem;
     font-weight: 700;
     line-height: 17px;
     padding: 6px 25px;

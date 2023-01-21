@@ -42,14 +42,14 @@
     text-decoration: underline;
 }
 .list-right {
-list-style: none;
+    list-style: none;
 }
 .list-right li {
     padding-bottom: 15px;
 }
 .list-right li>a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.6rem;
     font-weight: 400;
     line-height: 21px;
 
@@ -97,7 +97,7 @@ list-style: none;
     padding: 11px 65px 11px 65px;
 }
 .button__usa a {
-    font-size: 11px;
+font-size: 0.55rem;
     font-weight: 400;
     line-height: 17px;
     padding-right: 3px;
@@ -109,7 +109,7 @@ list-style: none;
     text-decoration: underline;
 }
 .footer__wrapper-right p {
-    font-size: 11px;
+font-size: 0.55rem;
     font-weight: 400;
     line-height: 17px;
     
@@ -128,7 +128,7 @@ list-style: none;
     padding-bottom: 21px;
 }
 .get-emails__wrapper p {
-    font-size: 11px;
+font-size: 0.55rem;
     font-weight: 400;
     line-height: 17px;
     

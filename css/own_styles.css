@@ -5,6 +5,9 @@
             padding: 0;
             margin: 0;
 }
+html {
+    font-size: 20px;
+}
 /*---------------COL:1-12---------------*/
 .col-1 {
     width: 8.333333%;
