@@ -1,8 +1,11 @@
 @media (max-width: 960px) {
+    .header {
+        margin-bottom: 40px;
+    }
     .info__image {
-        -webkit-transform: scale(0.5)!important;
-            -ms-transform: scale(0.5)!important;
-                transform: scale(0.5)!important;
+        -webkit-transform: scale(0.7)!important;
+            -ms-transform: scale(0.7)!important;
+                transform: scale(0.7)!important;
         position: static;
     }
     .info__image img {
@@ -16,7 +19,13 @@
     .info {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        margin-bottom: 100px;
+        margin-bottom: 0;
+    }
+    .info__buttons {
+        justify-content: center;
+    }
+    .info p:last-of-type {
+        text-align: center;
     }
     .nav {
         row-gap: 25px;
@@ -39,13 +48,16 @@
     #close {
         color: #FF6336;
     }
+    .companies {
+        margin-bottom: 0px;
+    }
     .companies__list {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        row-gap: 60px;
-        padding: 0 0px 102px 0px;
+        row-gap: 40px;
+        padding: 0 0px 40px 0px;
     }
     .opportunities__wrapper {
         -webkit-box-orient: vertical;
@@ -69,14 +81,24 @@
         width: 100%;
         text-align: center;
     }
+    .opportunities__info.opportunities__info.opportunities__info h1 {
+        margin: 20px 68px 30px 0;
+    }
     .lokalise__card {
         width: 100%!important;
+    }
+    .lokalise__card_wrapper {
+        row-gap: 30px;
+    }
+    .lokalise.lokalise h1 {
+        padding: 20px 0 0px 0;
     }
     .boost__card {
         width: 100%;
     }
-    .boost h1 {
+    .boost.boost h1 {
         text-align: center;
+        margin: 40px 0 40px 0;
     }
     .boost__card__image {
         margin: 0 auto; 
@@ -97,7 +119,7 @@
     .update__image {
         width: 30%;
     }
-    .update__image img {
+    .update__image.update__image img {
         -o-object-fit: cover;
             object-fit: cover;
         width: 100%;
@@ -115,6 +137,8 @@
                 flex-direction: column;
         position: relative;
         padding: 10px 0;
+        margin-bottom: 60px;
+        align-items: center;
     }
     .wrapper_left::after {
         content: '';
@@ -128,6 +152,14 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
+    }
+    .case-studies__wrapper_left h1 {
+        text-align: center;
+    }
+    .case-studies__wrapper_left img:first-of-type {
+        object-fit: cover;
+        width: 100%;
+        transform: scale(0.9);
     }
     .case-studies__wrapper_left {
         width: 100%;
@@ -144,6 +176,10 @@
     }
     .wrapper_left {
         width: 100%;
+        align-items: center;
+    }
+    .wrapper_left.wrapper_left h2 {
+        padding: 10px 0 0 10px;
     }
     .card {
         width: 50%;
@@ -173,9 +209,15 @@
     }
     .footer__bottom {
         row-gap: 25px;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+    }
+    .companies__title h2 {
+        padding-top: 40px;
+    }
+    .boost__card__description p {
+        text-align: justify;
+    }
+    .integration__link {
+        max-width: 161px;
     }
 }
 @media (max-width: 1100px) {
@@ -222,15 +264,15 @@
                 transform: scale(0.8);
     }
     .container {
-        max-width: 1310px;
+        max-width: 1320px;
         margin: 0 auto;
-        padding: 0 10px;
+        padding: 0 15px;
     }
     .wrapper_left h2 {
         padding: 35px 0 0 10px;
     }
     .wrapper_right {
-        padding: 0 60px 0 4px;
+        padding: 0 0 0 10px;
     }
     .boost__card_2 {
         padding-left: 0;
@@ -239,10 +281,39 @@
         padding-left: 5px;
     }
     .opportunities__wrapper {
-        margin-bottom: 140px;
+        margin-bottom: 0;
     }
     .lokalise__card {
         width: 50%;
+    }
+    .lokalise h1 {
+        padding: 45px 0 45px 0;
+    }
+    .lokalise__card_wrapper {
+        padding-bottom: 60px;
+    }
+    .boost {
+        margin-bottom: 60px;
+    }
+    .boost h1 {
+        margin: 60px 0 75px 0;
+    }
+    .integration {
+        margin-bottom: 60px;
+    }
+    .easy-localization h1 {
+        padding: 40px 0 29px 0;
+    }
+    .easy-localization__link {
+        max-width: 144px;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+    }
+    .case-studies {
+        padding: 60px 0 30px 0;
+    }
+    .footer__bottom {
+        padding: 30px 0px 30px 0;
     }
 }
 @media (max-width: 1280px) {
@@ -262,5 +333,12 @@
     }
     .companies__title h2 {
         margin: 0 auto 66px auto;
+    }
+    .wrapper_right {
+        column-gap: 20px;
+    }
+    .easy-localization__link {
+        max-width: 152px;
+        padding: 53px 0 80px 0;
     }
 }
