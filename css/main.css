@@ -12,19 +12,19 @@
     position: relative;
 }
 .info h1 {
-    font-size: 65px;
+    font-size: 3.25rem;
     font-weight: 600;
     line-height: 70px;
     padding-bottom: 7px;
 }
 .info p:first-of-type {
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 35px;
     padding-bottom: 50px;
 }
 .info p:last-of-type {
-    font-size: 15px;
+    font-size: 0.75rem;
     font-weight: 400;
     line-height: 25px;
 }
@@ -39,7 +39,7 @@
 }
 .info__buttons a:first-of-type {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 600;
     line-height: 60px;
     text-align: center;
@@ -60,7 +60,7 @@
 }
 .info__buttons a:last-of-type {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 600;
     line-height: 60px;
     text-align: center;
@@ -83,6 +83,7 @@
     position: absolute;
     top: 11%;
     right: -10px;
+    z-index: -1;
 }
 /*-----------------------------COMPANIES-----------------------------*/
 
@@ -90,7 +91,7 @@
     margin-bottom: 90px;
 }
 .companies__title h2 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 60px;
     text-align: center;
@@ -131,14 +132,14 @@
     padding-right: 40px;
 }
 .opportunities__info h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 60px;
 
     margin: 151px 0 30px 0;
 }
 .opportunities__info p {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
@@ -148,7 +149,7 @@
     color: #000000;
 }
 .opportunities__info h2 {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 30px;
 }
@@ -188,7 +189,7 @@
     background-color: #FFF8E4;
 }
 .lokalise h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 60px;
     text-align: center;
@@ -220,7 +221,7 @@
     margin: 28px auto 18px auto;
 }
 .lokalise__card__title h2 {
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 35px;
     text-align: center;
@@ -232,7 +233,7 @@
     margin: 0 auto;
 }
 .lokalise__card__description p {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 25px;
     text-align: center;
@@ -280,7 +281,7 @@
         flex-wrap: wrap;
 }
 .boost h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 60px;
 
@@ -300,7 +301,7 @@
     margin: 51px 0 33px 0;
 }
 .boost__card__title h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 600;
     line-height: 40px;
 }
@@ -311,12 +312,12 @@
     margin-bottom: 25px;
 }
 .boost__card__description p {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 30px;
 }
 .boost__card__link a {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 30px;
 
@@ -337,10 +338,13 @@
     padding: 64px 0 90px 0;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .updates__wrapper {
     background-color: #C9E8F2;
@@ -349,14 +353,14 @@
     padding-right: 65px;
 }
 .wrapper p:nth-of-type(1) {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 40px;
     padding-bottom: 23px;
 }
 .wrapper p:nth-of-type(2) {
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 0.75rem;
     font-weight: 400;
     line-height: 25px;
     padding-bottom: 6px;
@@ -390,7 +394,7 @@
     height: 168px;
 }
 .wrapper_left h2 {
-    font-size: 35px;
+    font-size: 1.75rem;
     font-weight: 600;
     line-height: 50px;
     text-align: left;
@@ -412,7 +416,7 @@
     margin-bottom: 163px;
 }
 .integration h1 {
-    font-size: 65px;
+    font-size: 3.25rem;
     font-weight: 600;
     line-height: 75px;
     text-align: center;
@@ -420,7 +424,7 @@
     margin: 0 auto;
 }
 .integration p {
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
@@ -438,7 +442,7 @@
 }
 .integration__link a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 600;
     line-height: 60px;
     text-align: center;
@@ -461,7 +465,7 @@
 /*-----------------------------easy-localization-----------------------------*/
 
 .easy-localization h1 {
-    font-size: 65px;
+    font-size: 3.25rem;
     font-weight: 600;
     line-height: 75px;
     text-align: center;
@@ -470,14 +474,14 @@
     max-width: 784px;
 }
 .easy-localization p {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
 }
 .easy-localization__link a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 600;
     line-height: 60px;
     text-align: center;

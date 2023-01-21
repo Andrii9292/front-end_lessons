@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/own_styles.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -29,7 +30,10 @@
                         </a>
                     </div>
                     <div class="list">
-                        <ul class="list__header">
+                        <div id="close">
+                            <span>x</span>
+                        </div>
+                        <ul id="list__header">
                             <li class="list__header_item"><a href="#">Product</a></li>
                             <li class="list__header_item"><a href="#">Features</a></li>
                             <li class="list__header_item"><a style="margin-right:-14px" href="#">Pricing</a></li>
@@ -37,6 +41,13 @@
                             <li class="list__header_item"><a href="#">Resources</a></li>
                         </ul>
                     </div>
+                </div>
+                <div id="menu">
+                    <a id="menu__link" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
                 </div>
                 <div class="buttons__header">
                     <a href="#">Log in</a>
@@ -49,7 +60,7 @@
     <main class="main">
         <div class="container">
             <section class="info">
-                <div class="col-6 p-left">
+                <div class="col-6 p-left width">
                     <h1>
                         Accelerate localization from code to delivery
                     </h1>
@@ -376,3 +387,39 @@
     </footer>
 </body>
 </html>
+
+<script
+src="https://code.jquery.com/jquery-3.6.3.min.js"
+integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+crossorigin="anonymous">
+</script>
+
+<script>
+    $(document).ready(function (){
+    $('#menu').on('click',function(){
+        $('#list__header').addClass('active');
+    });
+
+    $('#close').on('click',function(){
+        $('#list__header').removeClass('active');
+    });
+
+
+    $('#menu').on('click',function(){
+        $('#close').addClass('block');
+    });
+
+    $('#close').on('click',function(){
+        $('#close').removeClass('block');
+    });
+
+
+    $('#menu').on('click',function(){
+        $('.info').addClass('m');
+    });
+
+    $('#close').on('click',function(){
+        $('.info').removeClass('m');
+    });
+});
+</script>

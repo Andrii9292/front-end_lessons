@@ -1,0 +1,266 @@
+@media (max-width: 960px) {
+    .info__image {
+        -webkit-transform: scale(0.5)!important;
+            -ms-transform: scale(0.5)!important;
+                transform: scale(0.5)!important;
+        position: static;
+    }
+    .info__image img {
+        -o-object-fit: cover;
+            object-fit: cover;
+        width: 100%;
+    }
+    .info p:first-of-type {
+        width: 100%;
+    }
+    .info {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .nav {
+        row-gap: 25px;
+    }
+    .width {
+        width: 100%;
+    }
+    .list {
+        position: fixed;
+        top: -100%;
+    }
+    #menu__link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .list__header_item a {
+        color: #FF6336;
+    }
+    #close {
+        color: #FF6336;
+    }
+    .companies__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        row-gap: 60px;
+        padding: 0 0px 102px 0px;
+    }
+    .opportunities__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .opportunities__wrapper:nth-child(even) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .opportunities__info {
+        width: 100%;
+        text-align: center;
+    }
+    .lokalise__card {
+        width: 100%!important;
+    }
+    .boost__card {
+        width: 100%;
+    }
+    .boost h1 {
+        text-align: center;
+    }
+    .boost__card__image {
+        margin: 0 auto; 
+    }
+    .boost__card__title {
+        margin: 0 auto;
+    }
+    .boost__card__description {
+        margin: 0 auto;
+    }
+    .boost__card__link {
+        margin: 0 auto;
+        max-width: 110px;
+    }
+    .wrapper {
+        margin-bottom: 40px;
+    }
+    .update__image {
+        width: 30%;
+    }
+    .update__image img {
+        -o-object-fit: cover;
+            object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .popular__wrapper img {
+        -webkit-transform: scale(0.7);
+            -ms-transform: scale(0.7);
+                transform: scale(0.7);
+    }
+    .popular__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        position: relative;
+        padding: 10px 0;
+    }
+    .wrapper_left::after {
+        content: '';
+        border-right: 1px solid #00000000;
+    }
+    .integration__image img {
+        max-width: 617px!important;
+    }
+    .case-studies {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .case-studies__wrapper_left {
+        width: 100%;
+    }
+    .case-studies__wrapper_left img:last-of-type {
+        display: block;
+    }
+    .case-studies__wrapper_right {
+        width: 100%;
+        padding: 80px 0 0 0px;
+    }
+    .wrapper_right {
+        width: 60%;
+    }
+    .wrapper_left {
+        width: 100%;
+    }
+    .card {
+        width: 50%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 40%;
+                flex: 1 1 40%;
+    }
+    .case-studies__wrapper_right {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .integration__image img {
+        -o-object-fit: cover;
+            object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .opportunities__image img {
+        -o-object-fit: cover;
+            object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .footer__bottom_wrapper-left {
+        width: 100%;
+    }
+    .footer__bottom {
+        row-gap: 25px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+@media (max-width: 1100px) {
+    html {
+        font-size: 16px!important;
+    }
+    .companies__list {
+        -webkit-column-gap: 20px;
+            -moz-column-gap: 20px;
+                column-gap: 20px;
+    }
+    .info__image {
+        right: -113px;
+    }
+    .update__image img {
+        width: 213px;
+    height: 240px;
+    }
+    .integration__image img {
+        -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+                transform: scale(0.8);
+        max-width: 900px;
+    }
+    .opportunities__info {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .opportunities__info h1 {
+        margin: 60px 0 30px 0;
+    }
+    .opportunities__info.opportunities__info_2 h1 {
+        margin: 65px 68px 30px 0;
+    }
+    .opportunities__info.opportunities__info_3 h1 {
+        margin: 70px 0px 30px 0;
+    }
+    .opportunities__info.opportunities__info_4 h1 {
+        margin: 60px 0px 32px 0px;
+    }
+    .opportunities__image {
+        -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+                transform: scale(0.8);
+    }
+    .container {
+        max-width: 1310px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .wrapper_left h2 {
+        padding: 35px 0 0 10px;
+    }
+    .wrapper_right {
+        padding: 0 60px 0 4px;
+    }
+    .boost__card_2 {
+        padding-left: 0;
+    }
+    .boost__card_3 {
+        padding-left: 5px;
+    }
+    .opportunities__wrapper {
+        margin-bottom: 140px;
+    }
+    .lokalise__card {
+        width: 50%;
+    }
+}
+@media (max-width: 1280px) {
+    .html {
+        font-size: 18px;
+    }
+    .wrapper__list {
+        left: 0;
+    }
+    .info__image {
+            -webkit-transform: scale(0.7);
+                -ms-transform: scale(0.7);
+                    transform: scale(0.7);
+    }
+    .wrapper {
+        padding-right: 0px;
+    }
+    .companies__title h2 {
+        margin: 0 auto 66px auto;
+    }
+}

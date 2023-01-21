@@ -5,6 +5,9 @@
             margin: 0;
             padding: 0;
 }
+html {
+    font-size: 20px;
+}
 /*---------------COL:1-12---------------*/
 .col-1 {
     width: 8.333333%;
@@ -101,4 +104,10 @@
 .padding {
     padding: 0 76px;
 }
-/*border*/
+
+.z-index {
+    z-index: -1;
+}
+.m {
+    margin-top: 84vh;
+}
