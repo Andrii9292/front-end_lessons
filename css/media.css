@@ -5,7 +5,7 @@
     * h1, h2 {
         line-height: 40px!important;
     }
-    .header {
+    .header.header {
         margin-bottom: 40px;
     }
     .info__image {
@@ -22,7 +22,7 @@
     .info p:first-of-type {
         width: 100%;
     }
-    .info {
+    .info.info {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         margin-bottom: 0;
@@ -58,9 +58,6 @@
     }
     #close {
         color: #FF6336;
-    }
-    .companies {
-        margin-bottom: 0px;
     }
     .companies__list {
         -webkit-box-orient: vertical;
@@ -141,6 +138,9 @@
     .wrapper p:nth-of-type(2) {
         width: 100%;
     }
+    .wrapper p:nth-of-type(1) {
+        line-height: 30px;
+    }
     .updates {
         padding: 20px 0 40px 0;
     }
@@ -165,7 +165,6 @@
                 flex-direction: column;
         position: relative;
         padding: 10px 0;
-        margin-bottom: 60px;
         align-items: center;
     }
     .wrapper_left::after {
@@ -226,6 +225,9 @@
             -ms-flex: 1 1 40%;
                 flex: 1 1 40%;
     }
+    .card li {
+        padding-bottom: 7px;
+    }
     .case-studies__wrapper_right {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
@@ -274,10 +276,19 @@
     html {
         font-size: 16px!important;
     }
+    .header {
+        margin: 0;
+    }
     .companies__list {
         -webkit-column-gap: 20px;
             -moz-column-gap: 20px;
                 column-gap: 20px;
+    }
+    .companies {
+        margin-bottom: 0;
+    }
+    .info {
+        margin-bottom: 60px;
     }
     .info__image {
         right: -113px;
@@ -285,6 +296,9 @@
     .update__image img {
         width: 213px;
     height: 240px;
+    }
+    .popular__wrapper {
+        margin-bottom: 60px;
     }
     .integration__image img {
         -webkit-transform: scale(0.8);
