@@ -1,4 +1,10 @@
 @media (max-width: 960px) {
+    * p, h1, h2 {
+        text-align: center;
+    }
+    * h1, h2 {
+        line-height: 40px!important;
+    }
     .header {
         margin-bottom: 40px;
     }
@@ -21,6 +27,10 @@
             flex-wrap: wrap;
         margin-bottom: 0;
     }
+    .info h1 {
+        margin: -15px 0 10px 0;
+        font-size: 2rem;
+    }
     .info__buttons {
         justify-content: center;
     }
@@ -29,6 +39,7 @@
     }
     .nav {
         row-gap: 25px;
+        column-gap: 100px;
     }
     .width {
         width: 100%;
@@ -56,7 +67,7 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        row-gap: 40px;
+        row-gap: 20px;
         padding: 0 0px 40px 0px;
     }
     .opportunities__wrapper {
@@ -82,7 +93,10 @@
         text-align: center;
     }
     .opportunities__info.opportunities__info.opportunities__info h1 {
-        margin: 20px 68px 30px 0;
+        margin: 20px 0px 30px 0;
+    }
+    .opportunities h1 {
+        font-size: 2rem;
     }
     .lokalise__card {
         width: 100%!important;
@@ -92,6 +106,7 @@
     }
     .lokalise.lokalise h1 {
         padding: 20px 0 0px 0;
+        font-size: 2rem;
     }
     .boost__card {
         width: 100%;
@@ -99,12 +114,14 @@
     .boost.boost h1 {
         text-align: center;
         margin: 40px 0 40px 0;
+        font-size: 2rem;
     }
     .boost__card__image {
         margin: 0 auto; 
     }
     .boost__card__title {
         margin: 0 auto;
+        max-width: 180px;
     }
     .boost__card__description {
         margin: 0 auto;
@@ -115,6 +132,17 @@
     }
     .wrapper {
         margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .wrapper p:nth-of-type(2) {
+        width: 100%;
+    }
+    .updates {
+        padding: 20px 0 40px 0;
     }
     .update__image {
         width: 30%;
@@ -143,6 +171,7 @@
     .wrapper_left::after {
         content: '';
         border-right: 1px solid #00000000;
+        height: 0;
     }
     .integration__image img {
         max-width: 617px!important;
@@ -155,28 +184,38 @@
     }
     .case-studies__wrapper_left h1 {
         text-align: center;
+        margin: 0;
     }
     .case-studies__wrapper_left img:first-of-type {
         object-fit: cover;
         width: 100%;
         transform: scale(0.9);
+        margin-bottom: 0;
     }
     .case-studies__wrapper_left {
         width: 100%;
     }
     .case-studies__wrapper_left img:last-of-type {
         display: block;
+        margin: 0 auto 10px;
     }
     .case-studies__wrapper_right {
         width: 100%;
-        padding: 80px 0 0 0px;
+        padding: 40px 0 0 0px;
+        row-gap: 40px!important;
+    }
+    .case-studies__wrapper_right h2 {
+        text-align: left;
     }
     .wrapper_right {
-        width: 60%;
+        width: 100%;
+        padding: 0;
     }
     .wrapper_left {
         width: 100%;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .wrapper_left.wrapper_left h2 {
         padding: 10px 0 0 10px;
@@ -208,16 +247,27 @@
         width: 100%;
     }
     .footer__bottom {
-        row-gap: 25px;
+        row-gap: 20px;
     }
-    .companies__title h2 {
+    .companies__title.companies__title h2 {
         padding-top: 40px;
+        margin: 0 auto 30px auto;
+        font-size: 2rem;
     }
     .boost__card__description p {
         text-align: justify;
     }
     .integration__link {
         max-width: 161px;
+    }
+    .easy-localization__link {
+        padding: 30px 0 30px 0!important;
+    }
+    .easy-localization h1 {
+        font-size: 2rem;
+    }
+    .integration h1 {
+        font-size: 2rem;
     }
 }
 @media (max-width: 1100px) {
@@ -304,9 +354,9 @@
     .easy-localization h1 {
         padding: 40px 0 29px 0;
     }
-    .easy-localization__link {
-        max-width: 144px;
+    .easy-localization__link.easy-localization__link {
         margin: 0 auto;
+        max-width: 144px;
         padding: 40px 0 40px 0;
     }
     .case-studies {
