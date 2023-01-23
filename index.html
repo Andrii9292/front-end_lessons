@@ -28,7 +28,7 @@
                 <a href="#"><img src="image/header/logo.png" alt="logo"></a>
             </div>
             <div class="menu col-6">
-                <ul>
+                <ul id="list">
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Support</a></li>
@@ -36,6 +36,16 @@
                 <div class="header__button">
                     <a class="t-align-c td" href="#">Log Into</a>
                 </div>
+            </div>
+            <div id="menu">
+                <a id="menu__link" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div id="close">
+                <span>x</span>
             </div>
         </header>
     </div>
@@ -346,3 +356,39 @@
 </body>
 
 </html>
+
+<script
+src="https://code.jquery.com/jquery-3.6.3.min.js"
+integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+crossorigin="anonymous">
+</script>
+
+<script>
+    $(document).ready(function (){
+    $('#menu').on('click',function(){
+        $('#list').addClass('active');
+    });
+
+    $('#close').on('click',function(){
+        $('#list').removeClass('active');
+    });
+
+
+    $('#menu').on('click',function(){
+        $('#close').addClass('block');
+    });
+
+    $('#close').on('click',function(){
+        $('#close').removeClass('block');
+    });
+
+
+    $('#menu').on('click',function(){
+        $('.info').addClass('m');
+    });
+
+    $('#close').on('click',function(){
+        $('.info').removeClass('m');
+    });
+});
+</script>

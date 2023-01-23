@@ -32,7 +32,7 @@
 }
 .list-left li>a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.65rem;
     font-weight: 400;
     line-height: 21px;
 
@@ -63,7 +63,7 @@
     max-width: 264px;
 }
 .footer__wrapper-right .get-emails p {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 25px;
@@ -72,7 +72,7 @@
     padding-bottom: 59px;
 }
 .button a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
     

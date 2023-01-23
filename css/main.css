@@ -9,14 +9,14 @@
 }
 .opportunities h1 {
     max-width: 404px;
-    font-size: 56px;
+    font-size: 2.8rem;
     font-weight: 700;
     line-height: 62px;
 
     margin-bottom: 17px;
 }
 .opportunities p {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-weight: 700;
     line-height: 24px;
 
@@ -34,7 +34,7 @@
             column-gap: 31px;
 }
 .opportunities a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 700;
     line-height: 20px;
 }
@@ -75,14 +75,14 @@
     padding: 15px 18px 0 87px;
 }
 .opportunities__banner_wrapper p:first-of-type {
-    font-size: 15px;
+    font-size: 0.75rem;
     font-weight: 700;
     line-height: 21px;
     padding: 20px 0 0 0;
     margin: 0;
 }
 .opportunities__banner_wrapper p:last-of-type {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
 
@@ -124,7 +124,7 @@
     left: 94px;
 }
 .electronics__card__title h2 {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
@@ -149,7 +149,7 @@
     left: 62px;
 }
 .electronics__card__description p {
-    font-size: 15px;
+    font-size: 0.75rem;
     font-weight: 500;
     line-height: 21px;
     text-align: center;
@@ -165,7 +165,7 @@
     left: 117px;
 }
 .electronics__card__link a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 700;
     line-height: 20px;
     text-align: center;
@@ -178,7 +178,7 @@
     text-decoration: underline;
 }
 .electronics h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 55px;
 
@@ -194,20 +194,20 @@
     padding: 26px 84px 0 91px;
 }
 .modern-electronics h2 {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 30px;
     margin-bottom: 9px;
 }
 .modern-electronics p {
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 23px;
     margin-bottom: 15px;
     color: #434141;
 }
 .modern-electronics a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
 
@@ -227,14 +227,14 @@
     padding: 18px 0 0px 57px;
 }
 .video-calls__wrapper-right h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 400;
     line-height: 55px;
     max-width: 459px;
     margin: 17px 0 20px 0px;
 }
 .video-calls__wrapper-right p:first-of-type {
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 23px;
     max-width: 485px;
@@ -329,7 +329,7 @@ font-size: 0.55rem;
     left: -7%;
 }
 .story__wrapper h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 55px;
     margin: 0;
@@ -343,7 +343,7 @@ font-size: 0.55rem;
     position: relative;
 }
 .story__wrapper .description p {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 53px;
@@ -357,7 +357,7 @@ font-size: 0.55rem;
     height: 3%;
 }
 .story__wrapper p {
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 23px;
     margin-bottom: 22px;
@@ -366,7 +366,7 @@ font-size: 0.55rem;
     overflow: hidden;
 }
 .story__wrapper a {
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 700;
     line-height: 23px;
 
@@ -409,13 +409,13 @@ font-size: 0.55rem;
     position: relative;
 }
 .alexa__wrapper-left h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 55px;
     margin: 7px 0 20px 0;
 }
 .alexa__wrapper-left p {
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 23px;
     padding-bottom: 60px;
@@ -423,7 +423,7 @@ font-size: 0.55rem;
     color: #615E5C;
 }
 .alexa__wrapper-left .alexa__link a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
 
@@ -476,7 +476,7 @@ font-size: 0.55rem;
     padding-bottom: 9px;
 }
 .private-design p {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 22px;
     max-width: 480px;
@@ -486,7 +486,7 @@ font-size: 0.55rem;
     padding-bottom: 446px;
 }
 .private-design a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 700;
     line-height: 20px;
 }
@@ -504,14 +504,14 @@ font-size: 0.55rem;
     padding-bottom: 9px;
 }
 .work-smarter p {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 22px;
     padding-right: 140px;
     padding-bottom: 15px;
 }
 .work-smarter a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 700;
     line-height: 20px;
 }
@@ -524,7 +524,7 @@ font-size: 0.55rem;
     padding-top: 335px;
 }
 .portal h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 55px;
     max-width: 480px;
@@ -540,12 +540,12 @@ font-size: 0.55rem;
     padding-bottom: 43px;
 }
 .portal__banner__description p:first-of-type {
-    font-size: 17px;
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 23px;
 }
 .portal__banner__description p:last-of-type {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 22px;
 }
@@ -578,7 +578,7 @@ font-size: 0.55rem;
     padding-bottom: 24px;
 }
 .name p:first-of-type {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
     max-width: 100px;
@@ -587,7 +587,7 @@ font-size: 0.55rem;
     color: #1B365D;
 }
 .name p:last-of-type {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
@@ -609,7 +609,7 @@ font-size: 0.55rem;
     margin: 0 auto 31px auto;
 }
 .card__title p {
-    font-size: 15px;
+    font-size: 0.75rem;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
@@ -627,7 +627,7 @@ font-size: 0.55rem;
     row-gap: 26px;
 }
 .card__link a:first-of-type {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
@@ -651,7 +651,7 @@ font-size: 0.55rem;
     border: 1px solid #6d9fdf;
 }
 .card__link a:last-of-type {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
@@ -670,7 +670,7 @@ font-size: 0.55rem;
     margin: 0 auto;
 }
 .portal__link a {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 400;
     line-height: 20px;
     text-align: center;

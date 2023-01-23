@@ -1,3 +1,6 @@
+html {
+    font-size: 20px;
+}
 .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -29,7 +32,7 @@
     list-style: none;
 }
 .menu li>a {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 21px;
 
@@ -60,4 +63,91 @@ font-size: 0.55rem;
     -webkit-transition: all linear 0.5s;
     -o-transition: all linear 0.5s;
     transition: all linear 0.5s;
+}
+#menu {
+        position: absolute;
+        top: 20px;
+        right: 0;
+    }
+#menu__link {
+    display: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 40px;
+    height: 36px;
+}
+#menu__link>span {
+    display: block;
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 40px;
+}
+#close {
+    display: none;
+    position: fixed;
+    top: 11%;
+    right: 19%;
+    cursor: default;
+    z-index: 1;
+
+    -webkit-animation: lunge 0.5s linear;
+
+            animation: lunge 0.5s linear;
+}
+@-webkit-keyframes lunge {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 27%;
+    }
+}
+@keyframes lunge {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 27%;
+    }
+}
+#close:hover {
+    -webkit-transform:scale(2);
+        -ms-transform:scale(2);
+            transform:scale(2);
+}
+.active {
+    display: flex!important;
+    position: fixed;
+    top: 27%;
+    left: 25%;
+    -webkit-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+            transform: scale(1.7);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+    width: 40vw;
+    height: 40vh;
+    background-color: #dedede;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50vh;
+
+    -webkit-animation: lunge 0.5s linear;
+
+            animation: lunge 0.5s linear;
+}
+.block {
+    display: block!important;
 }
