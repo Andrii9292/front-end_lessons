@@ -66,6 +66,35 @@
     .border-before {
         padding-top: 174px;
     }
+    /*----------------------------------5 блок---------------------------------------*/
+    .alexa__wrapper-right {
+        width: 66%;
+    }
+    .alexa__wrapper-right img {
+        width: 100%;
+    }
+    .alexa {
+        padding-top: 30px;
+    }
+    /*----------------------------------6 блок---------------------------------------*/
+    .private-design {
+        background-size: contain;
+    }
+    .work-smarter {
+        background-size: contain;
+        
+    }
+    /*----------------------------------8 блок---------------------------------------*/
+    .footer__wrapper-left img {
+        width: 44%;
+    }
+    .footer__wrapper-right__list {
+        width: 42%;
+        column-gap: 60px;
+    }
+    .button__usa {
+        padding: 11px 50px 11px 72px;
+    }
 }
 
 
@@ -164,7 +193,76 @@
         font-size: 0.7rem;
         line-height: 1rem;
     }
+    /*----------------------------------5 блок---------------------------------------*/
+    .alexa__wrapper-left h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .alexa__wrapper-left p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        padding-bottom: 30px;
+    }
+    .alexa__wrapper-right p {
+        font-size: 0.5rem;
+        line-height: 16px;
+        margin: 0 auto;
+    }
+    .alexa {
+        margin-bottom: 30px;
+    }
+    /*----------------------------------5 блок---------------------------------------*/
+    .alexa__wrapper h2 {
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        max-width: 250px;
+    }
+    .alexa__wrapper p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        max-width: 250px;
+    }
+    .work-smarter p {
+        padding-right: 0;
+    }
+    .alexa__wrapper a {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+    .private-design, .work-smarter {
+        background-repeat: no-repeat;
+        max-height: 314px;
+        padding: 32px;
+    }
+    .alexa__wrapper {
+        top: 113%;
+        left: 0;
+        right: 0;
+    }
+    /*----------------------------------7 блок---------------------------------------*/
+    .portal h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        max-width: 570px;
+        margin: 33px 0 20px 0;
+    }
+    .portal__banner__description p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    /*----------------------------------8 блок---------------------------------------*/
+    .get-emails {
+        margin: 3px 0 0 20px;
+        width: 60%;
+    }
+    .footer__wrapper-right__list {
+        padding: 3px 0 15px 0px;
+    }
+    .footer__wrapper-right__list {
+        width: 48%;
+    }
 }
+
 
 
 
@@ -285,7 +383,141 @@
     .story__wrapper a:last-of-type::before {
         left: -2%;
     }
+    /*----------------------------------5 блок---------------------------------------*/
+    .alexa__wrapper-left {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .alexa__wrapper-left h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .alexa__wrapper-left p {
+        font-size: 0.6rem;
+        line-height: 1rem;
+        padding-bottom: 20px;
+    }
+    .alexa__link {
+        padding-bottom: 20px;
+    }
+    .alexa__wrapper-right {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    .alexa__wrapper h2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .alexa__wrapper p, a {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+    }
+    .private-design, .work-smarter {
+        padding: 0 5px;
+    }
+    /*----------------------------------7 блок---------------------------------------*/
+    .portal h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .portal__banner__description p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    .portal__banner {
+        padding-bottom: 20px;
+    }
+    .portal__card__wrapper img {
+        width: 100%;
+    }
+    .card {
+        flex: 1 0 32%;
+    }
+    .name {
+        padding-bottom: 0;
+    }
+    .name p {
+        font-size: 0.9rem;
+    }
+    .card__image {
+        max-width: 150px;
+        max-height: 170px;
+    }
+    .card__title {
+        margin: 0 auto 10px auto;
+    }
+    .card__link a:first-of-type {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        padding: 5px 15px;
+    }
+    .card__link a:last-of-type {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+    }
+    .portal__link a {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        padding: 9px 20px;
+        -o-transition: all linear 0.3s;
+    }
+    .portal__card__wrapper {
+        margin-bottom: 20px;
+    }
+    .portal__card {
+        padding-bottom: 20px;
+    }
+    .portal__link {
+        max-width: 132px;
+    }
+    /*----------------------------------7 блок---------------------------------------*/
+    .footer__wrapper-left {
+        width: 25%;
+    }
+    .footer__wrapper-left img {
+        width: 100%;
+    }
+    .footer__wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px 0 30px 0;
+    }
+    .footer__wrapper-right {
+        width: 76%;
+        justify-content: center;
+    }
+    .footer__wrapper-right__list {
+        width: 100%;
+        column-gap: 111px;
+        padding: 0;
+    }
+    .get-emails {
+        margin: 3px 0 0 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button a {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        padding: 8px 21px 7px;
+    }
+    .footer__wrapper-right .get-emails p {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        padding: 0 15px 15px;
+    }
+    .button {
+        padding-bottom: 20px;
+    }
 }
+
 
 
 
@@ -337,6 +569,15 @@
     /*----------------------------------4 блок---------------------------------------*/
     .story__wrapper_content {
         padding: 0 11px 0 0;
+    }
+    /*----------------------------------5 блок---------------------------------------*/
+    .alexa__wrapper-left .alexa__link a {
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        padding: 10px 20px;
+    }
+    .portal__link {
+        max-width: 117px;
     }
 }
 
