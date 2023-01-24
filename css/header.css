@@ -17,7 +17,7 @@ html {
     display: -ms-flexbox;
     display: flex;
     -webkit-column-gap: 104px;
-       -moz-column-gap: 104px;
+        -moz-column-gap: 104px;
             column-gap: 104px;
             padding: 25px 0 26px 131px;
 }
@@ -26,7 +26,7 @@ html {
     display: -ms-flexbox;
     display: flex;
     -webkit-column-gap: 53px;
-       -moz-column-gap: 53px;
+        -moz-column-gap: 53px;
             column-gap: 53px;
 
     list-style: none;
@@ -123,6 +123,8 @@ font-size: 0.55rem;
             transform:scale(2);
 }
 .active {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
     display: flex!important;
     position: fixed;
     top: 27%;
@@ -145,9 +147,7 @@ font-size: 0.55rem;
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 50vh;
-
     -webkit-animation: lunge 0.5s linear;
-
             animation: lunge 0.5s linear;
             z-index: 10;
 }
