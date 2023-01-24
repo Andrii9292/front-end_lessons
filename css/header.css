@@ -109,9 +109,11 @@ font-size: 0.55rem;
 }
 @keyframes lunge {
     0% {
+        right: -100%;
         top: -100%;
     }
     100% {
+        right: 27%;
         top: 27%;
     }
 }
@@ -135,7 +137,7 @@ font-size: 0.55rem;
     row-gap: 40px;
     width: 40vw;
     height: 40vh;
-    background-color: #dedede;
+    background-color: #c4adad;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -147,6 +149,7 @@ font-size: 0.55rem;
     -webkit-animation: lunge 0.5s linear;
 
             animation: lunge 0.5s linear;
+            z-index: 10;
 }
 .block {
     display: block!important;

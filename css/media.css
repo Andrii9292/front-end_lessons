@@ -95,8 +95,20 @@
     .button__usa {
         padding: 11px 50px 11px 72px;
     }
+    .story__background {
+        top: -179.2%;
+    }
 }
-
+@media (max-width:1100px) {
+    .story__background {
+        padding: 245px 0;
+        background-color: #D0E8EA;
+        z-index: -1;
+        position: absolute;
+        top: -172.2%;
+        width: 100%;
+    }    
+}
 
 
 
@@ -144,9 +156,10 @@
         width: 100%;
         padding: 15px;
         column-gap: 10px;
-    }    .story__background {
+    }    
+    .story__background {
         position: absolute;
-        top: -1130px;
+        top: -195%;
         padding: 220px 0;
     }
     /*----------------------------------третий блок---------------------------------------*/
@@ -262,7 +275,10 @@
         width: 48%;
     }
 }
-
+@media (max-width: 930px){
+    .story__background {
+        top: -171%;}
+}
 
 
 
@@ -516,9 +532,16 @@
     .button {
         padding-bottom: 20px;
     }
+    .story__background {
+        top: -171%;
+        padding: 113px 0;
+    }
 }
-
-
+@media (max-width: 650px){
+    .story__background {
+        top: -154%;
+    }
+}
 
 
 
@@ -579,9 +602,19 @@
     .portal__link {
         max-width: 117px;
     }
+    .story__background {
+        top: -276%;
+    }
+    #menu__link {
+        display: flex;
+        transform: scale(0.7);
+    }
 }
-
-
+@media (max-width:458px) {
+    .story__background {
+        top: -258%;
+    }
+}
 
 
 
