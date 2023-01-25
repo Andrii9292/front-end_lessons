@@ -49,8 +49,8 @@ html, body {
 }
 
 .swiper {
-  width: 1000px;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .swiper-slide {
@@ -76,9 +76,11 @@ html, body {
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
   right: 140px !important;
   left: auto;
+  top: 25% !important;
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
   left: 140px !important;
   right: auto;
+  top: 25% !important;
 }
