@@ -12,7 +12,7 @@
 
 </head>
 <body>
-  <a href="#">slick</a>
+  <a href="slick.html">slick</a>
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="https://img3.akspic.ru/previews/6/5/4/8/6/168456/168456-list-vektornaya_grafika-vetv-derevo-siluet-500x.jpg" alt=""></div>
@@ -33,7 +33,7 @@
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    const swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       navigation: {
         nextEl: ".swiper-button-next",
@@ -44,6 +44,11 @@
       },
       mousewheel: true,
       keyboard: true,
+      
+      effect: 'fade',
+      fadeEffect: {
+      crossFade: true
+  },
     });
   </script>
 </body>
