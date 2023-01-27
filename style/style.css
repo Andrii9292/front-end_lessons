@@ -160,6 +160,10 @@
     background: aquamarine;
 }
 
+.nav__home {
+    margin-top: 40vh;
+    width: 100vw;
+}
 .zoomArea {
     margin-top:  30px;
 }
