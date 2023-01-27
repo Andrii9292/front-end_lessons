@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+    <title>masonry</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="swipper.html">Go to swiper</a>
+        <a href="owl-carousel.html">Go to owl-carousel</a>
+        <a href="slick.html">Go to slick</a>
+        <a href="lightbox.html">Go to lightbox</a>
+        <a href="jQuery-Zoom.html">Go to jQuery-Zoom</a>
+    </nav>
+    <div class="grid">
+        <div class="grid-item"><img src="img/01.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/02.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/03.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/04.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/05.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/06.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/07.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/08.png" alt=""></div>
+        <div class="grid-item"><img src="img/09.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/10.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/02.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/03.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/01.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/02.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/03.jpeg" alt=""></div>
+        <div class="grid-item"><img src="img/01.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/02.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/03.jpeg" alt=""></div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script>
+        $('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 200,
+  gutter: 20
+});
+
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>jQuery Zoom</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="swipper.html">Go to swiper</a>
+        <a href="owl-carousel.html">Go to owl-carousel</a>
+        <a href="masonry.html">Go to masonry</a>
+        <a href="lightbox.html">Go to lightbox</a>
+        <a href="slick.html">Go to slick</a>
+    </nav>
+
+    <div class="zoom">
+        <div class="original">
+            <img src="img/zoom/small.jpg" id="target" alt="">
+        </div>
+        <div class="viewer">
+            <img src="img/zoom/viewer.jpeg" alt="">
+        </div>
+        <div class="magnifier"></div>
+    </div>
+
+    <div class="zoomArea">
+        <img id="NZoomImg" data-NZoomscale="2" src="img/zoom/small.jpg" alt="Product Image">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/zoom.js"></script></script>
+    <script src="js/Nzoom.min.js"></script><script>
+        var l = $('#target').zoom(5);
+    </script>
+    
+</body>
+
+</html>
