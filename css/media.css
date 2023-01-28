@@ -1,17 +1,58 @@
 @media (max-width:1280px) {
+    .modern-electronics p {
+        max-width: 318px;
+        max-height: 92px;
+        overflow: hidden;
+    }
+
+    .modern-electronics h2 {
+        max-width: 315px;
+        max-height: 30px;
+        overflow: hidden;
+    }
+
+    .modern-electronics a {
+        max-width: 71px;
+        max-height: 17px;
+        overflow: hidden;
+    }
+
     .border-before::before {
         left: -2%;
         height: 29%;
     }
+
     .story__wrapper .description p::before {
         left: -2%;
     }
+
     .story__wrapper a:first-of-type::before {
         left: -2%;
     }
+
     .story__wrapper a:last-of-type::before {
         left: -2%;
     }
+
+    .work-smarter p {
+        padding-right: 10px;
+    }
+
+    .private-design p {
+        max-width: 430px;
+    }
+
+    .electronics-image img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .story__wrapper h1,
+    .story__wrapper p,
+    .story__wrapper a {
+        padding-left: 5px;
+    }
+
     .header {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -97,10 +138,6 @@
     }
 
     /*----------------------------------4 блок---------------------------------------*/
-    .story__wrapper {
-        background-size: contain;
-    }
-
     .story__wrapper_content {
         margin: 0px 40px 0px;
         padding-bottom: 35px;
@@ -123,16 +160,6 @@
         padding-top: 30px;
     }
 
-    /*----------------------------------6 блок---------------------------------------*/
-    .private-design {
-        background-size: contain;
-    }
-
-    .work-smarter {
-        background-size: contain;
-
-    }
-
     /*----------------------------------8 блок---------------------------------------*/
     .footer__wrapper-left img {
         width: 44%;
@@ -153,6 +180,7 @@
     .story__background {
         top: -179.2%;
     }
+
     .get-emails__wrapper {
         padding-left: 0;
     }
@@ -173,18 +201,31 @@
     html {
         font-size: 18px;
     }
+
+    .modern-electronics {
+        justify-content: space-around;
+    }
+
+    .electronics-image::before {
+        bottom: -2%;
+    }
+
     .story__wrapper .description p::before {
         left: -5%;
     }
+
     .story__wrapper a:first-of-type::before {
         left: -5%;
     }
+
     .story__wrapper a:last-of-type::before {
         left: -5%;
     }
+
     .border-before::before {
         left: -5%;
     }
+
     .menu ul {
         -webkit-column-gap: 25px;
         -moz-column-gap: 25px;
@@ -196,6 +237,7 @@
         -moz-column-gap: 40px;
         column-gap: 40px;
     }
+
     .alexa__wrapper {
         justify-content: space-around;
     }
@@ -333,7 +375,7 @@
     .alexa__wrapper h2 {
         font-size: 1.5rem;
         line-height: 1.6rem;
-        max-width: 250px;
+        max-width: 320px;
     }
 
     .alexa__wrapper p {
@@ -351,13 +393,6 @@
         line-height: 1rem;
     }
 
-    .private-design,
-    .work-smarter {
-        background-repeat: no-repeat;
-        max-height: 314px;
-        padding: 32px;
-    }
-
     .alexa__wrapper {
         top: 113%;
         left: 0;
@@ -369,7 +404,7 @@
         font-size: 2rem;
         line-height: 2.5rem;
         max-width: 570px;
-        margin: 33px 0 20px 0;
+        margin: 210px 0 20px 0;
     }
 
     .portal__banner__description p {
@@ -391,23 +426,30 @@
     .footer__wrapper-right__list {
         width: 48%;
     }
-    .private-design, .work-smarter {
-        width: 32%;
-        background-size: auto;
-    }
-    
 }
 
 @media (max-width: 930px) {
-    .story__background {
-        top: -171%;
-    }
     .border-before::before {
         height: 36%;
     }
 }
 
 @media (max-width:768px) {
+    .electronics-image {
+        margin: 0 auto;
+        max-width: 730px;
+        text-align: center;
+    }
+
+    .electronics-image::before {
+        left: 0;
+        padding: 190px 0;
+    }
+
+    .video-calls__wrapper-right_icons {
+        justify-content: center;
+    }
+
     #menu__link {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -539,7 +581,8 @@
 
     .story__wrapper_content {
         width: 100%;
-        margin: 0 0 0 40px;
+        margin: 0;
+        padding-left: 35px;
     }
 
     .border-before {
@@ -558,23 +601,27 @@
     }
 
     .border-before::before {
-        left: -2%;
+        left: 3%;
         height: 27%;
     }
 
     .story__wrapper .description p::before {
-        left: -2%;
+        left: 3%;
         top: 50%;
     }
 
     .story__wrapper a:first-of-type::before {
-        left: -2%;
+        left: 3%;
         top: 59.5%;
     }
 
     .story__wrapper a:last-of-type::before {
-        left: -2%;
+        left: 3%;
         top: 69.5%;
+    }
+
+    .story__wrapper {
+        background-size: cover;
     }
 
     /*----------------------------------5 блок---------------------------------------*/
@@ -642,6 +689,7 @@
     .portal h1 {
         font-size: 1.5rem;
         line-height: 2rem;
+        margin-top: 100px;
     }
 
     .portal__banner__description p {
@@ -742,9 +790,11 @@
         padding: 0;
         justify-content: space-between;
     }
+
     .list-left {
         width: 25%;
     }
+
     .get-emails {
         margin: 0;
         width: 100%;
@@ -767,7 +817,7 @@
     .footer__wrapper-right .get-emails p {
         font-size: 0.6rem;
         line-height: 0.9rem;
-        padding-bottom:15px;
+        padding-bottom: 15px;
         text-align: center;
     }
 
@@ -778,6 +828,11 @@
     .story__background {
         top: -171%;
         padding: 113px 0;
+    }
+
+    .private-design,
+    .work-smarter {
+        padding: 0;
     }
 }
 
@@ -791,33 +846,66 @@
     html {
         font-size: 15px;
     }
+
     .border-before {
         padding-top: 65px;
     }
+
     .story__wrapper .description p {
         margin-bottom: 0;
     }
+
     .story__wrapper a:first-of-type {
         padding-bottom: 0;
     }
+
     .story__wrapper .description p::before {
-        top: 59%;
+        top: 51.5%;
     }
+
     .story__wrapper a:last-of-type::before {
-        top: 72%;
+        top: 63%;
     }
+
     .story__wrapper a:first-of-type::before {
-        top: 66%;
+        top: 58%;
     }
+
     .story__wrapper p {
         max-width: 260px;
         overflow: hidden;
         margin-bottom: 0;
     }
 
-    .border-before::before {
-        height: 30%;
+    .alexa__wrapper h2 {
+        top: 0;
     }
+
+    .alexa__wrapper p,
+    a {
+        top: 25px;
+    }
+
+    .private-design__link {
+        position: absolute;
+        top: 85px;
+        left: 155px;
+    }
+
+    .work-smarter a {
+        position: absolute;
+        top: 85px;
+        left: 155px;
+    }
+
+    .electronics-image::before {
+        padding: 150px 0;
+    }
+
+    .border-before::before {
+        height: 25%;
+    }
+
     .story__wrapper h1 {
         font-size: 1.2rem;
         line-height: 1.5rem;
@@ -825,9 +913,7 @@
         overflow: hidden;
         margin-bottom: 0;
     }
-    .private-design, .work-smarter {
-        width: 43%;
-    }
+
     .header {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -892,7 +978,7 @@
 
     /*----------------------------------4 блок---------------------------------------*/
     .story__wrapper_content {
-        padding: 0 11px 0 0;
+        padding-left: 25px;
     }
 
     /*----------------------------------5 блок---------------------------------------*/
@@ -918,20 +1004,18 @@
         -ms-transform: scale(0.7);
         transform: scale(0.7);
     }
-    .private-design, .work-smarter {
-        background-size: auto;
+
+    .private-design,
+    .work-smarter {
+        padding: 0;
     }
-    .private-design__link {
-        padding-bottom: 50px;
+
+    .portal h1 {
+        margin-top: 40px;
     }
+
     .portal {
         padding-top: 220px;
-    }
-}
-
-@media (max-width:458px) {
-    .story__background {
-        top: -258%;
     }
 }
 
@@ -945,34 +1029,106 @@
         -ms-flex-align: start;
         align-items: flex-start;
     }
+
     #menu {
         top: 15px;
     }
+
     .story__wrapper_content {
         padding-right: 25px;
     }
+
     .footer__wrapper-right {
         width: 100%;
     }
+
     .footer__wrapper-right__list {
         width: 100%;
         column-gap: 0;
         justify-content: space-between;
     }
+
     .get-emails {
         margin: 0;
     }
+
     .footer__wrapper-right .get-emails p {
         padding-bottom: 15px;
         text-align: center;
     }
-    .private-design, .work-smarter {
-        background-size: auto;
-    }
+
     .private-design__link {
         padding-bottom: 40px;
     }
+
     .portal {
-        padding-top: 320px;
+        padding-top: 590px;
+    }
+
+    .portal__banner__description p:first-of-type {
+        line-height: 20px;
+    }
+
+    .portal__banner__description p:last-of-type {
+        line-height: 15px;
+    }
+
+    .portal h1 {
+        text-align: center;
+    }
+
+    .alexa__wrapper {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .private-design,
+    .work-smarter {
+        width: 100%;
+    }
+
+    .alexa__wrapper h2 {
+        top: 32px;
+    }
+
+    .alexa__wrapper p {
+        top: 74px;
+    }
+
+    .work-smarter a {
+        top: 158px;
+        left: 32px;
+    }
+
+    .private-design a {
+        position: absolute;
+        top: 60px;
+        left: -123px;
+    }
+
+    .opportunities__butoons {
+        flex-direction: inherit;
+        justify-content: space-between;
+    }
+
+    .opportunities h1 {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .opportunities a:first-of-type {
+        padding: 4px 15px 4px 15px;
+    }
+
+    .opportunities__banner {
+        flex-wrap: nowrap;
+        column-gap: 10px;
+    }
+
+    .modern-electronics h2 {
+        max-height: 50px;
+        line-height: 20px;
     }
 }
