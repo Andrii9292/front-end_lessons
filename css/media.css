@@ -43,6 +43,7 @@
     }
 
     .electronics-image img {
+        -o-object-fit: cover;
         object-fit: cover;
         width: 100%;
     }
@@ -203,6 +204,7 @@
     }
 
     .modern-electronics {
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
@@ -239,6 +241,7 @@
     }
 
     .alexa__wrapper {
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
@@ -447,6 +450,8 @@
     }
 
     .video-calls__wrapper-right_icons {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -499,7 +504,7 @@
         -webkit-transform: scale(0.7);
         -ms-transform: scale(0.7);
         transform: scale(0.7);
-        top: 0;
+        top: 20px;
     }
 
     .opportunities h1 {
@@ -786,8 +791,14 @@
     .footer__wrapper-right__list {
         width: 100%;
 
+        -webkit-column-gap: 0;
+
+        -moz-column-gap: 0;
+
         column-gap: 0;
         padding: 0;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
@@ -1044,7 +1055,11 @@
 
     .footer__wrapper-right__list {
         width: 100%;
+        -webkit-column-gap: 0;
+        -moz-column-gap: 0;
         column-gap: 0;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
@@ -1078,6 +1093,9 @@
     }
 
     .alexa__wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         row-gap: 10px;
     }
@@ -1107,7 +1125,12 @@
     }
 
     .opportunities__butoons {
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
         flex-direction: inherit;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
@@ -1123,7 +1146,10 @@
     }
 
     .opportunities__banner {
+        -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+        -webkit-column-gap: 10px;
+        -moz-column-gap: 10px;
         column-gap: 10px;
     }
 
