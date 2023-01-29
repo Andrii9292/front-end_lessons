@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1920px;
   width: 100%;
   background-color: white;
   color: black;
@@ -41,4 +41,26 @@ body {
 /*Пример picture*/
 .none {
   display: none;
+}
+
+.mb-key1 {
+  margin-bottom: 15px;
+}
+
+.mb-key2 {
+  margin-bottom: 30px;
+}
+
+.mb-key3 {
+  margin: b 60px;
+}
+
+.container {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 }

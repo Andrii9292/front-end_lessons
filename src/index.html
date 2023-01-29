@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <meta charset="utf-8">
@@ -8,31 +9,33 @@
   <!--jQuery-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/style.min.css">
-  <!--Подключаем свой js-->
+
   <script src="js/script.js"></script>
 
-  <meta name="viewport"
-        content="width=device-width,
+  <meta name="viewport" content="width=device-width,
           user-scalable=no,
           initial-scale=1.0,
           maximum-scale=1.0,
           minimum-scale=1.0">
 </head>
+
 <body>
-  @@include('components/_component.html')
   <!--lazy load-->
   <picture class="none">
-    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:768px)">
-    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:1024px)">
-    <img data-src="images/" src="images/1x1.webp" >
+    <source data-srcset="images/" src="images/Symbol.png" media="(max-width:768px)">
+    <source data-srcset="images/" src="images/Symbol.png" media="(max-width:1024px)">
+    <img data-src="images/" src="images/Symbol.png">
   </picture>
   <script>
     const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
     const windowHeight = document.documentElement.clientHeight;
 
     let lazyImagesPositions = [];
-    if(lazyImages.length > 0) {
+    if (lazyImages.length > 0) {
       console.log(lazyImages)
       lazyImages.forEach(img => {
         if (img.dataset.src || img.dataset.srcset) {
@@ -42,25 +45,25 @@
       });
     }
 
-    window.addEventListener('scroll',lazyScroll);
+    window.addEventListener('scroll', lazyScroll);
 
-    function lazyScroll(){
-      if(document.querySelectorAll('img[data-src],source[data-srcset]').length >0){
+    function lazyScroll() {
+      if (document.querySelectorAll('img[data-src],source[data-srcset]').length > 0) {
         lazyScrollCheck();
       }
     }
 
     console.log(lazyImagesPositions);
 
-    function lazyScrollCheck(){
+    function lazyScrollCheck() {
       let imgIndex = lazyImagesPositions.findIndex(
-              item => pageYOffset > item - windowHeight
+        item => pageYOffset > item - windowHeight
       );
-      if(imgIndex >=0){
-        if (lazyImages[imgIndex].dataset.src){
+      if (imgIndex >= 0) {
+        if (lazyImages[imgIndex].dataset.src) {
           lazyImages[imgIndex].src = lazyImages[imgIndex].dataset.src;
           lazyImages[imgIndex].removeAttribute('data-src');
-        }else if (lazyImages[imgIndex].dataset.srcset){
+        } else if (lazyImages[imgIndex].dataset.srcset) {
           lazyImages[imgIndex].srcset = lazyImages[imgIndex].dataset.srcset;
           lazyImages[imgIndex].removeAttribute('data-srcset');
         }
@@ -68,5 +71,34 @@
       }
     }
   </script>
+
+  <header class="header">
+    <div class="container">
+      <div class="assets">
+        <div class="assets__logo">
+          <img src="images/Header/Assets/Logo.png" alt="assets-logo">
+        </div>
+        <div class="assets__symbol">
+          <div class="assets__symbol_1">
+            <img src="images/Header/Assets/symbol1.png" alt="">
+          </div>
+          <div class="assets__symbol_2">
+            <img src="images/Header/Assets/symbol2.png" alt="">
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="right-side__contacts">
+
+          </div>
+          <div class="right-side__nav">
+            <nav>
+
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 </body>
+
 </html>
