@@ -38,13 +38,7 @@
           minimum-scale=1.0">
 </head>
 <body>
-  @@include('components/_component.html')
-  <!--lazy load-->
-  <picture class="none">
-    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:768px)">
-    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:1024px)">
-    <img data-src="images/" src="images/1x1.webp" >
-  </picture>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, delectus.</p>
   <script>
     const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
     const windowHeight = document.documentElement.clientHeight;
