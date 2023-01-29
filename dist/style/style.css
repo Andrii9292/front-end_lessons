@@ -42,16 +42,3 @@ body {
 .none {
   display: none;
 }
-
-p {
-  color: #ccc;
-}
-
-p {
-  -webkit-transform: rotate3d(100deg);
-          transform: rotate3d(100deg);
-}
-
-p {
-  font-size: 50px;
-}

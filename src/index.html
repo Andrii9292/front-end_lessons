@@ -1,35 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--Кодировка-->
+
   <meta charset="utf-8">
-  <!--Титул сайта-->
-  <title>New folder</title>
-  <!--Иконка-->
-  <link rel="icon" href="" type="image/x-icon">
-  <!--Иконка для apple-->
-  <link rel="apple-touch-icon" sizes="" href="">
-  <!--То что выводиться в Google-->
-  <meta name="description" content="">
-  <!--Для поиска в Google-->
-  <meta name="keywords" content="">
-  <!--Для Facebook-->
-  <meta property="og:url" content="">
-  <meta property="og:title" content="">
-  <meta property="og:description" content="">
-  <meta property="og:type" content="">
-  <meta property="og:image" content="">
-  <!--Тема для адресной строки-->
-  <meta name="theme-color" content="">
-  <!--Альтернативные языки сайта-->
-  <link rel="alternate" hreflang="" href="">
+
+  <title>Final DZ</title>
   <!--jQuery-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!--Подключаем свои стили-->
+
   <link rel="stylesheet" href="style/style.min.css">
   <!--Подключаем свой js-->
   <script src="js/script.js"></script>
-  <!--Viewport-->
+
   <meta name="viewport"
         content="width=device-width,
           user-scalable=no,
@@ -38,7 +20,13 @@
           minimum-scale=1.0">
 </head>
 <body>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, delectus.</p>
+  @@include('components/_component.html')
+  <!--lazy load-->
+  <picture class="none">
+    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:768px)">
+    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:1024px)">
+    <img data-src="images/" src="images/1x1.webp" >
+  </picture>
   <script>
     const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
     const windowHeight = document.documentElement.clientHeight;

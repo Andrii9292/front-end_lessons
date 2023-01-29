@@ -5,10 +5,6 @@
   <meta charset="utf-8">
   <!--Титул сайта-->
   <title>New folder</title>
-  <!--Иконка-->
-  <link rel="icon" href="" type="image/x-icon">
-  <!--Иконка для apple-->
-  <link rel="apple-touch-icon" sizes="" href="">
   <!--То что выводиться в Google-->
   <meta name="description" content="">
   <!--Для поиска в Google-->
@@ -38,7 +34,13 @@
           minimum-scale=1.0">
 </head>
 <body>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, delectus.</p>
+  
+  <!--lazy load-->
+  <picture class="none">
+    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:768px)">
+    <source data-srcset="images/"  src="images/1x1.webp" media="(max-width:1024px)">
+    <img data-src="images/" src="images/1x1.webp" >
+  </picture>
   <script>
     const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
     const windowHeight = document.documentElement.clientHeight;
