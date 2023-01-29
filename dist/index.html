@@ -11,10 +11,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style/style.min.css">
 
   <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/a27d6df1b3.js" crossorigin="anonymous"></script>
 
   <meta name="viewport" content="width=device-width,
           user-scalable=no,
@@ -26,9 +28,9 @@
 <body>
   <!--lazy load-->
   <picture class="none">
-    <source data-srcset="images/" src="images/Symbol.png" media="(max-width:768px)">
-    <source data-srcset="images/" src="images/Symbol.png" media="(max-width:1024px)">
-    <img data-src="images/" src="images/Symbol.png">
+    <source data-srcset="images/" src="images/Symbol.webp" media="(max-width:768px)">
+    <source data-srcset="images/" src="images/Symbol.webp" media="(max-width:1024px)">
+    <img data-src="images/Symbol.webp" src="images/Symbol.webp">
   </picture>
   <script>
     const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
@@ -74,27 +76,61 @@
 
   <header class="header">
     <div class="container">
-      <div class="assets">
+      <div class="assets d-f mb-key3">
         <div class="assets__logo">
-          <img src="images/Header/Assets/Logo.png" alt="assets-logo">
+          <img src="images/Logo.webp" alt="assets-logo">
         </div>
         <div class="assets__symbol">
           <div class="assets__symbol_1">
-            <img src="images/Header/Assets/symbol1.png" alt="">
+            <img src="images/symbol1.webp" alt="">
           </div>
           <div class="assets__symbol_2">
-            <img src="images/Header/Assets/symbol2.png" alt="">
+            <img src="images/symbol2.webp" alt="">
+          </div>
+          <div class="assets__symbol_description">
+            <p>you legal solutions provider</p>
+          </div>
+          <div class="assets__symbol_button-scroll">
+            <a href="#">
+              <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L10 10L19 1" stroke="white" stroke-width="2" />
+              </svg>
+            </a>
           </div>
         </div>
         <div class="right-side">
           <div class="right-side__contacts">
-
+            <div class="right-side__contacts_lang">
+              <span class="border1"><a href="#">УК</a></span>
+              <span class="border1"><a href="#">РУ</a></span>
+              <span class="border2"><a href="#">EN</a></span>
+            </div>
+            <span class="grey-separator"></span>
+            <address class="right-side__contacts_address">
+              <a href="https://goo.gl/maps/AcTuMUVoCtPeNZA28">Kyiv, Mechnikova str, 14/1</a>
+              <span class="grey-separator"></span>
+              <a href="tel:0800211927">0800 211 927</a>
+            </address>
+            <span class="grey-separator"></span>
+            <div class="facebook">
+              <a href="#">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="right-side__nav">
-            <nav>
-
-            </nav>
-          </div>
+          <nav class="right-side__nav">
+            <ul class="right-side__nav_list">
+              <li><a href="#">about us</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">team</a></li>
+              <li><a href="#">publications</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
