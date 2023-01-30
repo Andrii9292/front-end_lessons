@@ -74,6 +74,15 @@
             height: 42px
             &:hover
                 border: 2px solid $red
+                color: $red
+.arrow-to-bottom
+    @include arrow
+    display: inline-block
+    color: $white
+    transform: rotate(135deg)
+    &:hover
+        color: $red
+
 .right-side
     @include flex
     flex-direction: column
