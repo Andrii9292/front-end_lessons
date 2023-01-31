@@ -27,6 +27,8 @@
     background: $red
 .header
     background: $supersoft
+    border-radius: 0 0 12px 12px
+    margin-bottom: 83px
 .assets
     @include flex
     position: relative
@@ -111,6 +113,7 @@
                 font-size: 1.6rem
                 line-height: 2rem
                 text-align: right
+                font-style: normal
             a:first-of-type
                 font-weight: 400
                 margin-right: 6px
@@ -187,6 +190,7 @@
             max-height: 90px
             overflow: hidden
 .service
+    padding-bottom: 57px
     &__benefits
         @include flex
         flex-direction: column
@@ -215,15 +219,37 @@
             background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%)
             background-clip: text
             color: transparent
+    &__shadow
+        position: relative
+        top: 10px
+        &_strip
+            position: absolute
+        &_strip1
+            border: 1px solid #00000000
+            background-color: #CACADB
+            border-radius: 0px 0px 12px 12px
+            width: 97.83vw
+            height: 10px
+            bottom: 50%
+            left: 1.08%
+        &_strip2
+            border: 1px solid #00000000
+            background-color: #E7E7F2
+            border-radius: 0px 0px 12px 12px
+            width: 95.67vw
+            height: 10px
+            top: 50%
+            left: 2.166%
 .wrapper
     @include flex
     column-gap: 60px
+    row-gap: 60px
     &__card
         @include flex
         flex-direction: column
         flex: 1 1 30%
         &_image
-            margin-bottom: 30px
+            margin-bottom: 28px
         &_title
             margin-bottom: 15px
             max-width: 493px
@@ -241,7 +267,7 @@
                 color: $blue
         &_description
             max-width: 493px
-            max-height: 54px
+            max-height: 104px
             overflow: hidden
             p
                 font-size: 1.6rem
@@ -249,3 +275,4 @@
                 line-height: 2.6rem
                 text-align: left
                 color: $white
+
