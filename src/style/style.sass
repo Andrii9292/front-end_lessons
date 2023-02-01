@@ -1,5 +1,6 @@
 @charset "UTF-8"
-
+@import "components/slick"
+@import "components/slick-theme.scss"
 @import "components/zero.sass"
 /*COLORS----------------------------------------------------------------------------------*/
 $supersoft: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%)
@@ -11,38 +12,174 @@ $grey: #B3B3BA
 $Grey-bg: #F5F5FA
 $red: #F0145A
 $Grey-Separator: #E6E6F0
+$Main-Regular: #323264
 
 @mixin flex
-    display: flex
+    display: flex!important
     flex-wrap: wrap
 @mixin arrow
     border-top: 2px solid
     border-right: 2px solid
     width: 9px
     height: 9px
+.slick-dots
+    li
+        button
+            &:before
+                position: absolute
+                top: 24px
+                left: 0
+                content: ""
+                border: 1px solid #0000
+                background: #24A3FF
+                border-radius: 50%
+                width: 16px
+                height: 16px
+                font-family: slick
+                font-size: 6px
+                line-height: 20px
+                text-align: center
+                color: #000
+                opacity: .25
+                -webkit-font-smoothing: antialiased
+                -moz-osx-font-smoothing: grayscale
 
 .team
-    @include flex
-    &__image
-        max-width: 400px
-        max-height: 298px
-        img
-            object-fit: cover
-            max-width: 100%
-            height: auto
-    &__right
-        background: $Grey-bg
-        padding: 30px
+    &__card
+        @include flex
+        &_image
+            max-width: 400px
+            max-height: 298px
+            img
+                object-fit: cover
+                width: 100%
+                height: 100%
+                border-radius: 12px 0 0 12px
+        &_right
+            background: $Grey-bg
+            padding: 30px
+            h3
+                padding-bottom: 5px
+            a
+                font-size: 1.4rem
+                font-weight: 700
+                line-height: 1.7rem
+                letter-spacing: 1px
+                text-align: left
+                color: $blue
+                &::after
+                    content: ''
+                    display: inline-block
+                    transform: rotate(45deg)
+                    @include arrow
+            h1
+                font-size: 3.8rem
+                font-weight: 700
+                line-height: 4.6rem
+                text-align: left
+
+                background: $red-text
+                background-clip: text
+                color: transparent
+
+                max-width: 1140px
+                max-height: 138px
+                overflow: hidden
+            h4
+                font-size: 1.6rem
+                font-weight: 700
+                line-height: 2rem
+                text-align: left
+                color: $grey
+                margin-bottom: 6px
+
+                max-width: 1140px
+                max-height: 20px
+                overflow: hidden
+            p
+                font-size: 1.4rem
+                font-weight: 400
+                line-height: 2.2rem
+                text-align: left
+                color: $grey
+
+                max-width: 1140px
+                max-height: 22px
+                overflow: hidden
+.clients
+    margin-bottom: 60px
+    h3
+        font-size: 1.4rem
+        font-weight: 700
+        line-height: 1.707rem
+        letter-spacing: 1px
+        text-align: left
+        color: $Main-Regular
+        text-transform: uppercase
+
+        max-width: 210px
+        max-height: 17px
+
+        margin: 0 auto 30px
+    &__list
+        max-width: 1720px
+        margin: 0 auto
+        @include flex
+        &_item
+            justify-content: center
+            align-items: center
+            flex: 1 1 23%
+            height: 120px
+            overflow: hidden
+            @include flex
+        &_item-link
+            img
+                object-fit: cover
+                width: 100%
+        &_item1
+            background: #1C4280
+            border-radius: 12px 0 0 0
+        &_item2
+            background: #143646
+        &_item3
+            background: #F48B30
+        &_item4
+            background: #9E4DC3
+            border-radius: 0 12px 0 0
+        &_item5
+            background: #FD9339
+        &_item6
+            background: #E2E2E4
+        &_item7
+            background: #C71C36
+        &_item8
+            background: #DCF3F9
+        &_item9
+            background: #EAEAEA
+            border-radius: 0 0 0 12px
+        &_item10
+            background: #282240
+        &_item11
+            background: #1D4568
+        &_item12
+            background: #000000
+            border-radius: 0 0 12px 0
+.recommended
+    background: $Grey-bg
+    &__wrapper
+        padding-top: 30px
+        @include flex
         h3
-            padding-bottom: 5px
+            margin-bottom: 10px
         a
             font-size: 1.4rem
             font-weight: 700
             line-height: 1.7rem
             letter-spacing: 1px
             text-align: left
+            text-transform: uppercase
             color: $blue
-        h1
+        p
             font-size: 3.8rem
             font-weight: 700
             line-height: 4.6rem
@@ -51,30 +188,29 @@ $Grey-Separator: #E6E6F0
             background: $red-text
             background-clip: text
             color: transparent
-
-            max-width: 1140px
-            max-height: 138px
-            overflow: hidden
-        h4
-            font-size: 1.6rem
-            font-weight: 700
-            line-height: 2rem
-            text-align: left
-            color: $grey
-            margin-bottom: 6px
-
-            max-width: 1140px
-            max-height: 20px
-            overflow: hidden
-        p
-            font-size: 1.4rem
-            font-weight: 400
-            line-height: 2.2rem
-            text-align: left
-            color: $grey
-
-            max-width: 1140px
-            max-height: 22px
-            overflow: hidden
+        &_card-wrapper
+            @include flex
+            column-gap: 30px
+        &_card
+            flex: 1 1 30%
+        &_card-bottom
+            h4
+                font-size: 1.6rem
+                font-weight: 700
+                line-height: 2rem
+                text-align: left
+            p
+                &:first-of-type
+                    font-size: 1.2rem
+                    font-weight: 700
+                    line-height: 1.5rem
+                    letter-spacing: 1px
+                    text-align: left
+                    color: $grey
+                &:last-of-type
+                    font-size: 1.4rem
+                    font-weight: 400
+                    line-height: 2.2rem
+                    text-align: left
 
 @import "components/header"
