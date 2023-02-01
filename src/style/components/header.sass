@@ -4,6 +4,11 @@
     height: 6px
     border-radius: 50%
     background: $Grey-Separator
+.facebook
+    svg
+        path
+            &:hover
+                fill: $red
 .border1
     width: 32px
     height: 25px
@@ -130,6 +135,9 @@
             text-align: right
 
             color: $white
+            &:hover
+                color: $red
+                text-decoration: underline
         &_list
             @include flex
             column-gap: 16px

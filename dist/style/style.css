@@ -550,19 +550,21 @@ body {
 
 .recommended {
   background: #F5F5FA;
-}
-.recommended__wrapper {
   padding-top: 30px;
+}
+.recommended__publications {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.recommended__wrapper h3 {
-  margin-bottom: 10px;
-}
-.recommended__wrapper a {
+.recommended__publications a {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.7rem;
@@ -570,8 +572,25 @@ body {
   text-align: left;
   text-transform: uppercase;
   color: #24A3FF;
+  max-height: 46px;
+  max-width: 525px;
+  overflow: hidden;
 }
-.recommended__wrapper p {
+.recommended__publications a::after {
+  content: "";
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-top: 2px solid;
+  border-right: 2px solid;
+  width: 9px;
+  height: 9px;
+}
+.recommended__publications a:hover {
+  color: #F0145A;
+}
+.recommended__publications p {
   font-size: 3.8rem;
   font-weight: 700;
   line-height: 4.6rem;
@@ -581,8 +600,12 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
+  max-height: 46px;
+  max-width: 525px;
+  overflow: hidden;
 }
-.recommended__wrapper_card-wrapper {
+
+.card__wrapper {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -591,31 +614,101 @@ body {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px;
+  row-gap: 30px;
 }
-.recommended__wrapper_card {
+.card__wrapper_card {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
+      -ms-flex: 1 1 28%;
+          flex: 1 1 28%;
+  background: #FFFFFF;
+  max-width: 513px;
 }
-.recommended__wrapper_card-bottom h4 {
+.card__wrapper_image {
+  max-height: 200px;
+  max-width: 513px;
+  overflow: hidden;
+}
+.card__wrapper_image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.card__wrapper_bottom {
+  padding: 0 30px;
+}
+.card__wrapper_bottom h4 {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 2rem;
   text-align: left;
+  color: #24A3FF;
+  max-height: 40px;
+  max-width: 453px;
+  overflow: hidden;
 }
-.recommended__wrapper_card-bottom p:first-of-type {
+.card__wrapper_bottom p:first-of-type {
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.5rem;
   letter-spacing: 1px;
   text-align: left;
+  text-transform: uppercase;
   color: #B3B3BA;
+  margin-bottom: 34px;
+  max-height: 15px;
+  max-width: 453px;
+  overflow: hidden;
 }
-.recommended__wrapper_card-bottom p:last-of-type {
+.card__wrapper_bottom p:last-of-type {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.2rem;
   text-align: left;
+  color: #000000;
+  max-height: 66px;
+  max-width: 453px;
+  overflow: hidden;
+  margin: 0 auto 30px;
+}
+
+.paragraf1 {
+  position: relative;
+}
+.paragraf1::before {
+  content: "";
+  position: absolute;
+  top: -17px;
+  border: 1px solid #00000000;
+  width: 100%;
+  height: 4px;
+  background: #E6E6F0;
+  pointer-events: none;
+}
+
+.paragraf2 {
+  position: relative;
+}
+.paragraf2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  border: 1px solid #00000000;
+  width: 100%;
+  height: 4px;
+  background: #E6E6F0;
+}
+
+.paragraf3 {
+  position: relative;
+}
+.paragraf3::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  border: 1px solid #00000000;
+  width: 100%;
+  height: 4px;
+  background: #E6E6F0;
 }
 
 .grey-separator {
@@ -624,6 +717,10 @@ body {
   height: 6px;
   border-radius: 50%;
   background: #E6E6F0;
+}
+
+.facebook svg path:hover {
+  fill: #F0145A;
 }
 
 .border1 {
@@ -836,6 +933,10 @@ body {
   line-height: 2rem;
   text-align: right;
   color: #FFFFFF;
+}
+.right-side__nav a:hover {
+  color: #F0145A;
+  text-decoration: underline;
 }
 .right-side__nav_list {
   display: -webkit-box !important;
