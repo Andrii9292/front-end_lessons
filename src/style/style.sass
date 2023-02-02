@@ -22,6 +22,7 @@ $Main-Regular: #323264
     border-right: 2px solid
     width: 9px
     height: 9px
+@import "components/header"
 .slick-dots
     li
         button
@@ -43,7 +44,6 @@ $Main-Regular: #323264
                 opacity: .25
                 -webkit-font-smoothing: antialiased
                 -moz-osx-font-smoothing: grayscale
-
 .team
     &__card
         @include flex
@@ -132,6 +132,8 @@ $Main-Regular: #323264
             height: 120px
             overflow: hidden
             @include flex
+            &:hover
+                transform: scale(1.05)
         &_item-link
             img
                 object-fit: cover
@@ -166,7 +168,7 @@ $Main-Regular: #323264
             border-radius: 0 0 12px 0
 .recommended
     background: $Grey-bg
-    padding-top: 30px
+    padding: 30px 0 62px 0
     &__publications
         flex-direction: column
         row-gap: 10px
@@ -220,6 +222,7 @@ $Main-Regular: #323264
             object-fit: cover
             width: 100%
     &_bottom
+        position: relative
         padding: 0 30px
         h4
             font-size: 1.6rem
@@ -242,7 +245,7 @@ $Main-Regular: #323264
                 color: $grey
                 margin-bottom: 34px
 
-                max-height: 15px
+                max-height: 30px
                 max-width: 453px
                 overflow: hidden
             &:last-of-type
@@ -256,35 +259,23 @@ $Main-Regular: #323264
                 max-width: 453px
                 overflow: hidden
                 margin: 0 auto 30px
-.paragraf1
-    position: relative
-    &::before
-        content: ''
-        position: absolute
-        top: -17px
-        border: 1px solid #00000000
-        width: 100%
-        height: 4px
-        background: $Grey-Separator
-        pointer-events: none
-.paragraf2
-    position: relative
-    &::before
-        content: ''
-        position: absolute
-        top: 0px
-        border: 1px solid #00000000
-        width: 100%
-        height: 4px
-        background: $Grey-Separator
-.paragraf3
-    position: relative
-    &::before
-        content: ''
-        position: absolute
-        top: 0px
-        border: 1px solid #00000000
-        width: 100%
-        height: 4px
-        background: $Grey-Separator
-@import "components/header"
+
+@import "components/footer"
+
+.color-red
+    background: $red
+    width: 32px
+    height: 25px
+    border: 1px solid $red transpared
+    border-radius: 8px
+.rowborder
+    content: ""
+    position: absolute
+    top: 63px
+    border: 1px solid #00000000
+    width: 88.5%
+    height: 4px
+    background: #e6e6f0
+    pointer-events: none
+.rowborder2
+    top: 83px

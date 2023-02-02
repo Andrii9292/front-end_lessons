@@ -1,0 +1,64 @@
+.footer
+    background: $Grey-bg
+.f__wrapper
+    position: relative
+    justify-content: space-between
+    @include flex
+    &::before
+        content: ''
+        position: absolute
+        top: -31px
+        border: 1px solid #00000000
+        width: 100%
+        background: $Grey-Separator
+    &_left
+        &_contacts
+            a
+                &:nth-child(1)
+                    position: relative
+                    font-size: 1.6rem
+                    font-weight: 400
+                    line-height: 2rem
+                    text-align: left
+                    color: $Main-Regular
+                &:nth-of-type(2)
+                    font-size: 1.2rem
+                    font-weight: 700
+                    line-height: 1.5rem
+                    letter-spacing: 1px
+                    text-align: left
+                    text-transform: uppercase
+                    color: $blue
+        &_contacts-wrapper
+            margin-bottom: 20px
+            align-items: center
+            column-gap: 10px
+            @include flex
+    &_right
+        span
+            font-size: 1.6rem
+            font-weight: 400
+            line-height: 2rem
+            text-align: right
+            color: $grey
+.color-grey
+    background: $grey
+.tel
+    font-size: 1.6rem
+    font-weight: 700
+    line-height: 2rem
+    color: #46466E
+.facebook2.facebook2
+    a
+        margin: 0
+.contacts-wrapper
+    align-items: center
+    column-gap: 10px
+    @include flex
+.contacts-wrapper
+    a
+        font-size: 1.6rem
+        font-weight: 700
+        line-height: 2rem
+        text-align: left
+        color: $blue
