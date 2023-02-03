@@ -1268,3 +1268,102 @@ body {
 .rowborder2 {
   top: 83px;
 }
+
+html {
+  font-size: 10px;
+}
+
+.color-grey1.color-grey1 {
+  color: #B3B3BA;
+}
+
+.facebook2 path {
+  fill: #B3B3BA;
+}
+.facebook2 path:hover {
+  fill: #F0145A;
+}
+
+.right-side__nav_list2 a {
+  color: #24A3FF;
+}
+
+.assets2 {
+  padding: 50px 0 0 0;
+}
+
+.intro {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.introduction h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  text-align: left;
+  background: -o-linear-gradient(359.87deg, #F0145A 0.84%, #EF8080 99.96%);
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  max-width: 942px;
+  max-height: 46px;
+  overflow: hidden;
+}
+.introduction p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 3rem;
+  text-align: left;
+  max-width: 942px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.advantages__list_item {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 40px;
+}
+.advantages__list_item p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: left;
+}
+.advantages__list_item-heading {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 12px;
+     -moz-column-gap: 12px;
+          column-gap: 12px;
+}
+.advantages__list_item-heading p {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  text-align: center;
+  background: -o-linear-gradient(359.87deg, #F0145A 0.84%, #EF8080 99.96%);
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}

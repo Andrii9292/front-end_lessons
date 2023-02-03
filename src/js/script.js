@@ -70,10 +70,43 @@ $("#experience-link4").click(function () {
 });
 
 
-$('#experience-on').on('click', function(event) {
+$('#experience-on').on('click', function (event) {
     event.preventDefault();
     var target = $(this).attr('href');
     $('html, body').animate({
-      scrollTop: $(target).offset().top
+        scrollTop: $(target).offset().top
     }, 1000);
-  });
+});
+
+var count = 0;
+setInterval(function () {
+    var maxCount = 10;
+    if (count < maxCount) {
+        count++;
+        document.getElementById("visitors").innerHTML = count;
+    } else {
+        document.getElementById("visitors").innerHTML = "10+";
+    }
+}, 1000);
+
+var count = 0;
+setInterval(function () {
+    var maxCount = 30;
+    if (count < maxCount) {
+        count++;
+        document.getElementById("activ-clients").innerHTML = count;
+    } else {
+        document.getElementById("activ-clients").innerHTML = "30+";
+    }
+}, 200);
+
+var count = 0;
+setInterval(function () {
+    var maxCount = 500;
+    if (count < maxCount) {
+        count++;
+        document.getElementById("hour").innerHTML = count;
+    } else {
+        document.getElementById("hour").innerHTML = "500+";
+    }
+}, 20);

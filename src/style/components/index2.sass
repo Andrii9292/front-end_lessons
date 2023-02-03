@@ -1,0 +1,66 @@
+html
+    font-size: 10px
+.color-grey1.color-grey1
+    color: $grey
+.facebook2
+    path
+        fill: $grey
+        &:hover
+            fill: $red
+.right-side__nav_list2
+    a
+        color: $blue
+.assets2
+    padding: 50px 0 0 0
+
+.intro
+    @include flex
+    justify-content: center
+.introduction
+    h1
+        font-size: 3.8rem
+        font-weight: 700
+        line-height: 4.6rem
+        text-align: left
+
+        background: $red-text
+        background-clip: text
+        color: transparent
+
+        max-width: 942px
+        max-height: 46px
+        overflow: hidden
+    p
+        font-size: 1.9rem
+        font-weight: 400
+        line-height: 3rem
+        text-align: left
+
+        max-width: 942px
+        max-height: 200px
+        overflow: hidden
+.advantages
+    &__list
+        &_item
+            @include flex
+            flex-direction: column
+            row-gap: 10px
+            margin-bottom: 40px
+            p
+                font-size: 1.6rem
+                font-weight: 400
+                line-height: 2rem
+                text-align: left
+
+        &_item-heading
+            @include flex
+            column-gap: 12px
+            p
+                font-size: 3.6rem
+                font-weight: 700
+                line-height: 4.4rem
+                text-align: center
+
+                background: $red-text
+                background-clip: text
+                color: transparent
