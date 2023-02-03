@@ -71,17 +71,15 @@
             justify-content: center
             align-items: center
 
-            border: 2px solid #FFFFFF
-            border-radius: 50%
-
             position: absolute
             bottom: 2.8%
             left: 48.7%
             width: 42px
             height: 42px
             &:hover
-                border: 2px solid $red
-                color: $red
+                svg
+                    circle, path
+                        stroke: $red
 .arrow-to-bottom
     @include arrow
     display: inline-block

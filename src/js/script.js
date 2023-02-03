@@ -9,7 +9,7 @@
 
 
 $(document).ready(function () {
-    $("#link-color").addClass("color-red");
+    $("#link-color3").addClass("color-red");
 });
 
 $("#link-color").click(function () {
@@ -68,3 +68,12 @@ $("#experience-link4").click(function () {
     $(this).addClass("color");
     $("#experience-link1, #experience-link2, #experience-link3").removeClass("color");
 });
+
+
+$('#experience-on').on('click', function(event) {
+    event.preventDefault();
+    var target = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(target).offset().top
+    }, 1000);
+  });

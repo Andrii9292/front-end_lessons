@@ -467,17 +467,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
   position: absolute;
   bottom: 2.8%;
   left: 48.7%;
   width: 42px;
   height: 42px;
 }
-.assets__symbol_button-scroll:hover {
-  border: 2px solid #F0145A;
-  color: #F0145A;
+.assets__symbol_button-scroll:hover svg circle, .assets__symbol_button-scroll:hover svg path {
+  stroke: #F0145A;
 }
 
 .arrow-to-bottom {
