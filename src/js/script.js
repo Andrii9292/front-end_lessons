@@ -78,35 +78,37 @@ $('#experience-on').on('click', function (event) {
     }, 1000);
 });
 
-var count = 0;
-setInterval(function () {
-    var maxCount = 10;
-    if (count < maxCount) {
-        count++;
-        document.getElementById("visitors").innerHTML = count;
-    } else {
-        document.getElementById("visitors").innerHTML = "10+";
-    }
-}, 1000);
+window.onload = function () {
+    var count1 = 0;
+    setInterval(function () {
+        var maxCount1 = 10;
+        if (count1 < maxCount1) {
+            count1++;
+            document.getElementById("visitors").innerHTML = count1;
+        } else {
+            document.getElementById("visitors").innerHTML = "10+";
+        }
+    }, 1000);
 
-var count = 0;
-setInterval(function () {
-    var maxCount = 30;
-    if (count < maxCount) {
-        count++;
-        document.getElementById("activ-clients").innerHTML = count;
-    } else {
-        document.getElementById("activ-clients").innerHTML = "30+";
-    }
-}, 200);
+    var count2 = 0;
+    setInterval(function () {
+        var maxCount2 = 30;
+        if (count2 < maxCount2) {
+            count2++;
+            document.getElementById("activ-clients").innerHTML = count2;
+        } else {
+            document.getElementById("activ-clients").innerHTML = "30+";
+        }
+    }, 350);
 
-var count = 0;
-setInterval(function () {
-    var maxCount = 500;
-    if (count < maxCount) {
-        count++;
-        document.getElementById("hour").innerHTML = count;
-    } else {
-        document.getElementById("hour").innerHTML = "500+";
-    }
-}, 20);
+    var count3 = 0;
+    setInterval(function () {
+        var maxCount3 = 500;
+        if (count3 < maxCount3) {
+            count3++;
+            document.getElementById("hour").innerHTML = count3;
+        } else {
+            document.getElementById("hour").innerHTML = "500+";
+        }
+    }, 20);
+};

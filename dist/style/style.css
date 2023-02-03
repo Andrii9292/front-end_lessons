@@ -1290,6 +1290,7 @@ html {
 
 .assets2 {
   padding: 50px 0 0 0;
+  margin-bottom: 52px;
 }
 
 .intro {
@@ -1301,13 +1302,34 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-column-gap: 64px;
+     -moz-column-gap: 64px;
+          column-gap: 64px;
+  margin-bottom: 16px;
 }
 
+.introduction {
+  position: relative;
+}
+.introduction::after {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: 86.3%;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border: 1px solid #00000000;
+  width: 34.1%;
+  height: 4px;
+  background: #e6e6f0;
+}
 .introduction h1 {
   font-size: 3.8rem;
   font-weight: 700;
   line-height: 4.6rem;
   text-align: left;
+  margin-bottom: 28px;
   background: -o-linear-gradient(359.87deg, #F0145A 0.84%, #EF8080 99.96%);
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
@@ -1326,6 +1348,9 @@ html {
   max-height: 200px;
   overflow: hidden;
 }
+.introduction p:first-of-type {
+  margin-bottom: 19px;
+}
 
 .advantages__list_item {
   display: -webkit-box !important;
@@ -1338,13 +1363,16 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .advantages__list_item p {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2rem;
   text-align: left;
+  max-width: 354px;
+  max-height: 40px;
+  overflow: hidden;
 }
 .advantages__list_item-heading {
   display: -webkit-box !important;
