@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+
+<p id="visitors">10+</p>
+
+<script>
+    var count = 0;
+    var maxCount = 100;
+
+    setInterval(function () {
+        if (count < maxCount) {
+            count++;
+            document.getElementById("visitors").innerHTML = count;
+        } else {
+            document.getElementById("visitors").innerHTML = "текст который будет выводиться при достижении максимального числа";
+        }
+    }, 100);
+</script>
