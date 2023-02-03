@@ -7,6 +7,7 @@
     });
 });
 
+
 $(document).ready(function () {
     $("#link-color").addClass("color-red");
 });
@@ -22,4 +23,48 @@ $("#link-color2").click(function () {
 $("#link-color3").click(function () {
     $(this).addClass("color-red");
     $("#link-color, #link-color2").removeClass("color-red");
+});
+
+
+$(document).ready(function () {
+    $("#experience-text1").addClass("block");
+});
+
+$("#experience-link1").click(function () {
+    $("#experience-text1").addClass("block");
+    $("#experience-text2, #experience-text3, #experience-text4").removeClass("block");
+});
+$("#experience-link2").click(function () {
+    $("#experience-text2").addClass("block");
+    $("#experience-text1, #experience-text3, #experience-text4").removeClass("block");
+});
+$("#experience-link3").click(function () {
+    $("#experience-text3").addClass("block");
+    $("#experience-text2, #experience-text1, #experience-text4").removeClass("block");
+});
+$("#experience-link4").click(function () {
+    $("#experience-text4").addClass("block");
+    $("#experience-text2, #experience-text3, #experience-text1").removeClass("block");
+});
+
+
+$(document).ready(function () {
+    $("#experience-link1").addClass("color");
+});
+
+$("#experience-link1").click(function () {
+    $(this).addClass("color");
+    $("#experience-link2, #experience-link3, #experience-link4").removeClass("color");
+});
+$("#experience-link2").click(function () {
+    $(this).addClass("color");
+    $("#experience-link1, #experience-link3, #experience-link4").removeClass("color");
+});
+$("#experience-link3").click(function () {
+    $(this).addClass("color");
+    $("#experience-link1, #experience-link2, #experience-link4").removeClass("color");
+});
+$("#experience-link4").click(function () {
+    $(this).addClass("color");
+    $("#experience-link1, #experience-link2, #experience-link3").removeClass("color");
 });

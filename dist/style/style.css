@@ -603,9 +603,6 @@ body {
   display: flex !important;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -613,6 +610,7 @@ body {
      -moz-column-gap: 124px;
           column-gap: 124px;
   padding-bottom: 76px;
+  position: relative;
 }
 .experience__left {
   display: -webkit-box !important;
@@ -626,6 +624,8 @@ body {
           flex-direction: column;
   padding-top: 14.5px;
   position: relative;
+  top: 0;
+  left: 7.6%;
 }
 .experience__left a {
   font-size: 3.8rem;
@@ -637,11 +637,7 @@ body {
   overflow: hidden;
 }
 .experience__left a:first-of-type {
-  background: -o-linear-gradient(359.87deg, #EF8080 0.84%, #F0145A 99.96%);
-  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
-  color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #B3B3BA;
 }
 .experience__left a:nth-child(2), .experience__left a:nth-child(3), .experience__left a:nth-child(4) {
   color: #B3B3BA;
@@ -668,6 +664,9 @@ body {
   line-height: 3.7rem;
   text-align: left;
   color: #FFFFFF;
+  max-width: 861px;
+  max-height: 37px;
+  overflow: hidden;
 }
 .experience__right p {
   font-size: 1.9rem;
@@ -813,6 +812,25 @@ body {
   line-height: 2.6rem;
   text-align: left;
   color: #FFFFFF;
+}
+
+#experience-text1, #experience-text2, #experience-text3, #experience-text4 {
+  position: absolute;
+  top: 16%;
+  right: 7.5%;
+  display: none;
+}
+
+.block {
+  display: block !important;
+}
+
+.color {
+  background: -o-linear-gradient(359.87deg, #EF8080 0.84%, #F0145A 99.96%);
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  color: transparent !important;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 
 .slick-dots li button:before {

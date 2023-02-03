@@ -142,15 +142,17 @@
             column-gap: 16px
 .experience
     @include flex
-    justify-content: center
     align-items: center
     column-gap: 124px
     padding-bottom: 76px
+    position: relative
     &__left
         @include flex
         flex-direction: column
         padding-top: 14.5px
         position: relative
+        top: 0
+        left: 7.6%
         a
             font-size: 3.8rem
             font-weight: 700
@@ -161,9 +163,7 @@
             max-height: 46px
             overflow: hidden
         a:first-of-type
-            background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%)
-            color: transparent
-            background-clip: text
+            color: $grey
         a:nth-child(2), a:nth-child(3), a:nth-child(4)
             color: $grey
         a:hover
@@ -186,6 +186,9 @@
             line-height: 3.7rem
             text-align: left
             color: $white
+            max-width: 861px
+            max-height: 37px
+            overflow: hidden
         p
             font-size: 1.9rem
             font-weight: 400
@@ -284,3 +287,14 @@
                 line-height: 2.6rem
                 text-align: left
                 color: $white
+#experience-text1, #experience-text2, #experience-text3, #experience-text4
+    position: absolute
+    top: 16%
+    right: 7.5%
+    display: none
+.block
+    display: block!important
+.color
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%)
+    color: transparent!important
+    background-clip: text
