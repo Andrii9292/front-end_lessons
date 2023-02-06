@@ -39,33 +39,67 @@
     position: relative
     padding: 50px 0 886px 0
     justify-content: space-between
+    @media screen and ( max-width:1440px  )
+        padding-bottom: 687px
+    @media screen and ( max-width:1440px  )
+        padding-bottom: 656px
     &__symbol
         &_1
             position: absolute
             top: 0
             right: 48.85%
+            @media (max-width:1440px)
+                right: 52.3%
+            @media (max-width:1024px)
+                right: 53.3%
+            img
+                @media (max-width:1024px)
+                    width: 356px
+                    height: 799px
+                @media (max-width:1440px)
+                    width: 342px
+                    height: 768px
         &_2
             position: absolute
             top: 42.5%
+            @media (max-width:1440px)
+                top: 42.3%
+                right: 36.3%
+            @media (max-width:1024px)
+                top: 43%
+                right: 31.7%
+            img
+                @media (max-width:1440px)
+                    width: 381px
+                    height: 459px
+                @media (max-width:1440px)
+                    width: 366px
+                    height: 441px
 
         &_description
-            font-size: 3.8rem
-            font-weight: 700
-            line-height: 4.6rem
-            text-align: center
-            color: $white
+            p
+                font-size: 3.8rem
+                font-weight: 700
+                line-height: 4.6rem
+                text-align: center
+                color: $white
 
-            max-width: 800px
-            max-height: 46px
-            overflow: hidden
+                max-width: 800px
+                max-height: 46px
+                overflow: hidden
 
-            position: absolute
-            left: 32.8%
-            top: 47.8%
+                position: absolute
+                left: 32.8%
+                top: 47.8%
 
-            max-width: 800px
-            max-height: 46px
-            overflow: hidden
+                max-width: 800px
+                max-height: 46px
+                overflow: hidden
+                @media screen and ( max-width:1440px  )
+                    left: 27.3%
+                    top: 47%
+                @media screen and ( max-width:1024px  )
+                    left: 18%
         &_button-scroll
             @include flex
             justify-content: center
@@ -76,6 +110,11 @@
             left: 48.7%
             width: 42px
             height: 42px
+            @media screen and ( max-width:1440px  )
+                left: 45.4%
+            @media screen and ( max-width:1024px  )
+                left: 43.5%
+                bottom: 30px
             &:hover
                 svg
                     circle, path
@@ -88,6 +127,8 @@
     &:hover
         color: $red
 .right-side
+    @media (max-width:1440px)
+        padding-right: 86px
     @include flex
     flex-direction: column
     z-index: 1
@@ -151,6 +192,10 @@
         position: relative
         top: 0
         left: 7.6%
+        @media screen and ( max-width:1440px  )
+            left: 8.6%
+        @media screen and ( max-width:1024px  )
+            left: 0
         a
             font-size: 3.8rem
             font-weight: 700
@@ -177,7 +222,9 @@
             right: -62px
             pointer-events: none
     &__right
-        padding-top: 17px
+        @media screen and ( max-width:1440px  )
+            top: 12%
+            right: 14.6%
         h2
             font-size: 3rem
             font-weight: 700
@@ -187,6 +234,12 @@
             max-width: 861px
             max-height: 37px
             overflow: hidden
+            @media screen and ( max-width:1440px  )
+                max-width: 581px
+                max-height: 37px
+            @media screen and ( max-width:1024px  )
+                max-width: 472px
+                max-height: 74px
         p
             font-size: 1.9rem
             font-weight: 400
@@ -197,6 +250,12 @@
             max-width: 861px
             max-height: 90px
             overflow: hidden
+            @media screen and ( max-width:1440px  )
+                max-width: 581px
+                max-height: 150px
+            @media screen and ( max-width:1024px  )
+                max-width: 405px
+                max-height: 180px
 .service
     padding-bottom: 57px
     &__benefits
@@ -252,18 +311,27 @@
     @include flex
     column-gap: 60px
     row-gap: 60px
+    @media screen and ( max-width:1440px  )
+        column-gap: 38px
     &__card
         @include flex
         flex-direction: column
         flex: 1 1 30%
+        @media screen and ( max-width:1440px  )
+            flex: 0 1 30%
         &_image
-            margin-bottom: 28px
+            @media screen and ( max-width:1440px  )
+                max-width: 400px
+                max-height: 153px
+                margin-bottom: 28px
         &_title
+            @media screen and ( max-width:1440px  )
+                max-width: 400px
+                max-height: 54px
+            @media screen and ( max-width:1024px  )
+                max-width: 261px
+                max-height: 81px
             margin-bottom: 15px
-            max-width: 493px
-            max-height: 54px
-            overflow: hidden
-
             max-width: 493px
             max-height: 54px
             overflow: hidden
@@ -275,21 +343,46 @@
                 color: $blue
                 &:hover
                     color: $red
+                @media screen and ( max-width:1440px  )
+                    max-width: 400px
+                    max-height: 54px
+                @media screen and ( max-width:1024px  )
+                    max-width: 261px
+                    max-height: 81px
         &_description
-            max-width: 493px
-            max-height: 104px
-            overflow: hidden
+            @media screen and ( max-width:1440px  )
+                max-width: 400px
+                max-height: 153px
+            @media screen and ( max-width:1440px  )
+                max-width: 261px
+                max-height: 208px
             p
+                @media screen and ( max-width:1440px  )
+                    max-width: 400px
+                    max-height: 153px
+                @media screen and ( max-width:1440px  )
+                    max-width: 261px
+                    max-height: 208px
                 font-size: 1.6rem
                 font-weight: 400
                 line-height: 2.6rem
                 text-align: left
                 color: $white
+
+                max-width: 493px
+                max-height: 104px
+                overflow: hidden
 #experience-text1, #experience-text2, #experience-text3, #experience-text4
     position: absolute
     top: 16%
     right: 7.5%
     display: none
+    @media screen and ( max-width:1440px  )
+        top: 12%
+        right: 14.6%
+    @media screen and ( max-width:1024px  )
+        top: 2.5%
+        right: 2%
 .block
     display: block!important
 .color

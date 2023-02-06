@@ -7,6 +7,15 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $('.achievements__slider').slick({
+        slidesToShow: 1,
+        infinite: true,
+        dots: true,
+        adaptiveHeight: true
+    });
+});
+
 
 $(document).ready(function () {
     $("#link-color3").addClass("color-red");
