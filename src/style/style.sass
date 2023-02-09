@@ -68,6 +68,9 @@ $Main-Regular: #323264
                 @media screen and ( max-width:768px  )
                     height: 500px
                     width: 185%
+                @media screen and ( max-width:375px  )
+                    height: 500px
+                    width: 100%
         &_right
             background: $Grey-bg
             padding: 30px
@@ -115,6 +118,11 @@ $Main-Regular: #323264
                 @media screen and ( max-width:768px  )
                     max-width: 580px
                     max-height: 276px
+                @media screen and ( max-width:375px  )
+                    max-width: 255px
+                    max-height: 407px
+                    font-size: 3rem
+                    line-height: 3.65rem
             h4
                 font-size: 1.6rem
                 font-weight: 700
@@ -168,6 +176,8 @@ $Main-Regular: #323264
                 transform: scale(1.05)
             @media screen and ( max-width:768px  )
                 flex: 1 1 30%
+            @media screen and ( max-width:375px  )
+                flex: 1 1 100%
         &_item-link
             img
                 object-fit: cover
@@ -175,12 +185,16 @@ $Main-Regular: #323264
         &_item1
             background: #1C4280
             border-radius: 12px 0 0 0
+            @media screen and ( max-width:375px  )
+                border-radius: 12px 12px 0 0
         &_item2
             background: #143646
         &_item3
             background: #F48B30
             @media screen and ( max-width:768px  )
                 border-radius: 0 12px 0 0
+            @media screen and ( max-width:375px  )
+                border-radius: 0 0 0 0
         &_item4
             background: #9E4DC3
             border-radius: 0 12px 0 0
@@ -203,11 +217,15 @@ $Main-Regular: #323264
             background: #282240
             @media screen and ( max-width:768px  )
                 border-radius: 0 0 0 12px
+            @media screen and ( max-width:375px  )
+                border-radius: 0 0 0 0
         &_item11
             background: #1D4568
         &_item12
             background: #000000
             border-radius: 0 0 12px 0
+            @media screen and ( max-width:375px  )
+                border-radius: 0 0 12px 12px
 .recommended
     background: $Grey-bg
     padding: 30px 0 62px 0
@@ -248,6 +266,10 @@ $Main-Regular: #323264
             max-height: 46px
             max-width: 525px
             overflow: hidden
+            @media screen and ( max-width:375px  )
+                max-width: 315px
+                max-height: 90px
+                font-size: 3rem
 .card__wrapper
     @include flex
     column-gap: 30px
@@ -265,6 +287,9 @@ $Main-Regular: #323264
         @media screen and ( max-width:768px  )
             max-width: 100%
             flex: 1 1 33%
+        @media screen and ( max-width:375px  )
+            max-width: 100%
+            flex: 1 1 100%
     &_image
         max-height: 200px
         max-width: 513px
@@ -382,6 +407,8 @@ $Main-Regular: #323264
     width: 375px
     max-height: 95px
     overflow: hidden
+    @media screen and ( max-width:375px  )
+        font-size: 3rem
     &:hover
         color: $red
     color: $grey
@@ -389,11 +416,17 @@ $Main-Regular: #323264
 .swiper-slide1
     width: 213px!important
     margin-right: 30px!important
+    @media screen and ( max-width:375px  )
+        margin-right: -25px!important
 .swiper-slide2
     width: 375px!important
     margin-right: 30px!important
+    @media screen and ( max-width:375px  )
+        margin-right: -25px!important
 .swiper-slide3
     width: 220px!important
     margin-right: 30px!important
+    @media screen and ( max-width:375px  )
+        margin-right: -25px!important
 .swiper-slide4
     width: 375px!important

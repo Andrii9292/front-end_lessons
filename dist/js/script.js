@@ -182,11 +182,11 @@ $(window).resize(function () {
 
 $(document).ready(function () {
     $('#menu').on('click', function () {
-        $('#list').addClass('active');
+        $('.right-side__nav').addClass('active');
     });
 
     $('#close').on('click', function () {
-        $('#list').removeClass('active');
+        $('.right-side__nav').removeClass('active');
     });
 
 
