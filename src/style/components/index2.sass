@@ -261,9 +261,10 @@ html
 .color-red
     color: #FFFFFF!important
 .wrapper-left1
-    display: flex
-    justify-content: center
-    width: 100%
+    @media screen and ( max-width:768px  )
+        display: flex
+        justify-content: center
+        width: 100%
 .wrapper_right2
     max-width: 276px
     max-height: 20px
