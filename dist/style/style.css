@@ -2172,9 +2172,20 @@ html {
 .facebook2 path:hover {
   fill: #F0145A;
 }
+@media screen and (max-width: 375px) {
+  .facebook2 {
+    display: none;
+  }
+}
 
 .right-side__nav_list2 a {
   color: #24A3FF;
+}
+
+@media screen and (max-width: 768px) {
+  .right-side__nav2 {
+    top: 112%;
+  }
 }
 
 .assets2 {
@@ -2196,9 +2207,21 @@ html {
           column-gap: 64px;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 768px) {
+  .intro {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
 
 .introduction {
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .introduction {
+    margin-bottom: 30px;
+  }
 }
 .introduction::after {
   content: "";
@@ -2212,6 +2235,27 @@ html {
   width: 34.1%;
   height: 4px;
   background: #e6e6f0;
+}
+@media screen and (max-width: 1024px) {
+  .introduction::after {
+    width: 322px;
+    top: 35%;
+    left: 73.3%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .introduction::after {
+    width: 322px;
+    top: 146%;
+    left: -24.5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .introduction::after {
+    width: 322px;
+    top: 127%;
+    left: -50.5%;
+  }
 }
 .introduction h1 {
   font-size: 3.8rem;
@@ -2228,6 +2272,24 @@ html {
   max-height: 46px;
   overflow: hidden;
 }
+@media screen and (max-width: 1024px) {
+  .introduction h1 {
+    max-width: 486px;
+    max-height: 92px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .introduction h1 {
+    max-width: 648px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .introduction h1 {
+    max-width: 315px;
+    max-height: 126px;
+    font-size: 3rem;
+  }
+}
 .introduction p {
   font-size: 1.9rem;
   font-weight: 400;
@@ -2237,10 +2299,33 @@ html {
   max-height: 200px;
   overflow: hidden;
 }
+@media screen and (max-width: 1024px) {
+  .introduction p {
+    max-width: 486px;
+    max-height: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .introduction p {
+    max-width: 648px;
+    max-height: 290px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .introduction p {
+    max-width: 315px;
+    max-height: 500px;
+  }
+}
 .introduction p:first-of-type {
   margin-bottom: 19px;
 }
 
+@media screen and (max-width: 768px) {
+  .advantages {
+    padding-left: 36px;
+  }
+}
 .advantages__list_item {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -2285,6 +2370,51 @@ html {
   color: transparent;
 }
 
+.photo {
+  position: relative;
+}
+.photo p {
+  font-size: 9.6rem;
+  font-weight: 700;
+  line-height: 11.7rem;
+  letter-spacing: 6.3rem;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+  position: absolute;
+  top: 40%;
+  right: 28%;
+  max-width: 478px;
+  max-height: 117px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .photo p {
+    max-width: 448px;
+    max-height: 105px;
+    font-size: 8.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .photo p {
+    max-width: 328px;
+    font-size: 4.6rem;
+    top: 25%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .photo p {
+    max-width: 148px;
+    font-size: 3.6rem;
+    letter-spacing: 13px;
+    top: 0;
+  }
+}
+.photo img {
+  width: 100%;
+}
+
 .more {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -2297,6 +2427,11 @@ html {
   -webkit-column-gap: 60px;
      -moz-column-gap: 60px;
           column-gap: 60px;
+}
+@media screen and (max-width: 375px) {
+  .more__left {
+    margin-bottom: 30px;
+  }
 }
 .more__left p {
   font-size: 1.9rem;
@@ -2313,6 +2448,29 @@ html {
 .more__left p:nth-child(2) {
   margin-bottom: 19px;
 }
+@media screen and (max-width: 1024px) {
+  .more__left p {
+    max-width: 482px;
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .more__left p {
+    max-width: 648px;
+    max-height: 310px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .more__left p {
+    max-width: 315px;
+    max-height: 610px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .more__right {
+    margin-bottom: 60px;
+  }
+}
 .more__right p {
   font-size: 3.8rem;
   font-weight: 700;
@@ -2326,6 +2484,21 @@ html {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .more__right p {
+    max-width: 648px;
+    max-height: 92px;
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .more__right p {
+    max-width: 315px;
+    max-height: 111px;
+    font-size: 3rem;
+    line-height: 3.65rem;
+  }
 }
 
 .achievements {
@@ -2363,6 +2536,25 @@ html {
   padding: 25px 0;
   background-color: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+  .achievements__slider_card {
+    border-radius: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .achievements__slider_card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 13%;
+            flex: 1 1 13%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .achievements__slider_card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+}
 .achievements__slider_card img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -2381,6 +2573,13 @@ html {
      -moz-column-gap: 40px;
           column-gap: 40px;
 }
+@media screen and (max-width: 375px) {
+  .group {
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+  }
+}
 
 .slick-dots {
   bottom: 50px;
@@ -2396,6 +2595,37 @@ html {
 
 .color-red {
   color: #FFFFFF !important;
+}
+
+.wrapper-left1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.wrapper_right2 {
+  max-width: 276px;
+  max-height: 20px;
+  margin: 0 auto;
+}
+
+.assets__logo2 {
+  width: 177px;
+  height: 57px;
+}
+@media screen and (max-width: 375px) {
+  .assets__logo2 img {
+    width: 177px;
+    height: 57px;
+  }
+}
+
+.span {
+  border-top: 2px solid #323264 !important;
 }
 
 @media screen and (min-width: 769px) {
@@ -2465,4 +2695,13 @@ html {
 
 .swiper-slide4 {
   width: 375px !important;
+}
+
+@media screen and (max-width: 375px) {
+  .facebook3 {
+    display: block;
+  }
+}
+.facebook3 svg path {
+  fill: #24A3FF;
 }

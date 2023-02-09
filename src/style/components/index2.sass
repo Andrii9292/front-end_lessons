@@ -7,9 +7,14 @@ html
         fill: $grey
         &:hover
             fill: $red
+    @media screen and ( max-width:375px  )
+        display: none
 .right-side__nav_list2
     a
         color: $blue
+.right-side__nav2
+    @media screen and ( max-width:768px  )
+        top: 112%
 .assets2
     padding: 50px 0 0 0
     margin-bottom: 52px
@@ -19,7 +24,11 @@ html
     justify-content: center
     column-gap: 64px
     margin-bottom: 16px
+    @media screen and ( max-width:768px  )
+        justify-content: start
 .introduction
+    @media screen and ( max-width:768px  )
+        margin-bottom: 30px
     position: relative
     &::after
         content: ""
@@ -31,6 +40,18 @@ html
         width: 34.1%
         height: 4px
         background: #e6e6f0
+        @media screen and ( max-width:1024px  )
+            width: 322px
+            top: 35%
+            left: 73.3%
+        @media screen and ( max-width:768px  )
+            width: 322px
+            top: 146%
+            left: -24.5%
+        @media screen and ( max-width:375px  )
+            width: 322px
+            top: 127%
+            left: -50.5%
     h1
         font-size: 3.8rem
         font-weight: 700
@@ -45,6 +66,15 @@ html
         max-width: 942px
         max-height: 46px
         overflow: hidden
+        @media screen and ( max-width:1024px  )
+            max-width: 486px
+            max-height: 92px
+        @media screen and ( max-width:768px  )
+            max-width: 648px
+        @media screen and ( max-width:375px  )
+            max-width: 315px
+            max-height: 126px
+            font-size: 3rem
     p
         font-size: 1.9rem
         font-weight: 400
@@ -54,9 +84,20 @@ html
         max-width: 942px
         max-height: 200px
         overflow: hidden
+        @media screen and ( max-width:1024px  )
+            max-width: 486px
+            max-height: 350px
+        @media screen and ( max-width:768px  )
+            max-width: 648px
+            max-height: 290px
+        @media screen and ( max-width:375px  )
+            max-width: 315px
+            max-height: 500px
         &:first-of-type
             margin-bottom: 19px
 .advantages
+    @media screen and ( max-width:768px  )
+        padding-left: 36px
     &__list
         &_item
             @include flex
@@ -85,11 +126,47 @@ html
                 background: $red-text
                 background-clip: text
                 color: transparent
+.photo
+    position: relative
+    p
+        font-size: 9.6rem
+        font-weight: 700
+        line-height: 11.7rem
+        letter-spacing: 6.3rem
+        text-align: center
+        color: #ffffff
+        opacity: 0.8
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8)
+
+        position: absolute
+        top: 40%
+        right: 28%
+
+        max-width: 478px
+        max-height: 117px
+        overflow: hidden
+        @media screen and ( max-width:1024px  )
+            max-width: 448px
+            max-height: 105px
+            font-size: 8.6rem
+        @media screen and ( max-width:768px  )
+            max-width: 328px
+            font-size: 4.6rem
+            top: 25%
+        @media screen and ( max-width:375px  )
+            max-width: 148px
+            font-size: 3.6rem
+            letter-spacing: 13px
+            top: 0
+    img
+        width: 100%
 .more
     @include flex
     justify-content: center
     column-gap: 60px
     &__left
+        @media screen and ( max-width:375px  )
+            margin-bottom: 30px
         p
             font-size: 1.9rem
             font-weight: 400
@@ -103,7 +180,18 @@ html
                 margin-bottom: 19px
             &:nth-child(2)
                 margin-bottom: 19px
+            @media screen and ( max-width:1024px  )
+                max-width: 482px
+                max-height: 400px
+            @media screen and ( max-width:768px  )
+                max-width: 648px
+                max-height: 310px
+            @media screen and ( max-width:375px  )
+                max-width: 315px
+                max-height: 610px
     &__right
+        @media screen and ( max-width:768px  )
+            margin-bottom: 60px
         p
             font-size: 3.8rem
             font-weight: 700
@@ -117,6 +205,15 @@ html
             background: $red-text
             background-clip: text
             color: transparent
+            @media screen and ( max-width:768px  )
+                max-width: 648px
+                max-height: 92px
+                font-size: 3.8rem
+            @media screen and ( max-width:375px  )
+                max-width: 315px
+                max-height: 111px
+                font-size: 3rem
+                line-height: 3.65rem
 .achievements
     background-color: #F5F5FA
     h3
@@ -132,12 +229,18 @@ html
         padding-bottom: 76px
         margin-bottom: 0!important
         &_card
+            @media screen and ( max-width:768px  )
+                border-radius: 12px
             @include flex
             justify-content: center
             align-items: center
             flex: 1 1 20%
             padding: 25px 0
             background-color: $white
+            @media screen and ( max-width:768px  )
+                flex: 1 1 13%
+            @media screen and ( max-width:375px  )
+                flex: 1 1 100%
             img
                 object-fit: cover
                 max-width: 370px
@@ -146,6 +249,8 @@ html
 .group
     @include flex
     column-gap: 40px
+    @media screen and ( max-width:375px  )
+        column-gap: 0
 .slick-dots
     bottom: 50px
 .footer2
@@ -155,3 +260,21 @@ html
         fill: $blue
 .color-red
     color: #FFFFFF!important
+.wrapper-left1
+    display: flex
+    justify-content: center
+    width: 100%
+.wrapper_right2
+    max-width: 276px
+    max-height: 20px
+    margin: 0 auto
+.assets__logo2
+    @media screen and ( max-width:375px  )
+    width: 177px
+    height: 57px
+    img
+        @media screen and ( max-width:375px  )
+            width: 177px
+            height: 57px
+.span
+    border-top: 2px solid #323264!important
