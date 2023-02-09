@@ -178,3 +178,23 @@ $(window).resize(function () {
         $('.swiper').Swiper('unslick');
     }
 });
+
+
+$(document).ready(function () {
+    $('#menu').on('click', function () {
+        $('#list').addClass('active');
+    });
+
+    $('#close').on('click', function () {
+        $('#list').removeClass('active');
+    });
+
+
+    $('#menu').on('click', function () {
+        $('#close').addClass('block');
+    });
+
+    $('#close').on('click', function () {
+        $('#close').removeClass('block');
+    });
+});
