@@ -364,3 +364,36 @@ $Main-Regular: #323264
         top: 123px
 
 @import "components/index2"
+@media screen and ( min-width:769px  )
+    .swiper-slide, .swiper-wrapper, .swiper
+        display: none!important
+
+@media screen and ( max-width:768px  )
+    .swiper-slide, .swiper-wrapper, .swiper
+        display: flex
+    .experience__left
+        display: none!important
+#experience-link11, #experience-link22, #experience-link33, #experience-link44
+    font-size: 3.8rem
+    font-weight: 700
+    line-height: 4.6rem
+    text-align: left
+
+    width: 375px
+    max-height: 95px
+    overflow: hidden
+    &:hover
+        color: $red
+    color: $grey
+
+.swiper-slide1
+    width: 213px!important
+    margin-right: 30px!important
+.swiper-slide2
+    width: 375px!important
+    margin-right: 30px!important
+.swiper-slide3
+    width: 220px!important
+    margin-right: 30px!important
+.swiper-slide4
+    width: 375px!important

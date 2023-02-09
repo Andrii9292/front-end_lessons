@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
   <link rel="stylesheet" href="style/style.min.css">
 
@@ -24,53 +25,7 @@
 </head>
 
 <body>
-  <!--lazy load-->
-  <picture class="none">
-    <source data-srcset="images/" src="images/Symbol.webp" media="(max-width:768px)">
-    <source data-srcset="images/" src="images/Symbol.webp" media="(max-width:1024px)">
-    <img data-src="images/Symbol.webp" src="images/Symbol.webp">
-  </picture>
-  <script>
-    const lazyImages = document.querySelectorAll('img[data-src],source[data-srcset]');
-    const windowHeight = document.documentElement.clientHeight;
 
-    let lazyImagesPositions = [];
-    if (lazyImages.length > 0) {
-      console.log(lazyImages)
-      lazyImages.forEach(img => {
-        if (img.dataset.src || img.dataset.srcset) {
-          lazyImagesPositions.push(img.getBoundingClientRect().top + pageYOffset);
-          lazyScrollCheck();
-        }
-      });
-    }
-
-    window.addEventListener('scroll', lazyScroll);
-
-    function lazyScroll() {
-      if (document.querySelectorAll('img[data-src],source[data-srcset]').length > 0) {
-        lazyScrollCheck();
-      }
-    }
-
-    console.log(lazyImagesPositions);
-
-    function lazyScrollCheck() {
-      let imgIndex = lazyImagesPositions.findIndex(
-        item => pageYOffset > item - windowHeight
-      );
-      if (imgIndex >= 0) {
-        if (lazyImages[imgIndex].dataset.src) {
-          lazyImages[imgIndex].src = lazyImages[imgIndex].dataset.src;
-          lazyImages[imgIndex].removeAttribute('data-src');
-        } else if (lazyImages[imgIndex].dataset.srcset) {
-          lazyImages[imgIndex].srcset = lazyImages[imgIndex].dataset.srcset;
-          lazyImages[imgIndex].removeAttribute('data-srcset');
-        }
-        delete lazyImagesPositions[imgIndex];
-      }
-    }
-  </script>
   <header class="header">
     <div class="container">
       <div class="assets mb-key3">
@@ -117,7 +72,7 @@
               <a href="tel:0800211927">0800 211 927</a>
             </address>
             <span class="grey-separator"></span>
-            <div class="facebook">
+            <div class="facebook facebook-header">
               <a href="#">
                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -145,6 +100,14 @@
           <a href="javascript:void(0)" class="mb-key2" id="experience-link2">Customer oriented</a>
           <a href="javascript:void(0)" class="mb-key2" id="experience-link3">Innovative</a>
           <a href="javascript:void(0)" id="experience-link4">Business oriented</a>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide1"><a href="javascript:void(0)" class="mb-key2" id="experience-link11">Consistent</a></div>
+            <div class="swiper-slide swiper-slide2"><a href="javascript:void(0)" class="mb-key2" id="experience-link22">Customer oriented</a></div>
+            <div class="swiper-slide swiper-slide3"><a href="javascript:void(0)" class="mb-key2" id="experience-link33">Innovative</a></div>
+            <div class="swiper-slide swiper-slide4"><a href="javascript:void(0)" id="experience-link44">Business oriented</a></div>
+          </div>
         </div>
         <div class="experience__right" id="experience-text1">
           <h2 class="mb-key2">We turn the idea of legal services</h2>
@@ -441,6 +404,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/jqueryMigrate.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/a27d6df1b3.js" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 
