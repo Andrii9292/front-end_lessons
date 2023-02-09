@@ -1351,8 +1351,8 @@ body {
 #close {
   display: none;
   position: fixed;
-  top: 10%;
-  right: 14%;
+  top: 9%;
+  right: 2%;
   cursor: default;
   z-index: 1;
   -webkit-animation: lunge 0.5s linear;
@@ -1426,9 +1426,9 @@ body {
     height: 648px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .experience__right::before {
-    top: -25%;
+    top: -16%;
     right: 0;
     height: 315px;
   }
