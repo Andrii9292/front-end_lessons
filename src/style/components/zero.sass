@@ -23,54 +23,20 @@ button
 /*Для корректного использования rem/em*/
 html
   font-size: 10px
-  font-family: Montserrat
 
 body
   width: 100%
   background-color: white
   color: black
+  font-family: 'Josefin Sans', sans-serif
+  font-weight: 400
 
-/*---------------COL:1-12---------------*/
-.col-1
-  width: 8.333333%
-.col-2
-  width: 16.66666%
-.col-3
-  width: 25%
-
-.col-4
-  width: 33.33333%
-.col-5
-  width: 41.66666%
-.col-6
-  width: 50%
-.col-7
-  width: 58.33333%
-.col-8
-  width: 66.66666%
-.col-9
-  width: 75%
-.col-10
-  width: 83.33333%
-.col-11
-  width: 91.66666%
-.col1-12
-  width: 100%
+/*Пример picture*/
 .none
   display: none
 
-.mb-key1
-  margin-bottom: 15px
-.mb-key2
-  margin-bottom: 30px
-.mb-key3
-  margin-bottom: 60px
-/*------------CONTAINER----------*/
+@mixin flex
+  display: flex
+  flex-wrap: wrap
 .container
-  max-width: 1630px
-  margin: 0 auto
-  padding: 0 15px
-.container2
-  max-width: 1950px
-  margin: 0 auto
-  padding: 0 15px
+  max-width: 1390px

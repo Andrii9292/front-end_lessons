@@ -1,3 +1,7 @@
 node_modules
 .DS_Store
 text
+src
+gulpfile.js
+package-lock.json
+package.json
