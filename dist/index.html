@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!--Титул сайта-->
+	<title>cosmos-restobar</title>
+	<!--Иконка-->
+	<link rel="icon" href="" type="image/x-icon">
+	<!--Иконка для apple-->
+	<link rel="apple-touch-icon" sizes="" href="">
+	<!--То что выводиться в Google-->
+	<meta name="description" content="">
+	<!--Для поиска в Google-->
+	<meta name="keywords" content="">
+	<!--Для Facebook-->
+	<meta property="og:url" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="">
+	<meta property="og:image" content="">
+	<!--Тема для адресной строки-->
+	<meta name="theme-color" content="">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.min.css">
+
+	<meta name="viewport" content="width=device-width,
+        user-scalable=no,
+        initial-scale=1.0,
+        maximum-scale=1.0,
+        minimum-scale=1.0">
+</head>
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header__info">
+            <div class="header__info_tel">
+                <a href="tel:111111111">Call +82 10 22223333</a>
+            </div>
+            <div class="header__info_logo">
+                <img src="images/cosmos.webp" alt="cosmos-logo">
+            </div>
+            <div class="header__info_reservation">
+                <a href="#">Reservation</a>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav_left">
+                <ul>
+                    <li><a style="color: #E1B168" href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Menu</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="header__nav_right col-2">
+                <a href="#"><i class="fa-brands fa-instagram" style="color: white; font-size: 30px;"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" style="color: white; font-size: 30px;"></i></a>
+            </div>
+        </nav>
+    </div>
+</header>
+	<main class="main">
+	<section class="welcome-wrapper">
+		<div class="container">
+			<div class="welcome">
+				<div class="welcome__left col-6">
+					<h1 class="mb-5">Welcome to Restaurant</h1>
+					<p class="mb-5">The people, food and the prime locations make the perfect place good friends &
+						family to come together and have great time.</p>
+					<div class="welcome__left_link col-5"><a href="#">View Menu</a></div>
+				</div>
+				<div class="welcome__right col-6">
+					<picture>
+						<source>
+						<source>
+						<img src="images/welcome.webp" alt="photo_restaurant">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="information-color">
+		<div class="container">
+			<div class="information row">
+				<div class="information__adress col-4">
+					<img src="images/information1.svg" alt="">
+					<div class="information__adress_wrapper">
+						<p class="title">Locate Us</p>
+						<p class="description">Riverside 25, San Diego, California</p>
+					</div>
+				</div>
+				<div class="information__adress col-4">
+					<img src="images/information2.svg" alt="">
+					<div class="information__adress_wrapper">
+						<p class="title">Open Hours</p>
+						<p class="description">Mon To Fri 9:00 AM - 9:00 PM</p>
+					</div>
+				</div>
+				<div class="information__adress col-4">
+					<img src="images/information3.svg" alt="">
+					<div class="information__adress_wrapper">
+						<p class="title">Reservation</p>
+						<p class="description"><a href="mailto:restaurantate@gmail.com">restaurantate@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="story">
+		<div class="container">
+			<div class="container">
+				<div class="story__wrapper row">
+					<div class="story__image col-6">
+						<img src="images/story.webp" alt="">
+					</div>
+					<div class="story__about-us col-6">
+						<h2 class="mb-3">The Delicious Story</h2>
+						<p>The people, food and the prime locations make the perfect place for the friends & family to
+							come
+							together and have great time.</p>
+						<div class="story__about-us_year row">
+							<div class="story__about-us_year-left col-6">
+								<p>2018</p>
+								<p>Plan for this restaurant to deliver healthy food.</p>
+							</div>
+							<div class="story__about-us_year-right col-6">
+								<p>2023</p>
+								<p>Happily in the fourth year by fulfill the motto.</p>
+							</div>
+						</div>
+						<div class="story__about-us_cosmos">
+							<img src="images/story_cosmos.webp" alt="cosmos">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<section class="menu row">
+			<div class="menu__special col-5">
+				<a href="#">Menu</a>
+				<h2 class="mb-3">Try Our Special dishes</h2>
+				<p>Every time you perfectly dine with us, it should happy for great inspired food in an environment
+					designed with individual touches unique to the local area.</p>
+				<div class="menu__special_image">
+					<img src="images/menu_special.webp" alt="special menu">
+				</div>
+				<div class="menu__special_link">
+					<a href="#">See all dishes</a>
+				</div>
+			</div>
+			<div class="menu__price col-7">
+				<div class="menu__price_food mb-3">
+					<h3>Starters</h3>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/Starters1.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Raw Scallops from Erquy</h4>
+							</div>
+							<div class="card__description">
+								<p>Shuck the scallop to that used for oysters</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$40</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/Starters2.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Spring Roll</h4>
+							</div>
+							<div class="card__description">
+								<p>Add oil to a hot pan spring onion whites</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$20</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/Starters3.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>French Onion Soup</h4>
+							</div>
+							<div class="card__description">
+								<p>Wheat flour, apple cider vinegar, bread</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$25</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/Starters4.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Tomato Bruschetta</h4>
+							</div>
+							<div class="card__description">
+								<p>Bread, olive oil, garlic, black pepper</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$30</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__price_food mb-3">
+					<h3>Main Dish</h3>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/MainDish1.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Grilled Salmon with Dill Sauce</h4>
+							</div>
+							<div class="card__description">
+								<p>Brown sugar, salmon fillet, Dijon mustard</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$28</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/MainDish2.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Roast Beef with Vegetable</h4>
+							</div>
+							<div class="card__description">
+								<p>Green beans, rib eye, olive oil, beef</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$18</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/MainDish3.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Marrkesh Vegetetarian Curruy</h4>
+							</div>
+							<div class="card__description">
+								<p>Sweet potato, eggplant, garbanzo bean</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$25</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/MainDish4.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Spicy Vegan Potato Curry</h4>
+							</div>
+							<div class="card__description">
+								<p>Coconut milk, beans, potatoes, curry powder</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$32</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__price_food mb-3">
+					<h3>Dessert</h3>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/Starters1.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Apple Pie with Cream</h4>
+							</div>
+							<div class="card__description">
+								<p>Whipping cream, egg white, cinnamon</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$10</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__image">
+							<img src="images/Starters2.webp" alt="">
+						</div>
+						<div class="card__wrapper">
+							<div class="card__title">
+								<h4>Lemon Meringue Pie</h4>
+							</div>
+							<div class="card__description">
+								<p>Frozen pie crust, meringue, lemon</p>
+							</div>
+						</div>
+						<div class="card__price">
+							<p>$8</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="our-hall">
+			<img src="images/our-hall.webp" alt="our hall">
+		</section>
+		<section class="offers">
+			<div class="offers__discount">
+				<p>offers</p>
+			</div>
+			<div class="offers__title">
+				<h2>Our Offer dishes</h2>
+			</div>
+			<div class="offers__description">
+				<p>Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now
+					the dishes are in offers use it based on hunger.
+				</p>
+			</div>
+			<div class="offers__card row">
+				<div class="offers__card-1 col-6 pr-0 mr-3 row">
+					<div class="offers__card-inner-1 col-6">
+						<div class="offers__card-item1">
+							<p class="offers__card-only">Only</p>
+							<p class="offers__card-price">$10</p>
+						</div>
+						<div class="offers__card-item2">
+							<p class="offers__card-going">50% Offer Going</p>
+							<h2 class="offers__card-title">Chicken Burger</h2>
+							<p class="offers__card-description">Chicken burger with the tasty toppings and leaves.</p>
+						</div>
+					</div>
+					<div class="offers__card-inner-2 col-6">
+						<img class="offers__card-image" src="images/offers__card-image.webp" alt="burger">
+					</div>
+				</div>
+				<div class="offers__card-2 col-6 pl-0 ml-3 row">
+					<div class="offers__card-inner-1 offers__card-inner-1--pl col-6">
+						<div class="offers__card-item1">
+							<p class="offers__card-only">Only</p>
+							<p class="offers__card-price">$10</p>
+						</div>
+						<div class="offers__card-item2">
+							<p class="offers__card-going">50% Offer Going</p>
+							<h2 class="offers__card-title">Chicken Burger</h2>
+							<p class="offers__card-description">Chicken burger with the tasty toppings and leaves.</p>
+						</div>
+					</div>
+					<div class="offers__card-inner-2 col-6">
+						<img class="offers__card-image" src="images/offers__card-image2.webp" alt="pizza">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="popular">
+			<div class="popular__items">
+				<a class="popular__menu" href="#">menu</a>
+				<h2 class="popular__title">Popular Dishes</h2>
+				<p class="popular__description">There is a game between the waiters in restaurant to see who serves the
+					food
+					to
+					each table fastest. That led to attempting the Guinness Record.
+				</p>
+			</div>
+			<div class="popular__card-wrapper row">
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image1.webp" alt="Chicken Manjoori">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Chicken Manjoori</p>
+						<p class="popular__card-price">$15</p>
+					</div>
+					<p class="popular__card-description">Dish relished by all age groups as a starter dish at parties.
+					</p>
+				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image2.webp" alt="Hotdog">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Hotdog</p>
+						<p class="popular__card-price">$10</p>
+					</div>
+					<p class="popular__card-description">Grilled sausage served in the slit of a partially sliced bun.
+					</p>
+				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image3.webp" alt="Fresh Salmon">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Fresh Salmon</p>
+						<p class="popular__card-price">$5</p>
+					</div>
+					<p class="popular__card-description">Beat the health blues with our Super Immune Blue Juice Recipe.
+					</p>
+				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image4.webp" alt="Veg Burger">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Veg Burger</p>
+						<p class="popular__card-price">$10</p>
+					</div>
+					<p class="popular__card-description">Burgers may be made from ingredients like beans.</p>
+				</div>
+			</div>
+			<div class="popular__button">
+				<a href="#">See all dishes</a>
+			</div>
+		</section>
+	</div>
+	<section class="services">
+		<div class="container">
+			<div class="services__wrapper row">
+				<div class="services__inner col-5">
+					<h2 class="services__offer">What we offer</h2>
+					<h3 class="services__title">Our Great Services</h3>
+					<p class="services__description">The atmosphere set the stage. It’s about more than just a dining
+						room away
+						from your home. food takes the spotlight as guests.</p>
+				</div>
+				<div class="services__card-wrapper col-7 row">
+					<div class="services__card col-4">
+						<div class="services__card-image">
+							<img src="images/services__card1.svg" alt="opened">
+						</div>
+						<p class="services__card-opened">
+							Opened 24/7
+						</p>
+					</div>
+					<div class="services__card col-4">
+						<div class="services__card-image">
+							<img src="images/services__card2.svg" alt="opened">
+						</div>
+						<p class="services__card-opened">
+							Special Menus
+						</p>
+					</div>
+					<div class="services__card col-4">
+						<div class="services__card-image">
+							<img src="images/services__card3.svg" alt="opened">
+						</div>
+						<p class="services__card-opened">
+							Home Delivery
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<section class="reservation">
+			<div class="reservation__form">
+				<h2 class="reservation__order">reservation</h2>
+				<h3 class="reservation__title">Book Your Table</h3>
+				<form action="/" method="post">
+					<div class="row">
+						<div class="col-6">
+							<input type="text" class="form-control" placeholder="name" aria-label="First name">
+						</div>
+						<div class="col-6">
+							<input type="email" class="form-control" placeholder="Email" aria-label="Email">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4">
+							<input type="text" class="form-control" placeholder="Persons" aria-label="First name">
+						</div>
+						<div class="col-4">
+							<input type="email" class="form-control" placeholder="Timing" aria-label="Email">
+						</div>
+						<div class="col-4">
+							<input type="email" class="form-control" placeholder="Date" aria-label="Email">
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+</main>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/a27d6df1b3.js" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
