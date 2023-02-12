@@ -119,34 +119,34 @@
         </div>
     </section>
 
-    <section class="story">
-        <div class="container">
-            <div class="story__wrapper row">
-                <div class="story__image col-6">
-                    <img src="images/story.webp" alt="">
-                </div>
-                <div class="story__about-us col-6">
-                    <h2 class="mb-3">The Delicious Story</h2>
-                    <p>The people, food and the prime locations make the perfect place for the friends & family to come
-                        together and have great time.</p>
-                    <div class="story__about-us_year row">
-                        <div class="story__about-us_year-left col-6">
-                            <p>2018</p>
-                            <p>Plan for this restaurant to deliver healthy food.</p>
-                        </div>
-                        <div class="story__about-us_year-right col-6">
-                            <p>2023</p>
-                            <p>Happily in the fourth year by fulfill the motto.</p>
-                        </div>
+    <div class="container">
+        <section class="story">
+            <div class="container">
+                <div class="story__wrapper row">
+                    <div class="story__image col-6">
+                        <img src="images/story.webp" alt="">
                     </div>
-                    <div class="story__about-us_cosmos">
-                        <img src="images/story_cosmos.webp" alt="cosmos">
+                    <div class="story__about-us col-6">
+                        <h2 class="mb-3">The Delicious Story</h2>
+                        <p>The people, food and the prime locations make the perfect place for the friends & family to come
+                            together and have great time.</p>
+                        <div class="story__about-us_year row">
+                            <div class="story__about-us_year-left col-6">
+                                <p>2018</p>
+                                <p>Plan for this restaurant to deliver healthy food.</p>
+                            </div>
+                            <div class="story__about-us_year-right col-6">
+                                <p>2023</p>
+                                <p>Happily in the fourth year by fulfill the motto.</p>
+                            </div>
+                        </div>
+                        <div class="story__about-us_cosmos">
+                            <img src="images/story_cosmos.webp" alt="cosmos">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <div class="container">
+        </section>
         <section class="menu row">
             <div class="menu__special col-5">
                 <a href="#">Menu</a>
@@ -332,10 +332,13 @@
                 </div>
             </div>
         </section>
-        <div class="our-hall">
+        <section class="our-hall">
             <img src="images/our-hall.webp" alt="our hall">
-        </div>
+        </section>
         <section class="offers">
+            <div class="offers__discount">
+                <p>offers</p>
+            </div>
             <div class="offers__title">
                 <h2>Our Offer dishes</h2>
             </div>
@@ -345,13 +348,97 @@
                 </p>
             </div>
             <div class="offers__card row">
-                <div class="offers__card_1 col-6">
-                    
+                <div class="offers__card-1 col-6 pr-0 mr-3 row">
+                    <div class="offers__card-inner-1 col-6">
+                        <div class="offers__card-item1">
+                            <p class="offers__card-only">Only</p>
+                            <p class="offers__card-price">$10</p>
+                        </div>
+                        <div class="offers__card-item2">
+                            <p class="offers__card-going">50% Offer Going</p>
+                            <h2 class="offers__card-title">Chicken Burger</h2>
+                            <p class="offers__card-description">Chicken burger with the tasty toppings and leaves.</p>
+                        </div>
+                    </div>
+                    <div class="offers__card-inner-2 col-6">
+                        <img class="offers__card-image" src="images/offers__card-image.webp" alt="burger">
+                    </div>
                 </div>
-                <div class="offers__card_2 col-6">
-
+                <div class="offers__card-2 col-6 pl-0 ml-3 row">
+                    <div class="offers__card-inner-1 offers__card-inner-1--pl col-6">
+                        <div class="offers__card-item1">
+                            <p class="offers__card-only">Only</p>
+                            <p class="offers__card-price">$10</p>
+                        </div>
+                        <div class="offers__card-item2">
+                            <p class="offers__card-going">50% Offer Going</p>
+                            <h2 class="offers__card-title">Chicken Burger</h2>
+                            <p class="offers__card-description">Chicken burger with the tasty toppings and leaves.</p>
+                        </div>
+                    </div>
+                    <div class="offers__card-inner-2 col-6">
+                        <img class="offers__card-image" src="images/offers__card-image2.webp" alt="pizza">
+                    </div>
                 </div>
             </div>
+        </section>
+        <section class="popular">
+            <div class="popular__items">
+                <a class="popular__menu" href="#">menu</a>
+                <h2 class="popular__title">Popular Dishes</h2>
+                <p class="popular__description">There is a game between the waiters in restaurant to see who serves the food
+                    to
+                    each table fastest. That led to attempting the Guinness Record.
+                </p>
+            </div>
+            <div class="popular__card-wrapper row">
+                <div class="popular__card col-3">
+                    <div class="popular__card-image">
+                        <img src="images/popular__card-image1.webp" alt="Chicken Manjoori">
+                    </div>
+                    <div class="popular__card-inner">
+                        <p class="popular__card-title">Chicken Manjoori</p>
+                        <p class="popular__card-price">$15</p>
+                    </div>
+                    <p class="popular__card-description">Dish relished by all age groups as a starter dish at parties.</p>
+                </div>
+                <div class="popular__card col-3">
+                    <div class="popular__card-image">
+                        <img src="images/popular__card-image2.webp" alt="Hotdog">
+                    </div>
+                    <div class="popular__card-inner">
+                        <p class="popular__card-title">Hotdog</p>
+                        <p class="popular__card-price">$10</p>
+                    </div>
+                    <p class="popular__card-description">Grilled sausage served in the slit of a partially sliced bun.</p>
+                </div>
+                <div class="popular__card col-3">
+                    <div class="popular__card-image">
+                        <img src="images/popular__card-image3.webp" alt="Fresh Salmon">
+                    </div>
+                    <div class="popular__card-inner">
+                        <p class="popular__card-title">Fresh Salmon</p>
+                        <p class="popular__card-price">$5</p>
+                    </div>
+                    <p class="popular__card-description">Beat the health blues with our Super Immune Blue Juice Recipe.</p>
+                </div>
+                <div class="popular__card col-3">
+                    <div class="popular__card-image">
+                        <img src="images/popular__card-image4.webp" alt="Veg Burger">
+                    </div>
+                    <div class="popular__card-inner">
+                        <p class="popular__card-title">Veg Burger</p>
+                        <p class="popular__card-price">$10</p>
+                    </div>
+                    <p class="popular__card-description">Burgers may be made from ingredients like beans.</p>
+                </div>
+            </div>
+            <div class="popular__button">
+                <a href="#">See all dishes</a>
+            </div>
+        </section>
+        <section class="services">
+            
         </section>
     </div>
 </main>

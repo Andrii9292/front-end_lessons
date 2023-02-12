@@ -460,6 +460,9 @@ body {
   width: 100%;
 }
 
+.offers {
+  margin-bottom: 125px;
+}
 .offers__title {
   max-width: 400px;
   max-height: 60px;
@@ -478,7 +481,7 @@ body {
   max-width: 900px;
   max-height: 70px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 .offers__description p {
   font-size: 2rem;
@@ -487,9 +490,199 @@ body {
   text-align: center;
   color: #555555;
 }
-.offers__card_1 {
-  background-image: url("../images/offers__card1.webp");
+.offers__discount {
+  max-width: 100px;
+  max-height: 30px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
 }
-.offers__card_2 {
+.offers__discount::before {
+  content: "";
+  border-top: 1px solid #E1B168;
+  position: absolute;
+  left: 7%;
+  top: 0;
+  width: 85%;
+}
+.offers__discount::after {
+  content: "";
+  border-top: 1px solid #E1B168;
+  position: absolute;
+  left: 7%;
+  bottom: 30%;
+  width: 85%;
+}
+.offers__discount p {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  color: #292E36;
+  text-transform: uppercase;
+}
+.offers__card-1 {
+  background-image: url("../images/offers__card1.webp");
+  padding: 67px 40px 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offers__card-2 {
   background-image: url("../images/offers__card2.webp");
+  padding: 67px 40px 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offers__card-item1 {
+  margin-bottom: 74px;
+}
+.offers__card-only {
+  font-size: 1.5rem;
+  line-height: 1.1rem;
+  letter-spacing: 0.015rem;
+  color: #292E36;
+}
+.offers__card-price {
+  font-family: sans-serif;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  letter-spacing: 0.02rem;
+  color: #292E36;
+}
+.offers__card-going {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.45rem;
+  text-transform: uppercase;
+  color: #292E36;
+  margin-bottom: 10px;
+  max-width: 280px;
+  max-height: 30px;
+  overflow: hidden;
+}
+.offers__card-title {
+  font-family: sans-serif;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.02rem;
+  color: #292E36;
+  max-width: 280px;
+  max-height: 60px;
+  overflow: hidden;
+}
+.offers__card-description {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.02rem;
+  color: #555555;
+  max-width: 280px;
+  max-height: 60px;
+  overflow: hidden;
+}
+.offers__card-inner-1--pl {
+  padding-left: 40px;
+}
+.offers__card-inner-2 {
+  max-width: 310px;
+  max-height: 240px;
+  overflow: hidden;
+}
+.offers__card-image {
+  width: 100%;
+}
+
+.popular__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+.popular__menu {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.3rem;
+  color: #292E36;
+  text-transform: uppercase;
+  max-width: 100px;
+  max-height: 30px;
+  overflow: hidden;
+}
+.popular__title {
+  font-family: sans-serif;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.02rem;
+  text-align: center;
+  color: #292E36;
+}
+.popular__description {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.02rem;
+  text-align: center;
+  color: #555555;
+  max-width: 760px;
+  max-height: 70px;
+  overflow: hidden;
+}
+.popular__card-wrapper {
+  margin-bottom: 65px;
+}
+.popular__card-image {
+  max-width: 320px;
+  max-height: 310px;
+  overflow: hidden;
+}
+.popular__card-image img {
+  width: 100%;
+}
+.popular__card-title {
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  letter-spacing: 0.02rem;
+  color: #292E36;
+}
+.popular__card-price {
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  letter-spacing: 0.02rem;
+  color: #292E36;
+}
+.popular__card-description {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.02rem;
+  color: #555555;
+}
+.popular__button {
+  border: 2px solid #E1B168;
+  padding: 20px 57px;
+  max-width: 255px;
+  max-height: 73px;
+  margin: 0 auto;
+}
+.popular__button a {
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.02rem;
+  color: #E1B168;
 }
