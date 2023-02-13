@@ -30,6 +30,7 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
 		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="style/style.min.css">
 
 	<meta name="viewport" content="width=device-width,
@@ -44,29 +45,28 @@
     <div class="container">
         <div class="header__info">
             <div class="header__info_tel">
-                <a href="tel:111111111">Call +82 10 22223333</a>
+                <a href="tel:111111111">Звонок +82 10 22223333</a>
             </div>
             <div class="header__info_logo">
                 <img src="images/cosmos.webp" alt="cosmos-logo">
             </div>
             <div class="header__info_reservation">
-                <a href="#">Reservation</a>
+                <a id="scroll" href="#reserv">Бронирование</a>
             </div>
         </div>
         <nav class="header__nav">
             <div class="header__nav_left">
                 <ul>
-                    <li><a style="color: #E1B168" href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Menu</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a style="color: #E1B168" href="index.html">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Наше меню</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Наши контакты</a></li>
                 </ul>
             </div>
             <div class="header__nav_right col-2">
-                <a href="#"><i class="fa-brands fa-instagram" style="color: white; font-size: 30px;"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook" style="color: white; font-size: 30px;"></i></a>
+                <a href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram" style="color: white; font-size: 30px;"></i></a>
+                <a href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook" style="color: white; font-size: 30px;"></i></a>
             </div>
         </nav>
     </div>
@@ -76,10 +76,9 @@
 		<div class="container">
 			<div class="welcome">
 				<div class="welcome__left col-6">
-					<h1 class="mb-5">Welcome to Restaurant</h1>
-					<p class="mb-5">The people, food and the prime locations make the perfect place good friends &
-						family to come together and have great time.</p>
-					<div class="welcome__left_link col-5"><a href="#">View Menu</a></div>
+					<h1 class="mb-5">Добро пожаловать в ресторан</h1>
+					<p class="mb-5">Люди, еда и лучшие места делают это место идеальным для друзей и семьи, чтобы собраться вместе и отлично провести время.</p>
+					<div class="welcome__left_link col-5"><a href="#">Наше меню</a></div>
 				</div>
 				<div class="welcome__right col-6">
 					<picture>
@@ -91,28 +90,28 @@
 			</div>
 		</div>
 	</section>
-	<section class="information-color">
+	<section class="information--color">
 		<div class="container">
 			<div class="information row">
 				<div class="information__adress col-4">
 					<img src="images/information1.svg" alt="">
 					<div class="information__adress_wrapper">
-						<p class="title">Locate Us</p>
-						<p class="description">Riverside 25, San Diego, California</p>
+						<p class="title">Наш адресс</p>
+						<p class="description"><a href="https://goo.gl/maps/3G4d9ZQ7Z8sua5248" target="_blank">청주시 사창동 279-11</a></p>
 					</div>
 				</div>
 				<div class="information__adress col-4">
 					<img src="images/information2.svg" alt="">
 					<div class="information__adress_wrapper">
-						<p class="title">Open Hours</p>
-						<p class="description">Mon To Fri 9:00 AM - 9:00 PM</p>
+						<p class="title">Мы открыты</p>
+						<p class="description">Всегда 11:00 - 00:00</p>
 					</div>
 				</div>
 				<div class="information__adress col-4">
 					<img src="images/information3.svg" alt="">
 					<div class="information__adress_wrapper">
-						<p class="title">Reservation</p>
-						<p class="description"><a href="mailto:restaurantate@gmail.com">restaurantate@gmail.com</a></p>
+						<p class="title">Бронирование</p>
+						<p class="description"><a href="tel:+821023671403">+82 10 76347659</a></p>
 					</div>
 				</div>
 			</div>
@@ -127,18 +126,16 @@
 						<img src="images/story.webp" alt="">
 					</div>
 					<div class="story__about-us col-6">
-						<h2 class="mb-3">The Delicious Story</h2>
-						<p>The people, food and the prime locations make the perfect place for the friends & family to
-							come
-							together and have great time.</p>
+						<h2 class="mb-3">Вкусная история</h2>
+						<p>Идеальное место для друзей и семьи, чтобы приходить вместе и отлично проводить время</p>
 						<div class="story__about-us_year row">
 							<div class="story__about-us_year-left col-6">
 								<p>2018</p>
-								<p>Plan for this restaurant to deliver healthy food.</p>
+								<p>Запланировали сделать лучшую еду в городе</p>
 							</div>
 							<div class="story__about-us_year-right col-6">
 								<p>2023</p>
-								<p>Happily in the fourth year by fulfill the motto.</p>
+								<p>К счастью, на четвертом году, выполнив девиз.</p>
 							</div>
 						</div>
 						<div class="story__about-us_cosmos">
@@ -152,20 +149,19 @@
 	<div class="container">
 		<section class="menu row">
 			<div class="menu__special col-5">
-				<a href="#">Menu</a>
-				<h2 class="mb-3">Try Our Special dishes</h2>
-				<p>Every time you perfectly dine with us, it should happy for great inspired food in an environment
-					designed with individual touches unique to the local area.</p>
+				<a href="#">Меню</a>
+				<h2 class="mb-3">Попробуйте наши фирменные блюда</h2>
+				<p>Каждый раз, когда вы обедаете у нас, вы должны радоваться великолепной вдохновенной еде в лучшей обстановке, разработанной с индивидуальными штрихами, уникальными для данной местности</p>
 				<div class="menu__special_image">
 					<img src="images/menu_special.webp" alt="special menu">
 				</div>
 				<div class="menu__special_link">
-					<a href="#">See all dishes</a>
+					<a href="#">Посмотреть все блюда</a>
 				</div>
 			</div>
 			<div class="menu__price col-7">
 				<div class="menu__price_food mb-3">
-					<h3>Starters</h3>
+					<h3>Закуска</h3>
 					<div class="card">
 						<div class="card__image">
 							<img src="images/Starters1.webp" alt="">
@@ -439,6 +435,49 @@
 					</div>
 					<p class="popular__card-description">Burgers may be made from ingredients like beans.</p>
 				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image1.webp" alt="Chicken Manjoori">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Chicken Manjoori</p>
+						<p class="popular__card-price">$15</p>
+					</div>
+					<p class="popular__card-description">Dish relished by all age groups as a starter dish at parties.
+					</p>
+				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image2.webp" alt="Hotdog">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Hotdog</p>
+						<p class="popular__card-price">$10</p>
+					</div>
+					<p class="popular__card-description">Grilled sausage served in the slit of a partially sliced bun.
+					</p>
+				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image3.webp" alt="Fresh Salmon">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Fresh Salmon</p>
+						<p class="popular__card-price">$5</p>
+					</div>
+					<p class="popular__card-description">Beat the health blues with our Super Immune Blue Juice Recipe.
+					</p>
+				</div>
+				<div class="popular__card col-3">
+					<div class="popular__card-image">
+						<img src="images/popular__card-image4.webp" alt="Veg Burger">
+					</div>
+					<div class="popular__card-inner">
+						<p class="popular__card-title">Veg Burger</p>
+						<p class="popular__card-price">$10</p>
+					</div>
+					<p class="popular__card-description">Burgers may be made from ingredients like beans.</p>
+				</div>
 			</div>
 			<div class="popular__button">
 				<a href="#">See all dishes</a>
@@ -456,7 +495,7 @@
 						from your home. food takes the spotlight as guests.</p>
 				</div>
 				<div class="services__card-wrapper col-7 row">
-					<div class="services__card col-4">
+					<div class="services__card">
 						<div class="services__card-image">
 							<img src="images/services__card1.svg" alt="opened">
 						</div>
@@ -464,7 +503,7 @@
 							Opened 24/7
 						</p>
 					</div>
-					<div class="services__card col-4">
+					<div class="services__card">
 						<div class="services__card-image">
 							<img src="images/services__card2.svg" alt="opened">
 						</div>
@@ -472,7 +511,7 @@
 							Special Menus
 						</p>
 					</div>
-					<div class="services__card col-4">
+					<div class="services__card">
 						<div class="services__card-image">
 							<img src="images/services__card3.svg" alt="opened">
 						</div>
@@ -486,35 +525,53 @@
 	</section>
 	<div class="container">
 		<section class="reservation">
-			<div class="reservation__form">
+			<div class="reservation__form" id="reserv">
 				<h2 class="reservation__order">reservation</h2>
 				<h3 class="reservation__title">Book Your Table</h3>
-				<form action="/" method="post">
-					<div class="row">
+				<form action="burcev_9292@gmail.com" method="get">
+					<div class="row mb-5">
 						<div class="col-6">
-							<input type="text" class="form-control" placeholder="name" aria-label="First name">
+							<input type="text" class="form-control" placeholder="Name" aria-label="First name" required>
 						</div>
 						<div class="col-6">
-							<input type="email" class="form-control" placeholder="Email" aria-label="Email">
+							<input type="email" class="form-control" placeholder="Email" aria-label="Email" required>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row mb-5">
 						<div class="col-4">
-							<input type="text" class="form-control" placeholder="Persons" aria-label="First name">
+							<input type="number" class="form-control" placeholder="Persons" aria-label="Persons" required min="1">
 						</div>
 						<div class="col-4">
-							<input type="email" class="form-control" placeholder="Timing" aria-label="Email">
+							<input type="text" id="time" class="form-control" placeholder="Timing" aria-label="Time" required>
 						</div>
 						<div class="col-4">
-							<input type="email" class="form-control" placeholder="Date" aria-label="Email">
+							<input type="text" id="date" class="form-control" placeholder="Date" aria-label="Date" required>
 						</div>
 					</div>
+					<div class="reservation__button"><button class="btn" type="submit">Отправить</button></div>
 				</form>
 			</div>
 		</section>
 	</div>
 </main>
-
+	<div class="container">
+    <footer class="footer">
+        <div class="footer__image"><img src="images/cosmos.webp" alt="cosmos"></div>
+        <div class="footer__wrapper row">
+            <div class="footer__contact flex-column">
+                <h2 class="footer__contact-title">contact</h2>
+                <p class="footer__contact-address">5 Rue Dalou, 75015 Paris</p>
+                <a href="tel:+821023671403" class="footer__contact-number">+82 10 2367-14-03</a>
+                <a class="footer__contact-mail" href="mailto:burcev9292@gmail.com">Напишите нам</a>
+            </div>
+            <div class="footer__working flex-column">
+                <p class="footer__working-time">Mon – Fri: 7am – 6pm</p>
+                <p class="footer__working-time">Sat: 7am – 6pm</p>
+                <p class="footer__working-time">Sun: 8am – 6pm</p>
+            </div>
+        </div>
+    </footer>
+</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -523,6 +580,7 @@
 		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
 		crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/a27d6df1b3.js" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 
