@@ -48,6 +48,56 @@ body {
   max-width: 1390px;
 }
 
+.navi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+.navi > li > a {
+  font-size: 4em;
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+}
+.navi > li > a:before {
+  position: absolute;
+  color: yellowgreen;
+  top: -7px;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  content: attr(data-text);
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.navi > li > a:hover:before {
+  width: 100%;
+}
+
+.photo {
+  background-color: #a4a2a2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../images/woomen.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
