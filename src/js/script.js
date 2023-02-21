@@ -22,3 +22,11 @@ $(document).ready(function () {
         $('#menu-list').toggleClass('active');
     });
 });
+
+$(document).ready(function () {
+    $('.has-sub').click(function (event) {
+        event.stopPropagation();
+        $(this).children('ul').toggleClass('active');
+        $(this).siblings().find('ul').removeClass('active');
+    });
+});
