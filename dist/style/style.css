@@ -382,6 +382,11 @@ body {
   display: block !important;
 }
 
+@media only screen and (max-width: 768px) {
+  #menu {
+    display: block;
+  }
+}
 .main-man__title {
   text-align: center;
   color: #777171;
