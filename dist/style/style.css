@@ -400,13 +400,9 @@ body {
   font-size: 1.3rem;
   line-height: 2rem;
 }
-.main-man__image {
-  max-width: 300px;
-  max-height: 100vh;
-  overflow: hidden;
-}
 .main-man__image img {
-  max-width: 100%;
+  width: 65%;
+  height: 300px;
 }
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
