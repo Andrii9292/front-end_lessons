@@ -21,9 +21,15 @@ $(document).ready(function () {
     $('#click').click(function () {
         $('#menu-list').toggleClass('active');
     });
-});
 
-$(document).ready(function () {
+    $(document).click(function (event) {
+        var menu = $('#menu-list');
+        var menuToggle = $('#click');
+        if (!menu.is(event.target) && !menuToggle.is(event.target) && menu.has(event.target).length === 0) {
+            menu.removeClass('active');
+        }
+    });
+
     $('.has-sub').click(function (event) {
         event.stopPropagation();
         $(this).children('ul').toggleClass('active');
