@@ -9,3 +9,10 @@ $('.navi li').mouseleave(function () {
         'background-image': ''
     })
 })
+
+$(document).ready(function () {
+    $("topNav").mobiMenu({
+        slideUpTimeOut: 200,
+        slideDownTimeOut: 500
+    });
+});
