@@ -391,18 +391,27 @@ body {
 
 .main-man__title {
   text-align: center;
-  color: #777171;
+  color: transparent;
+  background: -o-linear-gradient(53deg, rgba(223, 158, 33, 0.57) 20%, #8b892b 80%);
+  background: linear-gradient(37deg, rgba(223, 158, 33, 0.57) 20%, #8b892b 80%);
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 .main-man__description {
   font-size: 1.5rem;
   line-height: 3rem;
-  color: #898787;
+  color: transparent;
+  background: -o-linear-gradient(79deg, rgba(24, 20, 20, 0.87) 0%, #778677 80%);
+  background: linear-gradient(11deg, rgba(24, 20, 20, 0.87) 0%, #778677 80%);
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 .main-man__description-line-h {
   font-size: 1.3rem;
   line-height: 2rem;
 }
-.main-man__image img {
+
+.carousel-item img {
   width: 65%;
   height: 300px;
 }
