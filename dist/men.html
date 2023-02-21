@@ -24,7 +24,9 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
 		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.min.css">
 
 	<meta name="viewport" content="width=device-width,
@@ -38,11 +40,11 @@
 	<header class="header-man">
     <div class="container">
         <nav class="topNav">
-            <a href="#menu" class="menu-toggle"><img src="images/menu.webp"></a>
+            <a href="#menu" class="menu-toggle"><img id="touch" src="images/menu.webp"></a>
             <a href="#"><img src="images/top-tattoologo.webp" alt="logo"></a>
         </nav>
         <div class="cssmenu" id="menu">
-            <ul>
+            <ul id="menu-list">
                 <li class="active">
                     <a href="index.html"><span>Главная</span></a>
                 </li>
@@ -121,7 +123,15 @@
         </div>
     </div>
 </header>
-	
+	<main class="main-man">
+    <div class="container">
+        <div class="main-man__wrapper row">
+            <h1 class="main-man__title col-12">ЧТО ТАКОЕ ТАТУ</h1>
+            <p class="main-man__description col-12">Татуировка – это намеренное травмирование кожного покрова для нанесения неизгладимых перманентных знаков. С помощью иглы под кожу вводится пигмент, который остается там навсегда. Игла профессиональной машинки прокалывает кожу с частотой от 100 до 150 раз в секунду. Краска проникает на глубину до 1 мм, задерживаясь в клетках дермы. Этот слой кожи, в отличие от эпидермиса, не подлежит частой регенерации, поэтому пигмент задерживается там до конца жизни человека.</p>
+            <div class="main-man__image"><img src="images/tattoo" alt="tattoo"></div>
+        </div>
+    </div>
+</main>
 	
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

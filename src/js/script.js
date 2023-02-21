@@ -16,3 +16,9 @@ $(document).ready(function () {
         slideDownTimeOut: 500
     });
 });
+
+$(document).ready(function (){
+    $('#touch').on('click',function(){
+        $('#menu-list').addClass('active');
+    });
+});

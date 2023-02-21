@@ -361,6 +361,9 @@ body {
 
 .body-man {
   background-image: url("../images/background.webp");
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
 }
 
 .topNav {
@@ -373,6 +376,17 @@ body {
 }
 .topNav img {
   max-width: 100px;
+}
+
+.active {
+  display: block;
+}
+
+.main-man__title {
+  text-align: center;
+}
+.main-man__description {
+  font-size: 1.5rem;
 }
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
