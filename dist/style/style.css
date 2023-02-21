@@ -406,10 +406,55 @@ body {
   font-size: 1.3rem;
   line-height: 2rem;
 }
+.main-man__style {
+  border: 1px solid white;
+}
+.main-man__style p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #FFF;
+}
 
 .carousel-item img {
   width: 65%;
   height: 300px;
+}
+
+/* Стили таблицы (IKSWEB) */
+table.iksweb {
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+table.iksweb th {
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #4b47478c;
+}
+
+table.iksweb td {
+  font-size: 1.5rem;
+  color: #b6b6b6;
+}
+
+table.iksweb td, table.iksweb th {
+  white-space: pre-wrap;
+  padding: 10px 5px;
+  line-height: 13px;
+  vertical-align: middle;
+  border: 2px solid #977822;
+  background-color: #4d4d4d6b;
+}
+
+table.iksweb tr:hover {
+  background-color: #f9fafb;
+}
+
+table.iksweb tr:hover td {
+  color: #000000;
 }
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
