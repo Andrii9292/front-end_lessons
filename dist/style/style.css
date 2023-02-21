@@ -400,11 +400,7 @@ body {
 .main-man__description {
   font-size: 1.5rem;
   line-height: 3rem;
-  color: transparent;
-  background: -o-linear-gradient(79deg, rgba(24, 20, 20, 0.87) 0%, #778677 80%);
-  background: linear-gradient(11deg, rgba(24, 20, 20, 0.87) 0%, #778677 80%);
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #FFF;
 }
 .main-man__description-line-h {
   font-size: 1.3rem;
