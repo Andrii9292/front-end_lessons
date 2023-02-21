@@ -384,9 +384,12 @@ body {
 
 .main-man__title {
   text-align: center;
+  color: #777171;
 }
 .main-man__description {
   font-size: 1.5rem;
+  line-height: 3rem;
+  color: #898787;
 }
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
