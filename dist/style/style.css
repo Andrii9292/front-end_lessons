@@ -379,7 +379,7 @@ body {
 }
 
 .active {
-  display: block;
+  display: block !important;
 }
 
 .main-man__title {
