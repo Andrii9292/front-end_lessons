@@ -391,6 +391,18 @@ body {
   line-height: 3rem;
   color: #898787;
 }
+.main-man__description-line-h {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.main-man__image {
+  max-width: 300px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.main-man__image img {
+  max-width: 100%;
+}
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
 /*CSS rules to style the navbar */

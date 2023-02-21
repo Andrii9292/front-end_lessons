@@ -22,3 +22,8 @@ $(document).ready(function (){
         $('#menu-list').addClass('active');
     });
 });
+$(document).ready(function (){
+    $('#touch1').on('click',function(){
+        $('#menu-list1').addClass('active');
+    });
+});
