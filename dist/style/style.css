@@ -388,6 +388,10 @@ body {
   display: none;
 }
 
+.fixed-top-top {
+  top: 100px;
+}
+
 .main-man__title {
   text-align: center;
   color: transparent;

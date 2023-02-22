@@ -11,13 +11,6 @@ $('.navi li').mouseleave(function () {
 })
 
 $(document).ready(function () {
-    $("topNav").mobiMenu({
-        slideUpTimeOut: 200,
-        slideDownTimeOut: 500
-    });
-});
-
-$(document).ready(function () {
     $('#click').click(function () {
         $('#menu-list').toggleClass('active');
     });
@@ -42,5 +35,33 @@ $(document).ready(function () {
         itemSelector: '.grid-item',
         columnWidth: 200,
         gutter: 20
+    });
+});
+
+
+const smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
+
+// Добавляем обработчик кликов на каждую ссылку
+smoothScrollLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+        // Отменяем стандартное поведение ссылки
+        event.preventDefault();
+
+        const targetId = link.getAttribute('href');
+        console.log(targetId); // убедитесь, что получаете правильный идентификатор элемента
+
+        // Находим элемент, к которому нужно скроллить
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            // Прокручиваем страницу к элементу с плавной анимацией
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});
+
+$(document).ready(function () {
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
     });
 });
