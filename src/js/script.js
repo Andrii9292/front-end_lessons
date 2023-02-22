@@ -27,8 +27,29 @@ $(document).ready(function () {
         event.stopPropagation();
         $(this).children('ul').toggleClass('active');
         $(this).siblings().find('ul').removeClass('active');
+
+        // Check if the clicked element is a leaf node with the class "smooth-scroll"
+        if ($(this).children('ul').children('#smooth-scroll').length) {
+            console.log('Smooth scroll link clicked');
+            $('#menu-list').removeClass('active');
+        }
+        else if ($(this).children('ul').children('.smooth-scroll').length) {
+            $('#menu-list').removeClass('active');
+        }
+
+        // Expand the submenu of a submenu
+        $(this).siblings().find('.has-sub ul').removeClass('active');
+        $(this).siblings().find('.has-sub').removeClass('active');
+        $(this).find('.has-sub ul').removeClass('active');
+        $(this).find('.has-sub').toggleClass('active');
+    });
+
+    $('#menu-list li.has-sub ul li a').click(function () {
+        $('#menu-list').removeClass('active');
     });
 });
+
+
 
 $(document).ready(function () {
     $('.grid').imagesLoaded(function () {
