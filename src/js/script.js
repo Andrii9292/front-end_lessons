@@ -36,3 +36,20 @@ $(document).ready(function () {
         $(this).siblings().find('ul').removeClass('active');
     });
 });
+
+$('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: 200,
+    gutter: 20
+});
+
+lightbox.option({
+    'alwaysShowNavOnTouchDevices': true,
+    'fitImagesInViewport': true,
+    'imageFadeDuration': 200,
+    'positionFromTop': 50,
+    'resizeDuration': 200,
+    'showImageNumberLabel': false,
+    'wrapAround': true,
+    'disableScrolling': true,
+})

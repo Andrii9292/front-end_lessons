@@ -416,7 +416,17 @@ body {
 
 .carousel-item img {
   width: 65%;
-  height: 300px;
+  height: 400px;
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 200px;
+  }
 }
 
 /* Стили таблицы (IKSWEB) */
@@ -425,6 +435,11 @@ table.iksweb {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
+}
+@media screen and (max-width: 425px) {
+  table.iksweb {
+    text-align: inherit;
+  }
 }
 
 table.iksweb th {
@@ -454,6 +469,23 @@ table.iksweb tr:hover {
 
 table.iksweb tr:hover td {
   color: #000000;
+}
+
+.cssmenu {
+  padding-top: 120px;
+}
+
+.carousel-indicators li {
+  display: none;
+}
+
+.carousel-indicators li.active {
+  display: none !important;
+}
+
+#carouselExampleIndicators {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
