@@ -50,7 +50,6 @@ $(document).ready(function () {
 });
 
 
-
 $(document).ready(function () {
     $('.grid').imagesLoaded(function () {
         $('.grid').masonry({
