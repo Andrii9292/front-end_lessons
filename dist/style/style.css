@@ -45,10 +45,6 @@ body {
   display: none;
 }
 
-.container {
-  max-width: 1390px;
-}
-
 .navi {
   position: absolute;
   top: 50%;
@@ -375,6 +371,7 @@ body {
   background: -o-linear-gradient(268deg, #000000 0%, #535252 80%);
   background: linear-gradient(182deg, #000000 0%, #535252 80%);
   border-radius: 5px;
+  opacity: 0.97;
 }
 .topNav img {
   max-width: 100px;
@@ -392,6 +389,10 @@ body {
   top: 100px;
 }
 
+.cssmenu > ul > li > a {
+  opacity: 0.97;
+}
+
 .main-man__title {
   text-align: center;
   color: transparent;
@@ -403,7 +404,7 @@ body {
 .main-man__description {
   font-size: 1.5rem;
   line-height: 2.5rem;
-  color: #FFF;
+  color: #c2ffff;
 }
 .main-man__description-line-h {
   font-size: 1.3rem;
@@ -439,6 +440,7 @@ table.iksweb {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
+  margin-bottom: 15px;
 }
 @media screen and (max-width: 425px) {
   table.iksweb {
@@ -490,6 +492,129 @@ table.iksweb tr:hover td {
 #carouselExampleIndicators {
   width: 70%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    left: 9%;
+  }
+
+  .topNav img {
+    max-width: 90px;
+  }
+
+  .fixed-top-top {
+    top: 90px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    left: auto;
+  }
+
+  .topNav img {
+    max-width: 80px;
+  }
+
+  .fixed-top-top {
+    top: 81px;
+  }
+}
+@media screen and (max-width: 480px) {
+  table.iksweb td, table.iksweb th {
+    padding: 4px 2px;
+    font-size: 1.3rem;
+  }
+
+  .main-man__description-line-h {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .main-man__description {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .main-man__title {
+    font-size: 2.2rem;
+  }
+
+  .topNav img {
+    max-width: 70px;
+  }
+
+  .fixed-top-top {
+    top: 71px;
+  }
+
+  .cssmenu.cssmenu > ul > li > a {
+    padding: 15px;
+  }
+
+  #carouselExampleIndicators {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 449px) {
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .grid-item.grid-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 376px) {
+  table.iksweb td, table.iksweb th {
+    font-size: 1rem;
+  }
+
+  .main-man__description {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .main-man__title {
+    font-size: 2rem;
+  }
+
+  .cssmenu.cssmenu > ul > li > a {
+    padding: 10px;
+  }
+}
+.body-wooman {
+  background-image: url(../images/background-w.webp);
+  font-family: Teko, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.topNav2 {
+  background: -o-linear-gradient(268deg, #5b3535 0, #3d453c 80%);
+  background: linear-gradient(182deg, #5b3535 0, #3d453c 80%);
+}
+
+.main-man__description1 {
+  color: #6e6e6e;
+}
+
+.main-man__title1 {
+  color: transparent;
+  background: -o-linear-gradient(53deg, rgba(131, 145, 211, 0.57) 20%, #cc4b57 80%);
+  background: linear-gradient(37deg, rgba(131, 145, 211, 0.57) 20%, #cc4b57 80%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+table.iks td, table.iks th {
+  border: 2px solid #7f396d61;
+  background-color: #2b2a2aa6;
 }
 
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
