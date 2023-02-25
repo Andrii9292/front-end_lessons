@@ -79,3 +79,11 @@ smoothScrollLinks.forEach(link => {
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    let element = document.querySelector('.loader');
+    if (element) {
+        element.classList.add('hide');
+    }
+});

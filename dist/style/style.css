@@ -617,6 +617,24 @@ table.iks td, table.iks th {
   background-color: #2b2a2aa6;
 }
 
+.loader {
+  background-image: url("../images/earth.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  opacity: 0.8;
+}
+
+.hide {
+  display: none;
+}
+
 /*CSS Classes topNav menu cssmenu has-sub are crucial for correct operation of mobi menu*/
 /*CSS rules to style the navbar */
 nav {
